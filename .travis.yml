@@ -36,9 +36,9 @@ jobs:
       install: skip
 
     - stage: deploy
-    name: Offshore
-    script: deploy/index.js offshore-mag aerilon
-    install: skip
+      name: Offshore
+      script: deploy/index.js offshore-mag aerilon
+      install: skip
 
     - stage: deploy
       name: Utility Products
