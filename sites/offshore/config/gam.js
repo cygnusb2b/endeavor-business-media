@@ -1,6 +1,6 @@
 const GAMConfiguration = require('@base-cms/marko-web-gam/config');
 
-const config = new GAMConfiguration('21687441225', { basePath: 'LFW' });
+const config = new GAMConfiguration('21687441225', { basePath: 'OS' });
 
 config
   .setTemplate('LB', {
@@ -23,53 +23,85 @@ config
     { name: 'reskin', path: 'default/reskin' },
     { name: 'wa', path: 'default/wa' },
   ])
-  .setAliasAdUnits('detectors-imaging', [
-    { name: 'lb1', templateName: 'LB', path: 'detectors-imaging/lb1' },
-    { name: 'lb2', templateName: 'LB', path: 'detectors-imaging/lb2' },
-    { name: 'rail1', templateName: 'CONTENT', path: 'detectors-imaging/rail1' },
-    { name: 'rail2', templateName: 'CONTENT', path: 'detectors-imaging/rail2' },
-    { name: 'load-more', templateName: 'CONTENT', path: 'detectors-imaging/load-more' },
-    { name: 'reskin', path: 'detectors-imaging/reskin' },
+  .setAliasAdUnits('regional-reports', [
+    { name: 'lb1', templateName: 'LB', path: 'regional-reports/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'regional-reports/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'regional-reports/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'regional-reports/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'regional-reports/load-more' },
+    { name: 'reskin', path: 'regional-reports/reskin' },
   ])
-  .setAliasAdUnits('lasers-sources', [
-    { name: 'lb1', templateName: 'LB', path: 'lasers-sources/lb1' },
-    { name: 'lb2', templateName: 'LB', path: 'lasers-sources/lb2' },
-    { name: 'rail1', templateName: 'CONTENT', path: 'lasers-sources/rail1' },
-    { name: 'rail2', templateName: 'CONTENT', path: 'lasers-sources/rail2' },
-    { name: 'load-more', templateName: 'CONTENT', path: 'lasers-sources/load-more' },
-    { name: 'reskin', path: 'lasers-sources/reskin' },
+  .setAliasAdUnits('drilling-completion', [
+    { name: 'lb1', templateName: 'LB', path: 'drilling-completion/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'drilling-completion/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'drilling-completion/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'drilling-completion/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'drilling-completion/load-more' },
+    { name: 'reskin', path: 'drilling-completion/reskin' },
   ])
-  .setAliasAdUnits('optics', [
-    { name: 'lb1', templateName: 'LB', path: 'optics/lb1' },
-    { name: 'lb2', templateName: 'LB', path: 'optics/lb2' },
-    { name: 'rail1', templateName: 'CONTENT', path: 'optics/rail1' },
-    { name: 'rail2', templateName: 'CONTENT', path: 'optics/rail2' },
-    { name: 'load-more', templateName: 'CONTENT', path: 'optics/load-more' },
-    { name: 'reskin', path: 'optics/reskin' },
+  .setAliasAdUnits('field-development', [
+    { name: 'lb1', templateName: 'LB', path: 'field-development/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'field-development/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'field-development/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'field-development/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'field-development/load-more' },
+    { name: 'reskin', path: 'field-development/reskin' },
   ])
-  .setAliasAdUnits('fiber-optics', [
-    { name: 'lb1', templateName: 'LB', path: 'fiber-optics/lb1' },
-    { name: 'lb2', templateName: 'LB', path: 'fiber-optics/lb2' },
-    { name: 'rail1', templateName: 'CONTENT', path: 'fiber-optics/rail1' },
-    { name: 'rail2', templateName: 'CONTENT', path: 'fiber-optics/rail2' },
-    { name: 'load-more', templateName: 'CONTENT', path: 'fiber-optics/load-more' },
-    { name: 'reskin', path: 'fiber-optics/reskin' },
+  .setAliasAdUnits(subsea, [
+    { name: 'lb1', templateName: 'LB', path: 'subsea/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'subsea/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'subsea/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'subsea/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'subsea/load-more' },
+    { name: 'reskin', path: 'subsea/reskin' },
   ])
-  .setAliasAdUnits('software-accessories', [
-    { name: 'lb1', templateName: 'LB', path: 'software-accessories/lb1' },
-    { name: 'lb2', templateName: 'LB', path: 'software-accessories/lb2' },
-    { name: 'rail1', templateName: 'CONTENT', path: 'software-accessories/rail1' },
-    { name: 'rail2', templateName: 'CONTENT', path: 'software-accessories/rail2' },
-    { name: 'load-more', templateName: 'CONTENT', path: 'software-accessories/load-more' },
-    { name: 'reskin', path: 'software-accessories/reskin' },
+  .setAliasAdUnits(geosciences, [
+    { name: 'lb1', templateName: 'LB', path: 'geosciences/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'geosciences/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'geosciences/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'geosciences/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'geosciences/load-more' },
+    { name: 'reskin', path: 'geosciences/reskin' },
   ])
-  .setAliasAdUnits('test-measurement', [
-    { name: 'lb1', templateName: 'LB', path: 'test-measurement/lb1' },
-    { name: 'lb2', templateName: 'LB', path: 'test-measurement/lb2' },
-    { name: 'rail1', templateName: 'CONTENT', path: 'test-measurement/rail1' },
-    { name: 'rail2', templateName: 'CONTENT', path: 'test-measurement/rail2' },
-    { name: 'load-more', templateName: 'CONTENT', path: 'test-measurement/load-more' },
-    { name: 'reskin', path: 'test-measurement/reskin' },
+  .setAliasAdUnits(pipelines, [
+    { name: 'lb1', templateName: 'LB', path: 'pipelines/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'pipelines/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'pipelines/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'pipelines/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'pipelines/load-more' },
+    { name: 'reskin', path: 'pipelines/reskin' },
+  ])
+  .setAliasAdUnits(production, [
+    { name: 'lb1', templateName: 'LB', path: 'production/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'production/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'production/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'production/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'production/load-more' },
+    { name: 'reskin', path: 'production/reskin' },
+  ])
+  .setAliasAdUnits('rigs-vessels', [
+    { name: 'lb1', templateName: 'LB', path: 'rigs-vessels/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'rigs-vessels/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'rigs-vessels/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'rigs-vessels/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'rigs-vessels/load-more' },
+    { name: 'reskin', path: 'rigs-vessels/reskin' },
+  ])
+  .setAliasAdUnits(deepwater, [
+    { name: 'lb1', templateName: 'LB', path: 'deepwater/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'deepwater/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'deepwater/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'deepwater/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'deepwater/load-more' },
+    { name: 'reskin', path: 'deepwater/reskin' },
+  ])
+  .setAliasAdUnits('business-briefs', [
+    { name: 'lb1', templateName: 'LB', path: 'business-briefs/lb1' },
+    { name: 'lb2', templateName: 'LB', path: 'business-briefs/lb2' },
+    { name: 'rail1', templateName: 'CONTENT', path: 'business-briefs/rail1' },
+    { name: 'rail2', templateName: 'CONTENT', path: 'business-briefs/rail2' },
+    { name: 'load-more', templateName: 'CONTENT', path: 'business-briefs/load-more' },
+    { name: 'reskin', path: 'business-briefs/reskin' },
   ]);
 
 module.exports = config;

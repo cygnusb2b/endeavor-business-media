@@ -4,39 +4,49 @@ const config = new NativeXConfiguration('https://ebm.native-x.io');
 
 config
   .setAliasPlacements('default', [
-    { name: 'card', id: '5cdb230339937800010ea6ca' },
-    { name: 'list2', id: '5cdb2308f41dfb0001fce77f' },
-    { name: 'list1', id: '5cdb230ef41dfb0001fce866' },
+    { name: 'card', id: '5cdc6e78f41dfb000125fc1a' },
+    { name: 'list2', id: '5cdc6e7ef41dfb000125ff04' },
+    { name: 'list1', id: '5cdc6e85f41dfb0001260144' },
   ])
-  .setAliasPlacements('optics', [
-    { name: 'card', id: '5cdb234939937800010eb292' },
-    { name: 'list2', id: '5cdb234ff41dfb0001fcf381' },
-    { name: 'list1', id: '5cdb235639937800010eb470' },
+  .setAliasPlacements('drilling-completion', [
+    { name: 'card', id: '5cdc6e91f41dfb00012604ce' },
+    { name: 'list2', id: '5cdc6e98f41dfb000126074d' },
+    { name: 'list1', id: '5cdc6e9f3993780001379e64' },
   ])
-  .setAliasPlacements('lasers-sources', [
-    { name: 'card', id: '5cdb2332f41dfb0001fceed9' },
-    { name: 'list2', id: '5cdb233839937800010eb001' },
-    { name: 'list1', id: '5cdb233f39937800010eb0eb' },
+  .setAliasPlacements('field-development', [
+    { name: 'card', id: '5cdc6ea9f41dfb0001260c2d' },
+    { name: 'list2', id: '5cdc6eb0399378000137a28b' },
+    { name: 'list1', id: '5cdc6eb6f41dfb0001260f23' },
   ])
-  .setAliasPlacements('detectors-imaging', [
-    { name: 'card', id: '5cdb231839937800010eaa5d' },
-    { name: 'list2', id: '5cdb231ef41dfb0001fcec01' },
-    { name: 'list1', id: '5cdb232639937800010ead76' },
+  .setAliasPlacements(subsea, [
+    { name: 'card', id: '5cdc6ec0f41dfb000126118c' },
+    { name: 'list2', id: '5cdc6ed4399378000137ab89' },
+    { name: 'list1', id: '5cdc6ecb399378000137a92c' },
   ])
-  .setAliasPlacements('test-measurement', [
-    { name: 'card', id: '5cdb2388f41dfb0001fcfb50' },
-    { name: 'list2', id: '5cdb238f39937800010ebcb9' },
-    { name: 'list1', id: '5cdb239539937800010ebd85' },
+  .setAliasPlacements(geosciences, [
+    { name: 'card', id: '5cdc6edff41dfb0001261a5d' },
+    { name: 'list2', id: '5cdc6ee5399378000137b03f' },
+    { name: 'list1', id: '5cdc6eec399378000137b21c' },
   ])
-  .setAliasPlacements('software-accessories', [
-    { name: 'card', id: '5cdb237339937800010eb873' },
-    { name: 'list2', id: '5cdb2379f41dfb0001fcf91f' },
-    { name: 'list1', id: '5cdb237f39937800010eba5b' },
+  .setAliasPlacements(pipelines, [
+    { name: 'card', id: '5cdc6ef5399378000137b506' },
+    { name: 'list2', id: '5cdc6efcf41dfb000126225a' },
+    { name: 'list1', id: '5cdc6f04f41dfb0001262431' },
   ])
-  .setAliasPlacements('fiber-optics', [
-    { name: 'card', id: '5cdb235d39937800010eb580' },
-    { name: 'list2', id: '5cdb236339937800010eb685' },
-    { name: 'list1', id: '5cdb2369f41dfb0001fcf737' },
+  .setAliasPlacements(production, [
+    { name: 'card', id: '5cdc6f10399378000137bb3c' },
+    { name: 'list2', id: '5cdc6f18f41dfb000126294e' },
+    { name: 'list1', id: '5cdc6f1f399378000137bfc3' },
+  ])
+  .setAliasPlacements('rigs-vessels', [
+    { name: 'card', id: '5cdc6f2bf41dfb0001262e4b' },
+    { name: 'list2', id: '5cdc6f3af41dfb00012631ff' },
+    { name: 'list1', id: '5cdc6f41399378000137c8a9' },
+  ])
+  .setAliasPlacements(deepwater, [
+    { name: 'card', id: '5cdc6f4d399378000137cba1' },
+    { name: 'list2', id: '5cdc6f54399378000137cd71' },
+    { name: 'list1', id: '5cdc6f5af41dfb0001263b3b' },
   ]);
 
 module.exports = config;
