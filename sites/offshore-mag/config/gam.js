@@ -47,7 +47,7 @@ config
     { name: 'load-more', templateName: 'CONTENT', path: 'field-development/load-more' },
     { name: 'reskin', path: 'field-development/reskin' },
   ])
-  .setAliasAdUnits(subsea, [
+  .setAliasAdUnits('subsea', [
     { name: 'lb1', templateName: 'LB', path: 'subsea/lb1' },
     { name: 'lb2', templateName: 'LB', path: 'subsea/lb2' },
     { name: 'rail1', templateName: 'CONTENT', path: 'subsea/rail1' },
@@ -55,7 +55,7 @@ config
     { name: 'load-more', templateName: 'CONTENT', path: 'subsea/load-more' },
     { name: 'reskin', path: 'subsea/reskin' },
   ])
-  .setAliasAdUnits(geosciences, [
+  .setAliasAdUnits('geosciences', [
     { name: 'lb1', templateName: 'LB', path: 'geosciences/lb1' },
     { name: 'lb2', templateName: 'LB', path: 'geosciences/lb2' },
     { name: 'rail1', templateName: 'CONTENT', path: 'geosciences/rail1' },
@@ -63,7 +63,7 @@ config
     { name: 'load-more', templateName: 'CONTENT', path: 'geosciences/load-more' },
     { name: 'reskin', path: 'geosciences/reskin' },
   ])
-  .setAliasAdUnits(pipelines, [
+  .setAliasAdUnits('pipelines', [
     { name: 'lb1', templateName: 'LB', path: 'pipelines/lb1' },
     { name: 'lb2', templateName: 'LB', path: 'pipelines/lb2' },
     { name: 'rail1', templateName: 'CONTENT', path: 'pipelines/rail1' },
@@ -71,7 +71,7 @@ config
     { name: 'load-more', templateName: 'CONTENT', path: 'pipelines/load-more' },
     { name: 'reskin', path: 'pipelines/reskin' },
   ])
-  .setAliasAdUnits(production, [
+  .setAliasAdUnits('production', [
     { name: 'lb1', templateName: 'LB', path: 'production/lb1' },
     { name: 'lb2', templateName: 'LB', path: 'production/lb2' },
     { name: 'rail1', templateName: 'CONTENT', path: 'production/rail1' },
@@ -87,7 +87,7 @@ config
     { name: 'load-more', templateName: 'CONTENT', path: 'rigs-vessels/load-more' },
     { name: 'reskin', path: 'rigs-vessels/reskin' },
   ])
-  .setAliasAdUnits(deepwater, [
+  .setAliasAdUnits('deepwater', [
     { name: 'lb1', templateName: 'LB', path: 'deepwater/lb1' },
     { name: 'lb2', templateName: 'LB', path: 'deepwater/lb2' },
     { name: 'rail1', templateName: 'CONTENT', path: 'deepwater/rail1' },
