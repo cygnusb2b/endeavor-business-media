@@ -37,7 +37,7 @@ jobs:
 
     - stage: deploy
     name: Offshore
-    script: deploy/index.js offshore aerilon
+    script: deploy/index.js offshore-mag aerilon
     install: skip
 
     - stage: deploy

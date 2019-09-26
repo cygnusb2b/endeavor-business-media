@@ -125,10 +125,10 @@ services:
       - "9713:80"
       - "19713:19713"
 
-  offshore:
+  offshore-mag:
     <<: *node
     <<: *site-cmd
-    working_dir: /root/sites/offshore
+    working_dir: /root/sites/offshore-mag
     environment:
       <<: *env
       <<: *env-aerilon-staging
@@ -136,8 +136,8 @@ services:
       EXPOSED_PORT: 9715
       LIVERELOAD_PORT: 19715
       TENANT_KEY: ebm_os
-      CDN_IMAGE_HOSTNAME: img.offshore.com
-      CDN_ASSET_HOSTNAME: cdn.offshore.com
+      CDN_IMAGE_HOSTNAME: img.offshore-mag.com
+      CDN_ASSET_HOSTNAME: cdn.offshore-mag.com
     ports:
       - "9715:80"
       - "19715:19715"

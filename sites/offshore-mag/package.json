@@ -1,8 +1,8 @@
 {
-  "name": "@base-cms-websites/offshore",
+  "name": "@base-cms-websites/offshore-mag",
   "version": "0.0.2",
   "author": "Alysha Buselt <abuselt@endeavorb2b.com>",
-  "repository": "https://github.com/base-cms-websites/endeavor-business-media/tree/master/sites/offshore",
+  "repository": "https://github.com/base-cms-websites/endeavor-business-media/tree/master/sites/offshore-mag",
   "license": "MIT",
   "private": true,
   "scripts": {
