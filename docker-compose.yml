@@ -345,7 +345,7 @@ services:
       PORT: 80
       EXPOSED_PORT: 9726
       LIVERELOAD_PORT: 19726
-      TENANT_KEY: ebm_mae
+      TENANT_KEY: ebm_os
       CDN_IMAGE_HOSTNAME: img.offshore-mag.com
       CDN_ASSET_HOSTNAME: cdn.offshore-mag.com
     ports:
