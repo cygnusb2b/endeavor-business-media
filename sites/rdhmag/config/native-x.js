@@ -4,39 +4,34 @@ const config = new NativeXConfiguration('https://ebm.native-x.io');
 
 config
   .setAliasPlacements('default', [
-    { name: 'card', id: '5cdb230339937800010ea6ca' },
-    { name: 'list2', id: '5cdb2308f41dfb0001fce77f' },
-    { name: 'list1', id: '5cdb230ef41dfb0001fce866' },
+    { name: 'card', id: '5cdb1abb39937800010d4ba2' },
+    { name: 'list2', id: '5cdb1ac039937800010d4ca7' },
+    { name: 'list1', id: '5cdb1ac639937800010d4d9e' },
   ])
-  .setAliasPlacements('optics', [
-    { name: 'card', id: '5cdb234939937800010eb292' },
-    { name: 'list2', id: '5cdb234ff41dfb0001fcf381' },
-    { name: 'list1', id: '5cdb235639937800010eb470' },
+  .setAliasPlacements('infection-control', [
+    { name: 'card', id: '5cdb1af8f41dfb0001fb9291' },
+    { name: 'list2', id: '5cdb1afff41dfb0001fb93ed' },
+    { name: 'list1', id: '5cdb1b0c39937800010d5b41' },
   ])
-  .setAliasPlacements('lasers-sources', [
-    { name: 'card', id: '5cdb2332f41dfb0001fceed9' },
-    { name: 'list2', id: '5cdb233839937800010eb001' },
-    { name: 'list1', id: '5cdb233f39937800010eb0eb' },
+  .setAliasPlacements('ergonomics', [
+    { name: 'card', id: '5cdb1ada39937800010d51a2' },
+    { name: 'list2', id: '5cdb1ae539937800010d53f7' },
+    { name: 'list1', id: '5cdb1aeef41dfb0001fb904c' },
   ])
-  .setAliasPlacements('detectors-imaging', [
-    { name: 'card', id: '5cdb231839937800010eaa5d' },
-    { name: 'list2', id: '5cdb231ef41dfb0001fcec01' },
-    { name: 'list1', id: '5cdb232639937800010ead76' },
+  .setAliasPlacements('patient-care', [
+    { name: 'card', id: '5cdb1b2e39937800010d625f' },
+    { name: 'list2', id: '5cdb1b3af41dfb0001fb9fc5' },
+    { name: 'list1', id: '5cdb1b5439937800010d6866' },
   ])
-  .setAliasPlacements('test-measurement', [
-    { name: 'card', id: '5cdb2388f41dfb0001fcfb50' },
-    { name: 'list2', id: '5cdb238f39937800010ebcb9' },
-    { name: 'list1', id: '5cdb239539937800010ebd85' },
+  .setAliasPlacements('pathology', [
+    { name: 'card', id: '5cdb1b6e39937800010d6e01' },
+    { name: 'list2', id: '5cdb1b81f41dfb0001fbad38' },
+    { name: 'list1', id: '5cdb1b8a39937800010d7458' },
   ])
-  .setAliasPlacements('software-accessories', [
-    { name: 'card', id: '5cdb237339937800010eb873' },
-    { name: 'list2', id: '5cdb2379f41dfb0001fcf91f' },
-    { name: 'list1', id: '5cdb237f39937800010eba5b' },
-  ])
-  .setAliasPlacements('fiber-optics', [
-    { name: 'card', id: '5cdb235d39937800010eb580' },
-    { name: 'list2', id: '5cdb236339937800010eb685' },
-    { name: 'list1', id: '5cdb2369f41dfb0001fcf737' },
+  .setAliasPlacements('career-profession', [
+    { name: 'card', id: '5cdb1baaf41dfb0001fbb3e4' },
+    { name: 'list2', id: '5cdb1bb139937800010d795a' },
+    { name: 'list1', id: '5cdb1bb7f41dfb0001fbb606' },
   ]);
 
 module.exports = config;

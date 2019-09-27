@@ -5,30 +5,30 @@ module.exports = {
   company: 'Endeavor Business Media, LLC',
   logos: {
     navbar: {
-      src: 'https://base.imgix.net/files/base/pennwell/lfw/logo.png?h=45',
+      src: 'https://base.imgix.net/files/base/pennwell/rdh/logo.png?h=45',
       srcset: [
-        'https://base.imgix.net/files/base/pennwell/lfw/logo.png?h=90 2x',
+        'https://base.imgix.net/files/base/pennwell/rdh/logo.png?h=90 2x',
       ],
     },
     footer: {
-      src: 'https://base.imgix.net/files/base/pennwell/lfw/logo.png?h=60',
+      src: 'https://base.imgix.net/files/base/pennwell/rdh/logo.png?h=60',
       srcset: [
-        'https://base.imgix.net/files/base/pennwell/lfw/logo.png?h=120 2x',
+        'https://base.imgix.net/files/base/pennwell/rdh/logo.png?h=120 2x',
       ],
     },
   },
   socialMediaLinks: [
-    { provider: 'linkedin', href: 'http://www.linkedin.com/groups/Laser-Focus-World-2896249' },
-    { provider: 'twitter', href: 'https://twitter.com/LaserFocusWorld' },
-    { provider: 'facebook', href: 'https://www.facebook.com/pages/Laser-Focus-World/126899915297' },
+    { provider: 'linkedin', href: 'https://www.linkedin.com/showcase/4000114/' },
+    { provider: 'twitter', href: 'https://twitter.com/RDHmag' },
+    { provider: 'facebook', href: 'https://www.facebook.com/RDHMagazine' },
   ],
   gtm: {
-    containerId: 'GTM-M7H8VJG',
+    containerId: 'GTM-54D4B9T',
   },
   wufoo: {
     userName: 'cygnuscorporate',
   },
   magazines: {
-    description: '',
+    description: 'RDH is published monthly for dental hygienists committed to ongoing professional growth. Reporting on topics such as hygiene practice management, evidence-based periodontics, infection control, oral pathology, new product evaluations and continuing education, RDH covers crucial issues that affect hygienists every day.',
   },
 };
