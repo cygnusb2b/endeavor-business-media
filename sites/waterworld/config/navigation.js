@@ -1,24 +1,20 @@
 module.exports = {
   primary: {
     items: [
-      { href: '/detectors-imaging', label: 'Detectors & Imaging' },
-      { href: '/lasers-sources', label: 'Lasers & Sources' },
-      { href: '/optics', label: 'Optics' },
-      { href: '/fiber-optics', label: 'Fiber Optics' },
-      { href: '/software-accessories', label: 'Software & Accessories' },
-      { href: '/test-measurement', label: 'Test & Measurement' },
+      { href: '/municipal', label: 'Municipal' },
+      { href: '/industrial', label: 'Industrial' },
+      { href: '/international', label: 'International' },
+      { href: '/municipal/technologies', label: 'Technologies' },
+      { href: '/global-thought-leaders', label: 'Global Thought Leaders' },
     ],
   },
   secondary: {
     items: [
       { href: '/subscribe', label: 'Subscribe' },
       { href: '/magazine', label: 'Magazine' },
-      { href: '/videos', label: 'Videos' },
-      { href: '/white-papers', label: 'White Papers' },
-      { href: '/webcasts', label: 'Webcasts' },
-      { href: '/directory', label: 'Buyer\'s Guide' },
-      { href: 'https://laserfocusworldinnovators.secure-platform.com/a', label: 'Awards', target: '_blank' },
-      { href: 'https://www.marketplaceseminar.com/index.html', label: 'L&P Market Seminar', target: '_blank' },
+      { href: '/videos', label: 'WaterWorldTV' },
+      { href: '/page/advertise', label: 'Advertise' },
+      { href: '/page/about-us', label: 'About Us' },
     ],
   },
   tertiary: {
@@ -28,9 +24,9 @@ module.exports = {
   },
   footer: {
     items: [
+      { href: '/subscribe', label: 'Subscribe' },
       { href: '/page/about-us', label: 'About Us' },
       { href: '/contact-us', label: 'Contact Us' },
-      { href: '/page/advertise', label: 'Advertise' },
       { href: 'https://www.endeavorbusinessmedia.com/privacy-policy', label: 'Privacy Policy', target: '_blank' },
       { href: 'https://www.endeavorbusinessmedia.com/endeavor-terms', label: 'Terms & Conditions', target: '_blank' },
     ],
@@ -39,28 +35,21 @@ module.exports = {
     {
       label: 'Topics',
       items: [
-        { href: '/detectors-imaging', label: 'Detectors & Imaging' },
-        { href: '/lasers-sources', label: 'Lasers & Sources' },
-        { href: '/optics', label: 'Optics' },
-        { href: '/fiber-optics', label: 'Fiber Optics' },
-        { href: '/software-accessories', label: 'Software & Accessories' },
-        { href: '/test-measurement', label: 'Test & Measurement' },
-        { href: '/photonics-business', label: 'Photonics Business' },
+        { href: '/municipal', label: 'Municipal' },
+        { href: '/industrial', label: 'Industrial' },
+        { href: '/international', label: 'International' },
+        { href: '/municipal/technologies', label: 'Technologies' },
+        { href: '/global-thought-leaders', label: 'Global Thought Leaders' },
       ],
     },
     {
       label: 'Resources',
       items: [
-        { href: '/blogs', label: 'Commentary' },
+        { href: '/events', label: 'Events' },
         { href: '/magazine', label: 'Magazine' },
-        { href: '/videos', label: 'Videos' },
+        { href: '/videos', label: 'WaterWorldTV' },
         { href: '/white-papers', label: 'White Papers' },
         { href: '/webcasts', label: 'Webcasts' },
-        { href: '/events', label: 'Events' },
-        { href: '/directory', label: 'Buyer\'s Guide' },
-        { href: 'https://laserfocusworldinnovators.secure-platform.com/a', label: 'Awards', target: '_blank' },
-        { href: 'https://www.marketplaceseminar.com/index.html', label: 'L&P Market Seminar', target: '_blank' },
-        { href: 'https://www.strategies-u.com/reports', label: 'Photonics Market Reports', target: '_blank' },
       ],
     },
     {
