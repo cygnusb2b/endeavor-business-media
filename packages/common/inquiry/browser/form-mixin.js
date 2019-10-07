@@ -35,7 +35,6 @@ export default {
       try {
         const res = await this.fetch(`/${this.contentId}`, payload);
         const data = await res.json();
-        console.log(payload, res, data);
         if (!res.ok) throw new Error(`${res.statusText} (${res.status}): ${data.message}`);
         if (data.ok) this.complete = true;
       } catch (e) {
