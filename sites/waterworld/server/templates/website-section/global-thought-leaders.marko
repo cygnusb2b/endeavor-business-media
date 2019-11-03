@@ -5,6 +5,8 @@ import queryFragment from "../../graphql/fragments/global-thought-leaders";
 import GAM from "../../../config/gam";
 
 $ const { id, alias, name, pageNode } = data;
+$ const title = "Global Thought Leaders";
+$ const description = "Certain companies in the water and wastewater industry are veritable trailblazers, forging ahead and sharing their expertise with others in an effort to help them stay current with new trends and technologies and do their jobs more efficiently. Our new Global Thought Leader Series will feature a collection of white papers and related videos from these innovators, giving you free and easy access to a bank of useful knowledge.";
 
 <marko-web-website-section-page-layout id=id alias=alias name=name>
   <@head>
@@ -30,25 +32,21 @@ $ const { id, alias, name, pageNode } = data;
   <@page>
     <marko-web-gam-display-ad id="gpt-ad-lb1" modifiers=["top-of-page"] />
 
-    <marko-web-resolve-page|{ data: section }| node=pageNode>
-      $ const aliases = hierarchyAliases(section);
-      <marko-web-page-wrapper>
-        <@section>
-          <div class="row">
-            <div class="col">
-              <default-theme-website-section-breadcrumbs section=section />
-              <marko-web-website-section-name tag="h1" class="page-wrapper__title" obj=section />            </div>
+    <marko-web-page-wrapper class="mb-block">
+      <@section>
+        <div class="row">
+          <div class="col">
+            <h1 class="page-wrapper__title">${title}</h1>
+            <div class="page-wrapper__deck">${description}</div>
           </div>
-        </@section>
-        <@section>
+        </div>
+      </@section>
+    </marko-web-page-wrapper>
 
-        </@section>
-      </marko-web-page-wrapper>
-
-      <div class="row">
+    <div class="row">
         <div class="col-lg-12 mb-block">
           <marko-web-query-website-scheduled-content|{ nodes }|
-            section-id=section.id
+            section-id=id
             limit=200
             include-content-types=["Video"]
             query-fragment=queryFragment
@@ -65,7 +63,7 @@ $ const { id, alias, name, pageNode } = data;
       <div class="row">
         <div class="col-lg-12 mb-block">
           <marko-web-query-website-scheduled-content|{ nodes }|
-            section-id=section.id
+            section-id=id
             limit=200
             include-content-types=["Whitepaper"]
             query-fragment=queryFragment
@@ -82,7 +80,7 @@ $ const { id, alias, name, pageNode } = data;
       <div class="row">
         <div class="col-lg-12 mb-block">
           <marko-web-query-website-scheduled-content|{ nodes }|
-            section-id=section.id
+            section-id=id
             limit=200
             include-content-types=["Company"]
             requiresImage=true
@@ -97,7 +95,6 @@ $ const { id, alias, name, pageNode } = data;
         </div>
       </div>
 
-    </marko-web-resolve-page>
   </@page>
   <@foot>
     <marko-web-resolve-page|{ data: section }| node=pageNode>
