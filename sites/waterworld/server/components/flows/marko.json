@@ -47,6 +47,17 @@
     },
     "@class": "string"
   },
+  "<website-gloabl-thought-leaders-whitepaper-list-flow>": {
+    "template": "./global-thought-leaders-whitepaper-list.marko",
+    "<header>": {},
+    "<node>": {},
+    "@nodes": "array",
+    "@inner-justified": {
+      "type": "boolean",
+      "default-value": true
+    },
+    "@class": "string"
+  },
   "<website-content-load-more-flow>": {
     "template": "./content-load-more.marko",
     "<native-x>": {
