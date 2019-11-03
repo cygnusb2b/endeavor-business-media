@@ -12,9 +12,8 @@ $ const innerJustified = input.innerJustified != null ? input.innerJustified : t
       $ const company = getAsObject(node, "company")
       $ const companyLogo = getAsObject(company, "primaryImage");
         <marko-web-node
-            type='company-content'
+            type="company-content"
             flush=true
-            image-position=null
           >
           <@image
             ar="21:9"
@@ -30,7 +29,7 @@ $ const innerJustified = input.innerJustified != null ? input.innerJustified : t
                 Watch ${company.name}'s Video
             </@title>
             <@text modifiers=["embedCode"] show=(node.embedCode)>
-              <marko-web-content-embed-code block-name='pageContents' obj=node />
+              <marko-web-content-embed-code block-name="pageContents" obj=node />
             </@text>
           </@body>
         </marko-web-node>
