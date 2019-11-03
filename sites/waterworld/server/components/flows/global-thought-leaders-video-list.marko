@@ -11,10 +11,7 @@ $ const innerJustified = input.innerJustified != null ? input.innerJustified : t
     <@slot|{ node, index }|>
       $ const company = getAsObject(node, "company")
       $ const companyLogo = getAsObject(company, "primaryImage");
-        <marko-web-node
-            type="company-content"
-            flush=true
-          >
+        <marko-web-node flush=true>
           <@image
             ar="21:9"
             width=300

@@ -12,10 +12,7 @@ $ const innerJustified = input.innerJustified != null ? input.innerJustified : t
       $ const company = getAsObject(node, "company")
       $ const companyLogo = getAsObject(company, "primaryImage");
       <div class="item mb-block">
-          <marko-web-node
-              type="company-content"
-              flush=true
-            >
+          <marko-web-node flush=true>
             <@body>
               <@title tag="h5">
                   Download ${company.name}'s Whitepaper
