@@ -34,6 +34,19 @@
     },
     "@class": "string"
   },
+  "<website-gloabl-thought-leaders-video-list-flow>": {
+    "template": "./global-thought-leaders-video-list.marko",
+    "<header>": {},
+    "<node>": {
+      "<image>": {}
+    },
+    "@nodes": "array",
+    "@inner-justified": {
+      "type": "boolean",
+      "default-value": true
+    },
+    "@class": "string"
+  },
   "<website-content-load-more-flow>": {
     "template": "./content-load-more.marko",
     "<native-x>": {

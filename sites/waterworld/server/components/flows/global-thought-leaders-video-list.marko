@@ -1,0 +1,39 @@
+import { getAsArray, getAsObject } from "@base-cms/object-path";
+
+$ const nodes = getAsArray(input, "nodes");
+$ const innerJustified = input.innerJustified != null ? input.innerJustified : true;
+
+<marko-web-node-list inner-justified=innerJustified class=input.class>
+  <if(input.header)>
+    <@header ...input.header />
+  </if>
+  <@nodes nodes=nodes>
+    <@slot|{ node, index }|>
+      $ const company = getAsObject(node, "company")
+      $ const companyLogo = getAsObject(company, "primaryImage");
+        <marko-web-node
+            type='company-content'
+            flush=true
+            image-position=null
+          >
+          <@image
+            ar="21:9"
+            width=300
+            src=companyLogo.src
+            alt=companyLogo.alt
+            is-logo=companyLogo.isLogo
+            fluid=false
+            link={ href: company.canonicalPath }
+          />
+          <@body>
+            <@title tag="h5">
+                Watch ${company.name}'s Video
+            </@title>
+            <@text modifiers=["embedCode"] show=(node.embedCode)>
+              <marko-web-content-embed-code block-name='pageContents' obj=node />
+            </@text>
+          </@body>
+        </marko-web-node>
+    </@slot>
+  </@nodes>
+</marko-web-node-list>
