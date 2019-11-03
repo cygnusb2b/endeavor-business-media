@@ -1,0 +1,33 @@
+import { getAsArray, getAsObject } from "@base-cms/object-path";
+
+$ const nodes = getAsArray(input, "nodes");
+$ const innerJustified = input.innerJustified != null ? input.innerJustified : true;
+
+<marko-web-node-list inner-justified=innerJustified class=input.class>
+  <if(input.header)>
+    <@header ...input.header />
+  </if>
+  <@nodes nodes=nodes>
+    <default-theme-card-deck-flow cols=3 nodes=nodes>
+      <@slot|{ node, index }|>
+        $ const primaryImage = getAsObject(node, "primaryImage");
+        <div class="item mb-block">
+            <marko-web-node
+                type='company-content'
+                flush=true
+              >
+              <@image
+                ar="21:9"
+                width=300
+                src=primaryImage.src
+                alt=primaryImage.alt
+                is-logo=primaryImage.isLogo
+                fluid=false
+                link={ href: node.canonicalPath }
+              />
+            </marko-web-node>
+          </div>
+      </@slot>
+    </default-theme-card-deck-flow>
+  </@nodes>
+</marko-web-node-list>

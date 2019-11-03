@@ -79,6 +79,24 @@ $ const { id, alias, name, pageNode } = data;
         </div>
       </div>
 
+      <div class="row">
+        <div class="col-lg-12 mb-block">
+          <marko-web-query-website-scheduled-content|{ nodes }|
+            section-id=section.id
+            limit=200
+            include-content-types=["Company"]
+            requiresImage=true
+            query-fragment=queryFragment
+          >
+            <website-gloabl-thought-leaders-company-list-flow nodes=nodes>
+              <@header tag="h2">
+                <marko-web-link>All Global Thought Leaders</marko-web-link>
+              </@header>
+            </website-gloabl-thought-leaders-company-list-flow>
+          </marko-web-query-website-scheduled-content>
+        </div>
+      </div>
+
     </marko-web-resolve-page>
   </@page>
   <@foot>
