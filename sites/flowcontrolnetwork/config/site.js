@@ -36,6 +36,6 @@ module.exports = {
       bgColor: '#164f77',
       logo: 'https://base.imgix.net/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=60',
     },
-    // to: '',
+    to: 'mrogers@endeavorb2b.com',
   },
 };
