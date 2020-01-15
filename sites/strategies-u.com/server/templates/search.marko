@@ -11,6 +11,8 @@ $ const description = `Search ${config.siteName()}`;
     <marko-web-gtm-default-context|{ context }| type=type>
       <marko-web-gtm-push data=context />
     </marko-web-gtm-default-context>
+    <!-- @todo probably remove this -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css" integrity="sha256-HB49n/BZjuqiCtQQf49OdZn63XuKFaxcIHWf0HNKte8=" crossorigin="anonymous">
   </@head>
   <@page>
     <marko-web-gam-define-display-ad ...GAM.getAdUnit({ name: "lb1" }) modifiers=["top-of-page"] />
