@@ -69,4 +69,8 @@ module.exports = {
     logo: 'https://img.officer.com/files/base/cygnus/ofcr/image/static/logo/site_logo.png?h=60',
     bgColor: '#222222',
   },
+  algolia: {
+    applicationId: 'foo',
+    adminApiKey: 'bar',
+  },
 };
