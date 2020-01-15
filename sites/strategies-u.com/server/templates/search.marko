@@ -1,7 +1,6 @@
 import GAM from "../../config/gam";
-import GCSE from "../../config/gcse";
 
-$ const { config } = out.global;
+$ const { config, site } = out.global;
 
 $ const type = "search";
 $ const title = "Search";
@@ -29,7 +28,10 @@ $ const description = `Search ${config.siteName()}`;
       <@section>
         <div class="row">
           <div class="col">
-            <marko-web-gcse-simple-search-box api-key=GCSE.getApiKey() />
+            <common-algolia-site-search
+              application-id=site.get('algolia.applicationId')
+              admin-api-key=site.get('algolia.adminApiKey')
+            />
           </div>
         </div>
       </@section>
