@@ -25,11 +25,11 @@ export default {
     },
   },
 
-  data: () => ({
-    searchClient: algoliasearch(
+  created() {
+    this.searchClient = algoliasearch(
       this.applicationId,
       this.adminApiKey,
-    ),
-  }),
+    );
+  },
 };
 </script>
