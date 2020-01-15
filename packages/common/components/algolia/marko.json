@@ -1,0 +1,7 @@
+{
+  "<common-algolia-site-search>": {
+    "template": "./site-search.marko",
+    "@application-id": "string",
+    "@admin-api-key": "string"
+  }
+}
