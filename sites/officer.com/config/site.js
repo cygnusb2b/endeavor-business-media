@@ -48,7 +48,7 @@ module.exports = {
     bgColor: '#222222',
   },
   algolia: {
-    applicationId: 'foo',
-    adminApiKey: 'bar',
+    applicationId: '80YJALCHBD',
+    adminApiKey: '54e907df9d8e8e66dbaf63ac1938c740',
   },
 };
