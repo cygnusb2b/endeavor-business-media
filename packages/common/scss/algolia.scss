@@ -74,14 +74,16 @@
   }
 
   &-SearchBox-input::-ms-clear,
-  &-SearchBox-input::-ms-reveal,
+  &-SearchBox-input::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+  }
   &-SearchBox-input::-webkit-search-decoration,
   &-SearchBox-input::-webkit-search-cancel-button,
   &-SearchBox-input::-webkit-search-results-button,
   &-SearchBox-input::-webkit-search-results-decoration {
     display: none;
-    width: 0;
-    height: 0;
   }
 
   &-SearchBox-submit,
