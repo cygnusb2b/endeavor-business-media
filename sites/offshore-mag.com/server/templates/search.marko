@@ -28,10 +28,11 @@ $ const description = `Search ${config.siteName()}`;
       <@section>
         <div class="row">
           <div class="col">
-            <common-algolia-site-search
+            <marko-web-gcse-simple-search-box api-key=GCSE.getApiKey() />
+            <!-- <common-algolia-site-search
               application-id=site.get('algolia.applicationId')
               search-api-key=site.get('algolia.searchApiKey')
-            />
+            /> -->
           </div>
         </div>
       </@section>
