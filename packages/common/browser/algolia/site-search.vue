@@ -118,7 +118,7 @@ export default {
       type: String,
       required: true,
     },
-    adminApiKey: {
+    searchApiKey: {
       type: String,
       required: true,
     },
@@ -135,7 +135,7 @@ export default {
   created() {
     this.searchClient = algoliasearch(
       this.applicationId,
-      this.adminApiKey,
+      this.searchApiKey,
     );
   },
 };
