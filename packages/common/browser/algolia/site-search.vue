@@ -58,7 +58,7 @@
               <div class="node__body">
                 <div class="node__contents node__contents--body">
                   <h5 class="node__title">
-                    <a href="http://earprolive.com/view/mail?iID=G82RtSzGP65tLzsmQnRH">
+                    <a :href="item.domain + item.url">
                       {{ item.name }}
                     </a>
                   </h5>
