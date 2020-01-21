@@ -52,7 +52,7 @@
                 >
                   <img
                     class="node__image"
-                    :src="item.primaryimage+'?auto=format&dpr=2&fit=crop&h=191&w=340 2x'"
+                    :src="`${item.primaryimage}?auto=format&fit=crop&h=191&w=340`"
                   >
                 </a>
               </div>
