@@ -45,8 +45,14 @@
           <div slot="item" slot-scope="{ item }">
             <div class="node__contents">
               <div v-if="item.primaryimage" class="node__image-wrapper">
-                <a :href="item.domain + item.url">
-                  <img :src="item.primaryimage+'?crop=focalpoint&fit=crop&fp-x=0.37&fp-y=0.56&w=250&h=100'" />
+                <a
+                  class="node__image-inner-wrapper node__image-inner-wrapper--fluid-16by9"
+                  :href="item.domain + item.url"
+                >
+                  <img
+                    class="node__image"
+                    :src="item.primaryimage+'?auto=format&dpr=2&fit=crop&h=191&w=340 2x'"
+                  >
                 </a>
               </div>
               <div class="node__body">
