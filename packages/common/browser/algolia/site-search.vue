@@ -34,8 +34,7 @@
           :sort-by="['count:desc']"
           :show-parent-level="false"
         />
-        <!-- eslint-disable-next-line vue/attribute-hyphenation -->
-        <ais-configure :hitsPerPage="24" />
+        <ais-configure :hits-per-page.camel="24" />
       </div>
       <div class="col-9">
         <ais-hits
@@ -96,9 +95,7 @@ import {
   AisPagination,
 } from 'vue-instantsearch';
 import algoliasearch from 'algoliasearch/lite';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { history as historyRouter } from 'instantsearch.js/es/lib/routers';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { simple as simpleMapping } from 'instantsearch.js/es/lib/stateMappings';
 
 export default {
