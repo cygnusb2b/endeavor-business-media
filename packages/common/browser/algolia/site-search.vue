@@ -2,6 +2,7 @@
   <ais-instant-search
     index-name="prod_base_content"
     :search-client="searchClient"
+    :routing="routing"
   >
     <div class="row algolia-search">
       <div class="col-12">
@@ -88,18 +89,24 @@ import {
   AisInstantSearch,
   AisSearchBox,
   AisRefinementList,
+  AisClearRefinements,
   AisHierarchicalMenu,
   AisConfigure,
   AisHits,
   AisPagination,
 } from 'vue-instantsearch';
 import algoliasearch from 'algoliasearch/lite';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { history as historyRouter } from 'instantsearch.js/es/lib/routers';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { simple as simpleMapping } from 'instantsearch.js/es/lib/stateMappings';
 
 export default {
   components: {
     AisInstantSearch,
     AisSearchBox,
     AisRefinementList,
+    AisClearRefinements,
     AisHierarchicalMenu,
     AisConfigure,
     AisHits,
@@ -117,6 +124,14 @@ export default {
     },
   },
 
+  data() {
+    return {
+      routing: {
+        router: historyRouter(),
+        stateMapping: simpleMapping(),
+      },
+    };
+  },
   created() {
     this.searchClient = algoliasearch(
       this.applicationId,
