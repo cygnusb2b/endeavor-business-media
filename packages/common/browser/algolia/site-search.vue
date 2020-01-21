@@ -34,7 +34,7 @@
           :sort-by="['count:desc']"
           :show-parent-level="false"
         />
-        // eslint-disable-next-line vue/attribute-hyphenation
+        <!-- eslint-disable-next-line vue/attribute-hyphenation -->
         <ais-configure :hitsPerPage="24" />
       </div>
       <div class="col-9">
