@@ -33,7 +33,7 @@
           :sort-by="['count:desc']"
           :show-parent-level="false"
         />
-        <ais-configure :hitsPerPage="24" />
+        <ais-configure :hits-per-page="24" />
       </div>
       <div class="col-9">
         <ais-hits
