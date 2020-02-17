@@ -1,5 +1,5 @@
 const navigation = require('./navigation');
-cosnt leaders = require('./leaders');
+const leaders = require('./leaders');
 
 module.exports = {
   navigation,
