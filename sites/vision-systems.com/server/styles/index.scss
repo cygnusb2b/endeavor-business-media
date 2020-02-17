@@ -4,7 +4,7 @@ $light: #e9ecef;
 $dark: #212529;
 $info: #6c757d;
 
-$leaders-primary-color: #000;
+$leaders-primary-color: $primary;
 $leaders-primary-color-light: lighten($leaders-primary-color, 10%);
 $leaders-accent-color: $primary;
 
@@ -33,6 +33,7 @@ $theme-site-header-breakpoints: (
 @import "../../node_modules/@endeavor-business-media/package-common/scss/directory";
 @import "../../node_modules/@endeavor-business-media/package-inquiry/scss/index";
 @import "../../node_modules/@endeavor-business-media/package-leaders/scss/index";
+@import "../../node_modules/@endeavor-business-media/package-leaders/scss/round";
 
 $pswp__root-z-index: $theme-site-header-z-index + 1;
 @import "../../node_modules/@endeavor-business-media/package-photoswipe/scss/main";
