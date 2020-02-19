@@ -1,5 +1,5 @@
 import hierarchyAliases from "@base-cms/marko-web/utils/hierarchy-aliases";
-import { get, getAsObject } from "@base-cms/object-path";
+import { get, getAsObject, getAsArray } from "@base-cms/object-path";
 import contentKeyValues from "@endeavor-business-media/package-common/gam/content-key-values";
 import queryFragment from "../../graphql/fragments/content-list";
 import GAM from "../../../config/gam";
@@ -35,7 +35,158 @@ $ const { id, type, pageNode } = data;
     <marko-web-gam-display-ad id="gpt-ad-lb1" modifiers=["top-of-page"] />
     <marko-web-resolve-page|{ data: content, resolved }| node=pageNode>
       $ const section = resolved.getAsObject("primarySection");
-      <marko-web-page-wrapper class="mb-block">
+
+      <marko-web-page-wrapper>
+        <@section>
+          <div class="row">
+            <div class="col-md-9 col-sm-12 col-lg-10">
+              <div class="ldp">
+                <div class="ldp__logo">
+                  <common-company-logo content=content />
+                </div>
+                <div class="ldp__title">
+                  <marko-web-content-name tag="h1" class="page-wrapper__title" obj=content />
+                  <marko-web-content-city-state-zip tag="p" class="text-small text-muted" obj=content />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-2 col-sm-12 justify-content-center d-flex flex-column px-3 py-3">
+              <div class="ldp__social">
+                <leaders-company-website-link company=content />
+                <div class="mt-2 d-flex justify-content-around">
+                  <for|item| of=content.socialLinks>
+                    <leaders-company-social-link company=content item=item />
+                  </for>
+                </div>
+              </div>
+            </div>
+          </div>
+        </@section>
+      </marko-web-page-wrapper>
+
+      <div class="row">
+        <div class="col-lg-8 mb-block mb-lg-0">
+          <marko-web-node-list collapsible=false class="mt-block">
+            <@header>
+              Company Overview
+            </@header>
+            <@body>
+              <label class="content-section-header">About ${content.name}</label>
+              <marko-web-content-teaser tag="p" obj=content />
+              <label class="content-section-header">Product Summary</label>
+              <marko-web-obj-text tag="p" obj=content field="productSummary" type="content" html=true />
+            </@body>
+          </marko-web-node-list>
+
+          <marko-web-node-list collapsible=false class="mt-block">
+            <@header>
+              Company Details
+            </@header>
+            <@body>
+              <label class="content-section-header content-section-header--border">At-a-glance</label>
+              <common-company-details company=content />
+
+              <label class="content-section-header content-section-header--border">Contact</label>
+              $ const { socialLinks, ...contentSansSocial } = content;
+              <default-theme-content-contact-details obj=contentSansSocial />
+
+              <label class="content-section-header content-section-header--border">More info on ${content.name}</label>
+              <marko-web-content-body obj=content />
+
+              <if(get(content, "enableRmi"))>
+                <website-inquiry-form content=content />
+              </if>
+            </@body>
+          </marko-web-node-list>
+
+          <marko-web-query|{ nodes }|
+            name="all-company-content"
+            params={
+              companyId: id,
+              includeContentTypes: ["Product"],
+              queryFragment,
+              limit: 4,
+            }
+          >
+            <marko-web-node-list class="mt-block">
+              <@header>
+                Products
+              </@header>
+              <@nodes|{ nodes: items }| nodes=nodes>
+                <default-theme-card-deck-flow cols=2 nodes=items>
+                  <@slot|{ node, index }|>
+                    <website-content-card-node
+                      image-width=340
+                      node=node
+                    />
+                  </@slot>
+                </default-theme-card-deck-flow>
+              </@nodes>
+            </marko-web-node-list>
+          </marko-web-query>
+        </div>
+
+        <div class="col-lg-4 mb-3 mb-lg-0">
+          $ const contacts = getAsArray(content, "contacts.edges").map(({ node }) => node);
+          <marko-web-node-list class="mt-block">
+            <@header>
+              Key Contact<if(contacts.length > 1)>s</if>
+            </@header>
+            <@nodes|{ nodes }| nodes=contacts>
+              <for|node| of=nodes>
+                <common-author-card-node node=node with-email=true />
+              </for>
+            </@nodes>
+          </marko-web-node-list>
+
+          $ const videos = getAsArray(content, "videos.edges").map(({ node }) => node);
+          <marko-web-node-list class="mt-block">
+            <@header>
+              Featured Videos
+            </@header>
+            <@nodes|{ nodes }| nodes=videos>
+              <for|node| of=nodes>
+                <div class="node-list__node">
+                  <common-youtube-card-node node=node link-attrs={
+                    'data-company-id': content.id,
+                    'data-company-name': content.name,
+                  } />
+                </div>
+              </for>
+            </@nodes>
+            <@footer>
+              $ const url = get(content, "youtube.url");
+              <a href=url target="_blank" rel="noopener" class="btn btn-sm btn-block btn-secondary">
+                View all videos &gt;
+              </a>
+            </@footer>
+          </marko-web-node-list>
+
+          <marko-web-query|{ nodes }|
+            name="all-company-content"
+            params={ companyId: id, includeContentTypes: ["Article"], limit: 3, queryFragment }
+          >
+            <website-content-list-flow nodes=nodes class="mt-block" inner-justified=false>
+              <@header>
+                Case Studies
+              </@header>
+            </website-content-list-flow>
+          </marko-web-query>
+
+          <marko-web-query|{ nodes }|
+            name="all-company-content"
+            params={ companyId: id, includeContentTypes: ["News", "PressRelease"], limit: 5, queryFragment }
+          >
+            <website-content-list-flow nodes=nodes class="mt-block" inner-justified=false>
+              <@header>
+                Company News
+              </@header>
+            </website-content-list-flow>
+          </marko-web-query>
+        </div>
+      </div>
+
+      <!-- <marko-web-page-wrapper class="mb-block">
         <@section>
           <div class="row">
             <div class="col">
@@ -79,10 +230,10 @@ $ const { id, type, pageNode } = data;
             <@props thumbnail-click-selectors=`[data-gallery-id="${id}"] [data-image-id]` />
           </marko-web-photoswipe-content-images>
         </@section>
-      </marko-web-page-wrapper>
+      </marko-web-page-wrapper> -->
     </marko-web-resolve-page>
 
-    <marko-web-query|{ nodes }|
+    <!-- <marko-web-query|{ nodes }|
         name="all-company-content"
         params={
           companyId: id,
@@ -129,10 +280,23 @@ $ const { id, type, pageNode } = data;
           <@image use-placeholder=false />
         </@node>
       </website-content-list-flow>
-    </marko-web-query>
+    </marko-web-query> -->
   </@page>
   <@below-page>
     <marko-web-resolve-page|{ resolved, data: content }| node=pageNode>
+      $ const section = resolved.getAsObject("primarySection");
+      $ const aliases = hierarchyAliases(section);
+      <marko-web-load-more
+        header=`More from ${content.name}`
+        component-name="content-load-more-flow"
+        component-input={ aliases, limit: 9 }
+        fragment-name="content-list"
+        query-name="all-company-content"
+        query-params={ companyId: id, limit: 9, includeContentTypes: ["Article", "Blog", "PressRelease", "News", "Product", "Webinar", "Whitepaper"] }
+        page-input={ for: "content", id, type }
+      />
+    </marko-web-resolve-page>
+    <!-- <marko-web-resolve-page|{ resolved, data: content }| node=pageNode>
       $ const section = resolved.getAsObject("primarySection");
       $ const aliases = hierarchyAliases(section);
       <website-content-load-more-block
@@ -146,7 +310,7 @@ $ const { id, type, pageNode } = data;
       >
         <@native-x index=0 name="default" aliases=aliases />
       </website-content-load-more-block>
-    </marko-web-resolve-page>
+    </marko-web-resolve-page> -->
   </@below-page>
   <@foot>
     <marko-web-resolve-page|{ data: content }| node=pageNode>
