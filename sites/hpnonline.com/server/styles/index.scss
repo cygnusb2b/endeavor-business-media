@@ -54,6 +54,15 @@ $pswp__root-z-index: $theme-site-header-z-index + 1;
   }
 }
 
+.sponsor-logo {
+  max-height: 15px;
+  margin: 10px;
+  @media (min-width: 1024px) {
+    max-height: 20px;
+    margin: 10px 20px;
+  }
+}
+
 // @todo this should be removed once added to the theme
 .page-contents {
   &__content-body a {

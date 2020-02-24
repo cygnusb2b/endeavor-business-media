@@ -40,6 +40,24 @@ $ const description = (data.descrtiption) ? data.description : "";
             </default-theme-breadcrumbs-with-home>
             <h1 class="page-wrapper__title">${title}</h1>
             <div class="page-wrapper__deck">${description}</div>
+            <if(alias === "continuing-education")>
+              <div class="row">
+                <a href="/continuing-education/3m-health-care">
+                  <img
+                    src="https://img.hpnonline.com/files/base/ebm/hpn/image/sponsored/3M-Health-Care.jpg?h=20"
+                    alt="3M Health Care"
+                    class="sponsor-logo"
+                  />
+                </a>
+                <a href="/continuing-education/steris">
+                  <img
+                    src="https://img.hpnonline.com/files/base/ebm/hpn/image/sponsored/Steris-Transparent.jpg?h=20"
+                    alt="Steris"
+                    class="sponsor-logo"
+                  />
+                </a>
+              </div>
+            </if>
           </div>
         </div>
       </@section>
