@@ -22,6 +22,8 @@ $theme-site-footer-primary-bg-color: $secondary;
 $theme-site-navbar-logo-height: 45px;
 $theme-site-navbar-logo-height-sm: 25px;
 
+$theme-item-description-max-lines: 5;
+
 $theme-site-header-breakpoints: (
   hide-primary: 832px,
   hide-secondary: 760px,
@@ -46,6 +48,7 @@ $body-bg: #fff;
 @import "../../node_modules/@endeavor-business-media/package-common/scss/directory";
 @import "../../node_modules/@endeavor-business-media/package-inquiry/scss/index";
 @import "../../node_modules/@endeavor-business-media/package-leaders/scss/index";
+@import "../../node_modules/@endeavor-business-media/package-common/scss/social-sharing";
 
 $pswp__root-z-index: $theme-site-header-z-index + 1;
 @import "../../node_modules/@endeavor-business-media/package-photoswipe/scss/main";

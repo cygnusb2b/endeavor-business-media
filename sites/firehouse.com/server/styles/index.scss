@@ -14,6 +14,8 @@ $theme-site-navbar-secondary-bg-color: #000;
 $theme-site-navbar-logo-height: 45px;
 $theme-site-navbar-logo-height-sm: 25px;
 
+$theme-item-description-max-lines: 5;
+
 $theme-site-header-breakpoints: (
   hide-primary: 1000px,
   hide-secondary: 900px,
@@ -40,6 +42,7 @@ $body-bg: #fff;
 @import "../../node_modules/@endeavor-business-media/package-common/scss/directory";
 @import "../../node_modules/@endeavor-business-media/package-inquiry/scss/index";
 @import "../../node_modules/@endeavor-business-media/package-leaders/scss/index";
+@import "../../node_modules/@endeavor-business-media/package-common/scss/social-sharing";
 
 $pswp__root-z-index: $theme-site-header-z-index + 1;
 @import "../../node_modules/@endeavor-business-media/package-photoswipe/scss/main";
@@ -53,9 +56,34 @@ $pswp__root-z-index: $theme-site-header-z-index + 1;
   }
 }
 
+.firehouse-jobs {
+  margin-bottom: map-get($spacers, block);
+  &__button {
+    @extend .btn;
+    @extend .btn-primary;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: $light;
+    text-transform: uppercase;
+  }
+  &__link {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: $dark;
+  }
+}
+
 // @todo this should be removed once added to the theme
 .page-contents {
   &__content-body a {
     text-decoration: underline;
+  }
+}
+
+.page-wrapper {
+  &__section {
+    &--bottom-border {
+      @include marko-web-node-list-border(border-bottom, $width: 2px);
+    }
   }
 }
