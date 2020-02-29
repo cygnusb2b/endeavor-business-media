@@ -5,7 +5,7 @@ const whitepaper = require('../templates/content/whitepaper');
 const queryFragment = require('../graphql/fragments/content-page');
 
 module.exports = (app) => {
-  app.get('/*?whitepaper/:id(\\d{8})*', withContent({
+  app.get('/*?whitepaper|webinar/:id(\\d{8})*', withContent({
     template: whitepaper,
     queryFragment,
   }));

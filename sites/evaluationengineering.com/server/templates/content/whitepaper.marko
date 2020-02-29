@@ -24,6 +24,11 @@ $ const displayPrimaryImage = ["whitepaper", "media-gallery", "contact"].include
               <marko-web-content-name tag="h1" class="page-wrapper__title" obj=content />
               <marko-web-content-teaser tag="p" class="page-wrapper__deck" obj=content />
               <default-theme-content-attribution obj=content />
+              <if(content.type === "webinar")>
+                <default-theme-page-dates|{ blockName }|>
+                  <marko-web-content-starts block-name=blockName obj=content />
+                </default-theme-page-dates>
+              </if>
               <marko-web-social-sharing
                 path=content.siteContext.path
                 providers=["facebook", "linkedin", "twitter", "pinterest"]
@@ -49,7 +54,15 @@ $ const displayPrimaryImage = ["whitepaper", "media-gallery", "contact"].include
                 />
                 $!{value}
               </marko-web-content-body>
-
+              <if(type === "webinar")>
+                <div class="mt-3">
+                  <default-theme-content-link-url
+                    obj=content
+                    label="Register/View"
+                    target="_blank"
+                  />
+                </div>
+              </if>
             </default-theme-page-contents>
             <aside class="col-lg-4 page-rail">
               <default-theme-content-download obj=content>
