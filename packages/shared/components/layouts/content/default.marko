@@ -99,20 +99,12 @@ $ const withFooterAd = defaultValue(input.withFooterAd, true);
                     <${input.bodyRail} block-name="page-rail" ...response />
                   </if>
                   <else>
-                    <if(type === "whitepaper")>
-                      <default-theme-content-download obj=content>
-                        <@wufoo user-name=site.get("wufoo.userName") />
-                        <@link class="btn btn-lg btn-primary" />
-                      </default-theme-content-download>
-                    </if>
-                    <else>
-                      <shared-content-page-right-rail
-                        display-ads=displayAds
-                        page-node=pageNode
-                        display-related-content=displayRelatedContent
-                        ...getAsObject(input, "rightRail")
-                      />
-                    </else>
+                    <shared-content-page-right-rail
+                      display-ads=displayAds
+                      page-node=pageNode
+                      display-related-content=displayRelatedContent
+                      ...getAsObject(input, "rightRail")
+                    />
                   </else>
                 </aside>
               </div>
