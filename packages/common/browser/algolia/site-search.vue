@@ -1,6 +1,6 @@
 <template>
   <ais-instant-search
-    index-name="prod_base_content"
+    :index-name="tenantKey"
     :search-client="searchClient"
     :routing="routing"
   >
@@ -19,15 +19,15 @@
           {{ isShowingMore ? 'Less' : 'More' }}
         </div>
         <h2>Type</h2>
-        <ais-refinement-list attribute="Type" />
+        <ais-refinement-list attribute="type" />
         <h2>Categories</h2>
         <ais-hierarchical-menu
           :attributes="[
-            'Topics.lev0',
-            'Topics.lev1',
-            'Topics.lev2',
-            'Topics.lev3',
-            'Topics.lev4',
+            'sections.lev0',
+            'sections.lev1',
+            'sections.lev2',
+            'sections.lev3',
+            'sections.lev4',
           ]"
           show-more
           :show-more-limit="40"
@@ -46,33 +46,34 @@
         >
           <div slot="item" slot-scope="{ item }">
             <div class="node__contents">
-              <div v-if="item.primaryimage" class="node__image-wrapper">
+              <div v-if="item.primaryImage" class="node__image-wrapper">
                 <a
                   class="node__image-inner-wrapper node__image-inner-wrapper--fluid-16by9"
-                  :href="item.domain + item.url"
+                  :href="item.primarySite.host + item.id"
                 >
                   <img
                     class="node__image"
-                    :src="`${item.primaryimage}?auto=format&fit=crop&h=191&w=340`"
+                    :src="`${item.primaryImage.src}?auto=format&fit=crop&h=191&w=340`"
                   >
                 </a>
               </div>
               <div class="node__body">
                 <div class="node__contents node__contents--body">
                   <h5 class="node__title">
-                    <a :href="item.domain + item.url">
+                    <a :href="item.primarySite.host + item.id">
                       {{ item.name }}
                     </a>
                   </h5>
-                  <div class="node__text node__text--teaser">
+                  <div v-if="item.teaser === '...'" class="node__text node__text--teaser" />
+                  <div v-else-if="item.teaser" class="node__text node__text--teaser">
                     {{ item.teaser }}
                   </div>
                 </div>
-                <div class="node__footer node__footer--body">
+                <!-- <div class="node__footer node__footer--body">
                   <div class="node__footer-right">
-                    <div>{{ item.publishedDate }}</div>
+                    <div>{{ item.published }}</div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -117,6 +118,10 @@ export default {
       required: true,
     },
     searchApiKey: {
+      type: String,
+      required: true,
+    },
+    tenantKey: {
       type: String,
       required: true,
     },
