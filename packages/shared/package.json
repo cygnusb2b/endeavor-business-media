@@ -29,6 +29,7 @@
     "@base-cms/object-path": "^1.25.0",
     "@base-cms/utils": "^1.25.0",
     "@base-cms/web-cli": "^1.29.10",
+    "@endeavor-business-media/package-common": "^1.19.0",
     "@endeavor-business-media/package-contact-us": "^1.19.0",
     "@endeavor-business-media/package-directory": "^1.19.0",
     "@endeavor-business-media/package-gam-prestitial": "^1.20.0",
