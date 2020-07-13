@@ -2014,6 +2014,11 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/googlemaps@^3.39.6":
+  version "3.39.8"
+  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.39.8.tgz#3bca2344e1b050425a7cce4411f8330dddb75540"
+  integrity sha512-z03u79t1v8QIktoUXypWD06Fzl499/hA162hurA+eCDlWXxFynuU+hMZIaferILF5Gzr4PMX1ShHszT666sUHQ==
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -2361,6 +2366,13 @@ algoliasearch-helper@^2.26.0, algoliasearch-helper@^2.26.1:
     events "^1.1.1"
     lodash "^4.17.5"
     qs "^6.5.1"
+
+algoliasearch-helper@^3.1.1:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.1.2.tgz#f01cfed1ff3e4848ae9dc1ece31a4e7cbf65eeea"
+  integrity sha512-HfCVvmKH6+5OU9/SaHLdhvr39DBObA02z62RsfPhFDftzgQM6pJB2JoPyGpIteHW4RAYh8bPLiB8l4hajuy6fA==
+  dependencies:
+    events "^1.1.1"
 
 algoliasearch@^3.35.1:
   version "3.35.1"
@@ -6450,7 +6462,7 @@ inquirer@^6.2.0, inquirer@^6.2.2, inquirer@^6.5.2:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
-instantsearch.js@^3.6.0, instantsearch.js@^3.7.0:
+instantsearch.js@^3.6.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-3.7.0.tgz#6768c7270415867f7777fc9a4e7231791d015079"
   integrity sha512-Hkj72CP/Du7uR6R8N2IXo/JHiGU9Z/DwDbQcvRaLKWGd3fc4WjQpl1QPB2OUsoM0Ym0Zv1xjyYTmuU1VvGdySw==
@@ -6462,6 +6474,20 @@ instantsearch.js@^3.6.0, instantsearch.js@^3.7.0:
     preact "^8.3.0"
     preact-compat "^3.18.0"
     preact-rheostat "^2.1.1"
+    prop-types "^15.5.10"
+    qs "^6.5.1"
+
+instantsearch.js@^4.1.1:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.7.0.tgz#4062b98daf7278e51028d1453dc5d629cb708702"
+  integrity sha512-OkTcyHLcSu6eymWmVXsu2Tt0GRtkoRQXM+SCxj+nyvBY3y3hmGDjcb8bzkrACrhfR8SDbpEUiBGI1IUHjtvOGA==
+  dependencies:
+    "@types/googlemaps" "^3.39.6"
+    algoliasearch-helper "^3.1.1"
+    classnames "^2.2.5"
+    events "^1.1.0"
+    hogan.js "^3.0.2"
+    preact "^10.0.0"
     prop-types "^15.5.10"
     qs "^6.5.1"
 
@@ -9345,6 +9371,11 @@ preact-transition-group@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/preact-transition-group/-/preact-transition-group-1.1.1.tgz#f0a49327ea515ece34ea2be864c4a7d29e5d6e10"
   integrity sha1-8KSTJ+pRXs406ivoZMSn0p5dbhA=
+
+preact@^10.0.0:
+  version "10.4.5"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.4.5.tgz#457fe034d558595864d0663574c2850f0b43d28e"
+  integrity sha512-/GyQOM44xNbM1nx1NWWdEO9RFjOVl3Ji6HTnEP+y9OkfyvJDHXnWJPQnuknrslzu5lZfAtFavS8gka91fbFAPg==
 
 preact@^8.2.5, preact@^8.3.0:
   version "8.5.3"
