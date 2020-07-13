@@ -2,7 +2,6 @@
   <ais-instant-search
     :index-name="tenantKey"
     :search-client="searchClient"
-    :routing="routing"
   >
     <div class="row algolia-search">
       <div class="col-12">
