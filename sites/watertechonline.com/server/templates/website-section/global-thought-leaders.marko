@@ -13,6 +13,8 @@ $ const imageOpts = {
   fillColor: "fff",
   h: 180,
   w: 320,
+  maxH: 180,
+  maxW: 320,
 };
 
 <shared-website-section-page-default-layout
@@ -47,16 +49,16 @@ $ const imageOpts = {
                     type="company-content"
                     image-position="top"
                     card=false
-                    full-height=true
                   >
                     <@image
                       src=get(content, "company.primaryImage.src")
                       alt=get(content, "company.primaryImage.alt")
                       is-logo=get(content, "company.primaryImage.isLogo")
-                      fluid=true
+                      fluid=false
                       ar="16:9"
-                      width=520
                       link={ href: get(content, "company.siteContext.path") }
+                      options=imageOpts
+                      align="center"
                     />
                     <@body>
                       <@header>
