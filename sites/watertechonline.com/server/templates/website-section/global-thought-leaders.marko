@@ -48,7 +48,7 @@ $ const imageOpts = {
                     image-position="top"
                     card=false
                     full-height=true
-                    class="node__image-outer-wrapper"
+                    modifiers=[`website-section-${section.id}-sponsor`]
                   >
                     <@image
                       src=get(content, "company.primaryImage.src")

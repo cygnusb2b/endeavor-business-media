@@ -28,16 +28,21 @@ $theme-site-header-breakpoints: (
 // Custom styling for global-thought-leaders website section
 
 /* stylelint-disable */
-.node__image-outer-wrapper {
-  .node__image-wrapper {
-    margin: 0 auto;
-    // settings to override IE11 inline css from base-cms
-    height: auto !important;
-    min-width: auto !important;
-  }
-  .node__image-wrapper,
-  .node__image {
-    max-width: 100%;
+.node {
+  $self: &;
+  &--website-section-35711-sponsor {
+    #{ $self } {
+      &__image-wrapper {
+        // settings to override IE11 inline css from base-cms
+        height: auto !important;
+        min-width: auto !important;
+        margin: 0 auto;
+      }
+      &__image-wrapper,
+      &__image {
+        max-width: 100%;
+      }
+    }
   }
 }
 /* stylelint-enable */
