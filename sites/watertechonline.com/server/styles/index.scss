@@ -27,15 +27,14 @@ $theme-site-header-breakpoints: (
 
 // Custom styling for global-thought-leaders website section
 
-/* stylelint-disable */
 .node {
   $self: &;
   &--website-section-35711-sponsor {
     #{ $self } {
       &__image-wrapper {
         // settings to override IE11 inline css from base-cms
-        height: auto !important;
-        min-width: auto !important;
+        height: auto !important; /* stylelint-disable-line */
+        min-width: auto !important; /* stylelint-disable-line */
         margin: 0 auto;
       }
       &__image-wrapper,
@@ -45,4 +44,3 @@ $theme-site-header-breakpoints: (
     }
   }
 }
-/* stylelint-enable */
