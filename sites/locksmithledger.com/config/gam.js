@@ -2,6 +2,9 @@ const configureGAM = require('@endeavor-business-media/package-shared/config/gam
 
 const config = configureGAM({ basePath: 'LocksmithLedger' });
 
+// Disable Lazyload
+config.lazyLoad.enabled = false;
+
 config
   .setAliasAdUnits('default', [
     { name: 'lb1', templateName: 'LB1', path: 'default/lb1' },
