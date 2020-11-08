@@ -5,7 +5,6 @@ $ const { id, alias, name, pageNode } = data;
 
 $ const adSlots = ({ aliases }) => ({
   "gpt-ad-lb1": GAM.getAdUnit({ name: "lb1", aliases }),
-  "gpt-ad-rail1": GAM.getAdUnit({ name: "rail1", aliases }),
   "gpt-ad-rail2": GAM.getAdUnit({ name: "rail2", aliases }),
   "gpt-ad-ms": GAM.getAdUnit({ name: "ms", aliases }),
 });
@@ -50,11 +49,11 @@ $ const adSlots = ({ aliases }) => ({
     <div class="row">
 
       <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="vehicles" />
+        <shared-website-section-list-block alias="service-repair" />
       </div>
 
       <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="in-the-bay" />
+        <shared-website-section-list-block alias="collision-repair" />
       </div>
 
       <div class="col-lg-4 mb-block">
@@ -65,11 +64,11 @@ $ const adSlots = ({ aliases }) => ({
 
     <div class="row">
       <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="in-the-bay/diagnostic-repair-info" />
+        <shared-website-section-list-block alias="distribution" />
       </div>
 
       <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="in-the-bay/tools-equipment" />
+        <shared-website-section-list-block alias="training-and-resources" />
       </div>
 
       <div class="col-lg-4 mb-block">
@@ -81,43 +80,7 @@ $ const adSlots = ({ aliases }) => ({
     <div class="row">
 
       <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="vehicles/powertrain" />
-      </div>
-
-      <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="vehicles/under-vehicle-trailer-towing" />
-      </div>
-
-      <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="shop-operations/training-resources" />
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="distributors" />
-      </div>
-
-      <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="blogs">
-          <@native-x enabled=false />
-        </shared-website-section-list-block>
-      </div>
-
-      <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias="videos">
-          <@native-x enabled=false />
-        </shared-website-section-list-block>
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-4 mb-block">
-        <shared-magazine-latest-issue-block publication-id="53cd1d791784f8066eb2ca76" />
+        <shared-website-section-list-block alias="innovation-awards" />
       </div>
 
       <div class="col-lg-4 mb-block">
