@@ -37,7 +37,7 @@ module.exports = {
   },
   algolia: {
     applicationId: '80YJALCHBD',
-    searchApiKey: '54e907df9d8e8e66dbaf63ac1938c740',
+    searchApiKey: 'ZWE3YmVlNWYyYmIzN2E5YWNlNTNiNDE2N2FlOGQyZDYyOTQ0OGU5MTQ3MWIyYmZlMjFhMTczNDVhMzMxNmRkN2ZpbHRlcnM9Tk9UJTIwdHlwZSUzQWNvbnRhY3QlMjBBTkQlMjBOT1QlMjB0eXBlJTNBcHJvbW90aW9u',
   },
   gtm: {
     containerId: 'GTM-T8FSMGJ',
