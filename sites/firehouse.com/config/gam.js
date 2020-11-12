@@ -138,6 +138,14 @@ config
     { name: 'rail2', templateName: 'RAIL2', path: 'evt/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'evt/load-more' },
     { name: 'reskin', path: 'evt/reskin' },
+  ])
+  .setAliasAdUnits('video', [
+    { name: 'lb1', templateName: 'LB1', path: 'video/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'video/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'video/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'video/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'video/load-more' },
+    { name: 'reskin', path: 'video/reskin' },
   ]);
 
 module.exports = config;
