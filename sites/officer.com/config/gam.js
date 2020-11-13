@@ -222,6 +222,15 @@ config
     { name: 'reskin', path: 'tactical/less-lethal/reskin' },
     { name: 'wa', path: 'tactical/less-lethal/wa' },
   ])
+  .setAliasAdUnits('tactical/swat', [
+    { name: 'lb1', templateName: 'LB1', path: 'tactical/swat/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'tactical/swat/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'tactical/swat/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'tactical/swat/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'tactical/swat/load-more' },
+    { name: 'reskin', path: 'tactical/swat/reskin' },
+    { name: 'wa', path: 'tactical/swat/wa' },
+  ])
   .setAliasAdUnits('training-careers/hiring-promotion', [
     { name: 'lb1', templateName: 'LB1', path: 'training-careers/hiring-promotion/lb1' },
     { name: 'lb2', templateName: 'LB2', path: 'training-careers/hiring-promotion/lb2' },

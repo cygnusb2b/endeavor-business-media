@@ -44,6 +44,15 @@ config
     { name: 'load-more', templateName: 'LM', path: 'instrumentation/load-more' },
     { name: 'reskin', path: 'instrumentation/reskin' },
   ])
+  .setAliasAdUnits('resources', [
+    { name: 'lb1', templateName: 'LB1', path: 'resources/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'resources/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'resources/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'resources/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'resources/load-more' },
+    { name: 'reskin', path: 'resources/reskin' },
+    { name: 'wa', path: 'resources/wa' },
+  ])
   .setAliasAdUnits('test-issues-techniques', [
     { name: 'lb1', templateName: 'LB1', path: 'test-issues-techniques/lb1' },
     { name: 'lb2', templateName: 'LB2', path: 'test-issues-techniques/lb2' },

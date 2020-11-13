@@ -4,6 +4,10 @@ const config = new DragonFormsConfig({ url: 'https://endeavor.dragonforms.com' }
 
 config
   .addForm('doNotSell', { omedasite: 'EBM_DoNotSell' })
-  .addForm('newsletterSignup', { omedasite: 'LFWNewPref', query: { pk: 'ARTWEB' } });
+  .addForm('newsletterSignup', { omedasite: 'LFWNewPref' })
+  .addForm('newsletterSubscribe', { omedasite: 'LFWnewpref', query: { pk: 'ARTWEB' } })
+  .addForm('newsletterLFWSubscribe', { omedasite: 'LFWnewpref', query: { pk: 'ARTWEB' } })
+  .addForm('newsletterBOWSubscribe', { omedasite: 'BOWnewpref', query: { pk: 'ARTWEB' } })
+  .addForm('newsletterManage', { omedasite: 'LFWPrefPage', query: { pk: 'ARTWEB' } });
 
 module.exports = config;
