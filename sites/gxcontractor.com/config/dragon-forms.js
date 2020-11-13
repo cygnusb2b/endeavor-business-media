@@ -6,6 +6,6 @@ config
   .addForm('doNotSell', { omedasite: 'EBM_DoNotSell' })
   .addForm('newsletterSubscribe', { omedasite: 'GXCnewpref' })
   .addForm('newsletterManage', { omedasite: 'GXCPrefPage' })
-  .addForm('newsletterSignup', { omedasite: 'GXC_eNLshort' });
+  .addForm('newsletterSignup', { omedasite: 'GXCnewpref', query: { pk: 'ARTWEB' } });
 
 module.exports = config;
