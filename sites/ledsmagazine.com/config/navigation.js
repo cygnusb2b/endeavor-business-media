@@ -14,7 +14,7 @@ module.exports = {
     items: [
       { href: '/directory', label: 'Industry Guide' },
       { href: 'https://www.strategiesinlight.com/', label: 'Strategies in Light', target: '_blank' },
-      { href: 'https://sapphireawards.secure-platform.com/a/', label: 'Awards', target: '_blank' },
+      { href: 'https://www.strategiesinlight.com/sil2021/sapphireawards', label: 'Awards', target: '_blank' },
       { href: '/leds-ssl-design/article/14179410/leds-magazine-40-under-40-class-features-leaders-across-led-and-ssl-sectors-magazine', label: '40 Under 40' },
       { href: 'https://www.horticannlt.com/', label: 'HortiCann', target: '_blank' },
       { href: '/page/advertise', label: 'Advertise' },
@@ -63,7 +63,7 @@ module.exports = {
         { href: '/company-newsfeed', label: 'Company Newsfeed' },
         { href: '/directory', label: 'Industry Guide' },
         { href: 'https://www.strategiesinlight.com/', label: 'Strategies in Light', target: '_blank' },
-        { href: 'https://sapphireawards.secure-platform.com/a/', label: 'Sapphire Awards', target: '_blank' },
+        { href: 'https://www.strategiesinlight.com/sil2021/sapphireawards', label: 'Sapphire Awards', target: '_blank' },
         { href: '/leds-ssl-design/article/14179410/leds-magazine-40-under-40-class-features-leaders-across-led-and-ssl-sectors-magazine', label: '40 Under 40' },
         { href: 'https://www.horticannlt.com/', label: 'HortiCann Light + Tech', target: '_blank' },
         { href: 'https://www.strategies-u.com/index.html', label: 'Research', target: '_blank' },
