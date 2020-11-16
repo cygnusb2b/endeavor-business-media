@@ -1,0 +1,97 @@
+import hierarchyAliases from "@base-cms/marko-web/utils/hierarchy-aliases";
+import { getAsObject, getAsArray } from "@base-cms/object-path";
+import { isFunction } from "@base-cms/utils";
+import defaultValue from "@base-cms/marko-core/utils/default-value";
+import merge from "lodash.merge";
+import queryFragment from "../../../../graphql/fragments/content-list";
+
+$ const { GAM } = out.global;
+$ const { id, alias, name, pageNode } = input;
+$ const adSlots = isFunction(input.adSlots) ? input.adSlots : ({ aliases }) => ({
+  "gpt-ad-lb1": GAM.getAdUnit({ name: "lb1", aliases }),
+  "gpt-ad-rail1": GAM.getAdUnit({ name: "rail1", aliases }),
+});
+
+$ const facets = getAsArray(input, "directory.facets");
+$ const directory = {
+  title: "Categories",
+  ...getAsObject(input, "directory"),
+  facets,
+};
+
+<shared-website-section-page-default-layout
+  id=id
+  alias=alias
+  name=name
+  page-node=pageNode
+  ad-slots=adSlots
+>
+  <@page>
+    <shared-gam-display-ad id="gpt-ad-lb1" modifiers=["top-of-page"] />
+
+    <marko-web-resolve-page|{ data: section }| node=pageNode>
+      <marko-web-page-wrapper class="mb-block">
+        <@section>
+          <div class="row">
+            <div class="col">
+              <default-theme-website-section-breadcrumbs section=section display-self=false />
+              <marko-web-website-section-name tag="h1" class="page-wrapper__title" obj=section />
+              <marko-web-website-section-description tag="p" class="page-wrapper__deck" obj=section />
+            </div>
+          </div>
+        </@section>
+      </marko-web-page-wrapper>
+    </marko-web-resolve-page>
+
+    <div class="row">
+      <div class="col-lg-4 page-rail mb-block">
+        <directory-facets ...directory active-id=id />
+        <shared-gam-display-ad id="gpt-ad-rail1" />
+      </div>
+      <div class="col-lg-8 mb-block">
+        <shared-website-section-list-block alias=alias>
+          <@header>Featured Companies</@header>
+          <@query-params limit=3 option-name="Pinned" include-content-types=["Company"] />
+          <@list>
+            <@node image-position="left" with-teaser=true />
+          </@list>
+        </shared-website-section-list-block>
+
+        <shared-website-section-list-block alias=alias>
+          <@header>Latest Products</@header>
+          <@query-params limit=5 include-content-types=["Product"] />
+          <@list>
+            <@node image-position="left" with-teaser=true />
+          </@list>
+        </shared-website-section-list-block>
+      </div>
+    </div>
+  </@page>
+
+  <@below-page>
+    $ const loadMore = getAsObject(input, "loadMore");
+    <marko-web-resolve-page|{ data: section }| node=pageNode>
+      $ const aliases = hierarchyAliases(section);
+      $ const adunit = { aliases };
+      $ const componentInput = merge({
+        list: { adunit, nativeX: { index: 0, name: "default", aliases } },
+        innerJustified: false,
+        node: {
+          imagePosition: "left",
+          withTeaser: true,
+        },
+      }, getAsObject(loadMore, "componentInput"));
+
+      <shared-scheduled-content-load-more-block
+        name=defaultValue(loadMore.name, "list")
+        section-id=id
+        max-pages=loadMore.maxPages
+        fragment-name=loadMore.fragmentName
+        header=loadMore.header
+      >
+        <@query-params ...defaultValue(loadMore.queryParams, { contentTypes: ["Product"], limit: 18, skip: 5 }) />
+        <@component-input ...componentInput />
+      </shared-scheduled-content-load-more-block>
+    </marko-web-resolve-page>
+  </@below-page>
+</shared-website-section-page-default-layout>
