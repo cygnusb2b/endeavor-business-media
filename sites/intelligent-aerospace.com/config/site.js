@@ -12,7 +12,7 @@ module.exports = {
   company: 'Endeavor Business Media, LLC',
   logos: {
     prestitial: {
-      src: 'https://img.mlo-online.com/files/base/ebm/mlo/image/static/logo/prestitial_logo.png',
+      src: 'https://img.intelligent-aerospace.com/files/base/pennwell/ias/prestitial_logo.png',
     },
     navbar: {
       src: 'https://img.intelligent-aerospace.com/files/base/pennwell/ias/logo.png?h=60',
