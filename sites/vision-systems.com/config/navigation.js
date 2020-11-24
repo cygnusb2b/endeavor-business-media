@@ -3,14 +3,11 @@ const dragonForms = require('./dragon-forms');
 module.exports = {
   primary: {
     items: [
-      { href: '/factory', label: 'Factory' },
+      { href: '/factory', label: 'Factory Automation' },
       { href: '/non-factory', label: 'Non-Factory' },
-      { href: '/cameras-accessories', label: 'Cameras & Accessories' },
-      { href: '/lighting-optics', label: 'Lighting & Optics' },
-      { href: '/3d-imaging', label: '3D Imaging' },
-      { href: '/boards-software', label: 'Boards & Software' },
-      { href: '/embedded', label: 'Embedded' },
-      { href: '/unmanned', label: 'Unmanned' },
+      { href: '/cameras-accessories', label: 'Cameras and Accessories' },
+      { href: '/boards-software', label: 'Boards and Software' },
+      { href: '/embedded', label: 'Embedded Vision' },
     ],
   },
   secondary: {
@@ -43,14 +40,11 @@ module.exports = {
     {
       label: 'Topics',
       items: [
-        { href: '/factory', label: 'Factory' },
+        { href: '/factory', label: 'Factory Automation' },
         { href: '/non-factory', label: 'Non-Factory' },
-        { href: '/cameras-accessories', label: 'Cameras & Accessories' },
-        { href: '/lighting-optics', label: 'Lighting & Optics' },
-        { href: '/3d-imaging', label: '3D Imaging' },
-        { href: '/boards-software', label: 'Boards & Software' },
-        { href: '/embedded', label: 'Embedded' },
-        { href: '/unmanned', label: 'Unmanned' },
+        { href: '/cameras-accessories', label: 'Cameras and Accessories' },
+        { href: '/boards-software', label: 'Boards and Software' },
+        { href: '/embedded', label: 'Embedded Vision' },
       ],
     },
     {

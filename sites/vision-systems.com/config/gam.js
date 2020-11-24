@@ -60,14 +60,6 @@ config
     { name: 'load-more', templateName: 'LM', path: 'embedded/load-more' },
     { name: 'reskin', path: 'embedded/reskin' },
   ])
-  .setAliasAdUnits('unmanned', [
-    { name: 'lb1', templateName: 'LB1', path: 'unmanned/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: 'unmanned/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: 'unmanned/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: 'unmanned/rail2' },
-    { name: 'load-more', templateName: 'LM', path: 'unmanned/load-more' },
-    { name: 'reskin', path: 'unmanned/reskin' },
-  ])
   .setAliasAdUnits('nextgen', [
     { name: 'lb1', templateName: 'LB1', path: 'nextgen/lb1' },
     { name: 'lb2', templateName: 'LB2', path: 'nextgen/lb2' },
@@ -83,22 +75,6 @@ config
     { name: 'rail2', templateName: 'RAIL2', path: 'emerging/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'emerging/load-more' },
     { name: 'reskin', path: 'emerging/reskin' },
-  ])
-  .setAliasAdUnits('3d-imaging', [
-    { name: 'lb1', templateName: 'LB1', path: '3d-imaging/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: '3d-imaging/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: '3d-imaging/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: '3d-imaging/rail2' },
-    { name: 'load-more', templateName: 'LM', path: '3d-imaging/load-more' },
-    { name: 'reskin', path: '3d-imaging/reskin' },
-  ])
-  .setAliasAdUnits('lighting-optics', [
-    { name: 'lb1', templateName: 'LB1', path: 'lighting-optics/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: 'lighting-optics/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: 'lighting-optics/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: 'lighting-optics/rail2' },
-    { name: 'load-more', templateName: 'LM', path: 'lighting-optics/load-more' },
-    { name: 'reskin', path: 'lighting-optics/reskin' },
   ])
   .setAliasAdUnits('cameras-accessories', [
     { name: 'lb1', templateName: 'LB1', path: 'cameras-accessories/lb1' },
