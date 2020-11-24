@@ -22,6 +22,7 @@ module.exports = {
       { href: '/webcasts', label: 'Webcasts' },
       { href: '/directory', label: 'Buyer\'s Guide' },
       { href: 'https://militaryawards.secure-platform.com/a', label: 'Awards', target: '_blank' },
+      { href: 'https://www.intelligent-aerospace.com/', label: 'Intelligent Aerospace', target: '_blank' },
     ],
   },
   tertiary: {
@@ -63,6 +64,7 @@ module.exports = {
         { href: '/defense-executive', label: 'Defense Executive' },
         { href: '/directory', label: 'Buyer\'s Guide' },
         { href: 'https://militaryawards.secure-platform.com/a', label: 'Awards', target: '_blank' },
+        { href: 'https://www.intelligent-aerospace.com/', label: 'Intelligent Aerospace', target: '_blank' },
       ],
     },
     {
