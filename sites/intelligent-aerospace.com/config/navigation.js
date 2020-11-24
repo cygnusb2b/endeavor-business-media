@@ -20,6 +20,7 @@ module.exports = {
       { href: '/webcasts', label: 'Webcasts' },
       { href: 'https://www.militaryaerospace.com/directory', label: 'Buyer\'s Guide', target: '_blank' },
       { href: 'https://militaryawards.secure-platform.com/a', label: 'Awards', target: '_blank' },
+      { href: 'https://www.militaryaerospace.com/', label: 'Military Aerospace Electronics', target: '_blank' },
     ],
   },
   tertiary: {
@@ -60,6 +61,7 @@ module.exports = {
         { href: '/paris-air-show', label: 'Paris Air Show' },
         { href: 'https://www.militaryaerospace.com/directory', label: 'Buyer\'s Guide', target: '_blank' },
         { href: 'https://militaryawards.secure-platform.com/a', label: 'Awards', target: '_blank' },
+        { href: 'https://www.militaryaerospace.com/', label: 'Military Aerospace Electronics', target: '_blank' },
       ],
     },
     {

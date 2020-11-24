@@ -38,7 +38,11 @@ $ const adSlots = ({ aliases }) => ({
       <div class="col-lg-4 mb-block">
         <shared-website-section-list-block alias=alias link-header=false>
           <@query-params optionName="Sponsored" />
-          <@header>Sponsored Content</@header>
+          <@header>
+            <marko-web-link href="/sponsored-content">
+              Sponsored Content
+            </marko-web-link>
+          </@header>
           <@list modifiers=["sponsored"]>
             <@node modifiers=["sponsored"] />
             <@body>
