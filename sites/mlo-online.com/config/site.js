@@ -11,6 +11,9 @@ module.exports = {
   dragonForms,
   company: 'Endeavor Business Media, LLC',
   logos: {
+    prestitial: {
+      src: 'https://img.mlo-online.com/files/base/ebm/mlo/image/static/logo/prestitial_logo.png',
+    },
     navbar: {
       src: 'https://img.mlo-online.com/files/base/ebm/mlo/image/static/logo/site_logo.png?h=45',
       srcset: [
