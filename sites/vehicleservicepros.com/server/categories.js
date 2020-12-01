@@ -2309,6 +2309,16 @@ module.exports = [
     href: '/in-the-bay/tools-equipment/top-100-most-wanted-products',
     values: [
       {
+        id: 65165,
+        name: '2020 Top 100',
+        href: '/in-the-bay/tools-equipment/top-100-most-wanted-products/2020-top-100',
+      },
+      {
+        id: 63851,
+        name: '2019 Top 100',
+        href: '/in-the-bay/tools-equipment/top-100-most-wanted-products/2019-top-100',
+      },
+      {
         id: 57818,
         name: '2017 Top 100',
         href: '/in-the-bay/tools-equipment/top-100-most-wanted-products/2017-top-100',
