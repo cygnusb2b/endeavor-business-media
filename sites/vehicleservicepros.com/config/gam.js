@@ -19,7 +19,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'covid-19/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'covid-19/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'covid-19/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'covid-19/iav' },
     { name: 'load-more', templateName: 'LM', path: 'covid-19/load-more' },
     { name: 'reskin', path: 'covid-19/reskin' },
   ])
@@ -28,7 +27,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/load-more' },
     { name: 'reskin', path: 'in-the-bay/reskin' },
   ])
@@ -37,7 +35,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'shop-operations/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'shop-operations/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'shop-operations/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'shop-operations/iav' },
     { name: 'load-more', templateName: 'LM', path: 'shop-operations/load-more' },
     { name: 'reskin', path: 'shop-operations/reskin' },
   ])
@@ -46,7 +43,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'vehicles/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'vehicles/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'vehicles/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'vehicles/iav' },
     { name: 'load-more', templateName: 'LM', path: 'vehicles/load-more' },
     { name: 'reskin', path: 'vehicles/reskin' },
   ])
@@ -55,7 +51,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'distributors/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'distributors/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'distributors/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'distributors/iav' },
     { name: 'load-more', templateName: 'LM', path: 'distributors/load-more' },
     { name: 'reskin', path: 'distributors/reskin' },
   ])
@@ -64,7 +59,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'industry-news/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'industry-news/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'industry-news/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'industry-news/iav' },
     { name: 'load-more', templateName: 'LM', path: 'industry-news/load-more' },
     { name: 'reskin', path: 'industry-news/reskin' },
   ])
@@ -73,7 +67,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/diagnostic-repair-info/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/diagnostic-repair-info/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/diagnostic-repair-info/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/diagnostic-repair-info/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/diagnostic-repair-info/load-more' },
     { name: 'reskin', path: 'in-the-bay/diagnostic-repair-info/reskin' },
   ])
@@ -82,7 +75,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'vehicles/under-vehicle-trailer-towing/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'vehicles/under-vehicle-trailer-towing/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'vehicles/under-vehicle-trailer-towing/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'vehicles/under-vehicle-trailer-towing/iav' },
     { name: 'load-more', templateName: 'LM', path: 'vehicles/under-vehicle-trailer-towing/load-more' },
     { name: 'reskin', path: 'vehicles/under-vehicle-trailer-towing/reskin' },
   ])
@@ -91,7 +83,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/tire-and-wheel-service/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/tire-and-wheel-service/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/tire-and-wheel-service/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/tire-and-wheel-service/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/tire-and-wheel-service/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/tire-and-wheel-service/reskin' },
   ])
@@ -100,7 +91,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/hand-tools/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/hand-tools/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/hand-tools/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/hand-tools/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/hand-tools/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/hand-tools/reskin' },
   ])
@@ -109,7 +99,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/air-conditioning-a-c-repair-service/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/air-conditioning-a-c-repair-service/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/air-conditioning-a-c-repair-service/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/air-conditioning-a-c-repair-service/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/air-conditioning-a-c-repair-service/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/air-conditioning-a-c-repair-service/reskin' },
   ])
@@ -118,7 +107,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/lifts-and-lifting-equipment/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/lifts-and-lifting-equipment/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/lifts-and-lifting-equipment/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/lifts-and-lifting-equipment/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/lifts-and-lifting-equipment/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/lifts-and-lifting-equipment/reskin' },
   ])
@@ -127,7 +115,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear/reskin' },
   ])
@@ -136,7 +123,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/maintenance-service/chemicals/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/maintenance-service/chemicals/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/maintenance-service/chemicals/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/maintenance-service/chemicals/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/maintenance-service/chemicals/load-more' },
     { name: 'reskin', path: 'in-the-bay/maintenance-service/chemicals/reskin' },
   ])
@@ -145,7 +131,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/shop-equipment--cordless-worklights/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/shop-equipment--cordless-worklights/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/shop-equipment--cordless-worklights/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/shop-equipment--cordless-worklights/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/shop-equipment--cordless-worklights/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/shop-equipment--cordless-worklights/reskin' },
   ])
@@ -154,7 +139,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/electrical-system-tools-and-equipment--jump-starters/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/electrical-system-tools-and-equipment--jump-starters/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/electrical-system-tools-and-equipment--jump-starters/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/electrical-system-tools-and-equipment--jump-starters/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/electrical-system-tools-and-equipment--jump-starters/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/electrical-system-tools-and-equipment--jump-starters/reskin' },
   ])
@@ -163,7 +147,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/tool-storage/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/tool-storage/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/tool-storage/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/tool-storage/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/tool-storage/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/tool-storage/reskin' },
   ])
@@ -172,7 +155,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/shop-equipment--worklights-and-shop-lighting/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/shop-equipment--worklights-and-shop-lighting/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/shop-equipment--worklights-and-shop-lighting/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/shop-equipment--worklights-and-shop-lighting/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/shop-equipment--worklights-and-shop-lighting/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/shop-equipment--worklights-and-shop-lighting/reskin' },
   ])
@@ -181,7 +163,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear--flashlights/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear--flashlights/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear--flashlights/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear--flashlights/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear--flashlights/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/safety-equipment-and-personal-gear--flashlights/reskin' },
   ])
@@ -190,7 +171,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'in-the-bay/tools-equipment/air-tools/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'in-the-bay/tools-equipment/air-tools/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'in-the-bay/tools-equipment/air-tools/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'in-the-bay/tools-equipment/air-tools/iav' },
     { name: 'load-more', templateName: 'LM', path: 'in-the-bay/tools-equipment/air-tools/load-more' },
     { name: 'reskin', path: 'in-the-bay/tools-equipment/air-tools/reskin' },
   ])

@@ -41,7 +41,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'covid-19/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'covid-19/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'covid-19/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'covid-19/iav' },
     { name: 'load-more', templateName: 'LM', path: 'covid-19/load-more' },
     { name: 'reskin', path: 'covid-19/reskin' },
   ])
@@ -50,7 +49,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'summits/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'summits/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'summits/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'summits/iav' },
     { name: 'load-more', templateName: 'LM', path: 'summits/load-more' },
     { name: 'reskin', path: 'summits/reskin' },
   ])
@@ -59,7 +57,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'policy-value-based-care/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'policy-value-based-care/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'policy-value-based-care/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'policy-value-based-care/iav' },
     { name: 'load-more', templateName: 'LM', path: 'policy-value-based-care/load-more' },
     { name: 'reskin', path: 'policy-value-based-care/reskin' },
   ])
@@ -68,7 +65,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'population-health-management/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'population-health-management/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'population-health-management/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'population-health-management/iav' },
     { name: 'load-more', templateName: 'LM', path: 'population-health-management/load-more' },
     { name: 'reskin', path: 'population-health-management/reskin' },
   ])
@@ -77,7 +73,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'analytics-ai/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'analytics-ai/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'analytics-ai/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'analytics-ai/iav' },
     { name: 'load-more', templateName: 'LM', path: 'analytics-ai/load-more' },
     { name: 'reskin', path: 'analytics-ai/reskin' },
   ])
@@ -86,7 +81,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'cybersecurity/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'cybersecurity/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'cybersecurity/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'cybersecurity/iav' },
     { name: 'load-more', templateName: 'LM', path: 'cybersecurity/load-more' },
     { name: 'reskin', path: 'cybersecurity/reskin' },
   ])
@@ -95,7 +89,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'finance-revenue-cycle/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'finance-revenue-cycle/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'finance-revenue-cycle/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'finance-revenue-cycle/iav' },
     { name: 'load-more', templateName: 'LM', path: 'finance-revenue-cycle/load-more' },
     { name: 'reskin', path: 'finance-revenue-cycle/reskin' },
   ])
@@ -104,7 +97,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'interoperability-hie/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'interoperability-hie/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'interoperability-hie/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'interoperability-hie/iav' },
     { name: 'load-more', templateName: 'LM', path: 'interoperability-hie/load-more' },
     { name: 'reskin', path: 'interoperability-hie/reskin' },
   ])
@@ -113,7 +105,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'clinical-it/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'clinical-it/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'clinical-it/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'clinical-it/iav' },
     { name: 'load-more', templateName: 'LM', path: 'clinical-it/load-more' },
     { name: 'reskin', path: 'clinical-it/reskin' },
   ])
@@ -122,7 +113,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'imaging/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'imaging/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'imaging/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'imaging/iav' },
     { name: 'load-more', templateName: 'LM', path: 'imaging/load-more' },
     { name: 'reskin', path: 'imaging/reskin' },
   ])
@@ -131,7 +121,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'patient-empowerment/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'patient-empowerment/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'patient-empowerment/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'patient-empowerment/iav' },
     { name: 'load-more', templateName: 'LM', path: 'patient-empowerment/load-more' },
     { name: 'ms', templateName: 'MS', path: 'patient-empowerment/ms' },
     { name: 'reskin', path: 'patient-empowerment/reskin' },
@@ -142,7 +131,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'topic-takeover/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'topic-takeover/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'topic-takeover/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'topic-takeover/iav' },
     { name: 'load-more', templateName: 'LM', path: 'topic-takeover/load-more' },
     { name: 'ms', templateName: 'MS', path: 'topic-takeover/ms' },
     { name: 'reskin', path: 'topic-takeover/reskin' },
@@ -153,7 +141,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'covid-19-and-telehealth/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'covid-19-and-telehealth/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'covid-19-and-telehealth/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'covid-19-and-telehealth/iav' },
     { name: 'load-more', templateName: 'LM', path: 'covid-19-and-telehealth/load-more' },
     { name: 'reskin', path: 'covid-19-and-telehealth/reskin' },
   ])
@@ -162,7 +149,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'covid-19-and-clinical-it/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'covid-19-and-clinical-it/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'covid-19-and-clinical-it/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'covid-19-and-clinical-it/iav' },
     { name: 'load-more', templateName: 'LM', path: 'covid-19-and-clinical-it/load-more' },
     { name: 'reskin', path: 'covid-19-and-clinical-it/reskin' },
   ])
@@ -171,7 +157,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'covid-19-and-cybersecurity/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'covid-19-and-cybersecurity/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'covid-19-and-cybersecurity/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'covid-19-and-cybersecurity/iav' },
     { name: 'load-more', templateName: 'LM', path: 'covid-19-and-cybersecurity/load-more' },
     { name: 'reskin', path: 'covid-19-and-cybersecurity/reskin' },
   ])
@@ -180,7 +165,6 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'product-showcase-day/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'product-showcase-day/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'product-showcase-day/rail2' },
-    { name: 'iav', templateName: 'IAV', path: 'product-showcase-day/iav' },
     { name: 'load-more', templateName: 'LM', path: 'product-showcase-day/load-more' },
     { name: 'reskin', path: 'product-showcase-day/reskin' },
   ]);
