@@ -8,6 +8,7 @@ module.exports = {
       { href: '/cameras-accessories', label: 'Cameras and Accessories' },
       { href: '/boards-software', label: 'Boards and Software' },
       { href: '/embedded', label: 'Embedded Vision' },
+      { href: '/vision-systems-design-25-year-anniversary', label: '25th Anniversary Hub' },
     ],
   },
   secondary: {
@@ -45,6 +46,7 @@ module.exports = {
         { href: '/cameras-accessories', label: 'Cameras and Accessories' },
         { href: '/boards-software', label: 'Boards and Software' },
         { href: '/embedded', label: 'Embedded Vision' },
+        { href: '/vision-systems-design-25-year-anniversary', label: '25th Anniversary Hub' },
       ],
     },
     {
