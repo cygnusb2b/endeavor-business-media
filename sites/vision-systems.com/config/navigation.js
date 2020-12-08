@@ -30,7 +30,7 @@ module.exports = {
     items: [
       { href: '/page/about-us', label: 'About Us' },
       { href: '/contact-us', label: 'Contact Us' },
-      { href: '/page/advertise', label: 'Advertise' },
+      { href: 'https://advancedtechnology.endeavorb2b.com/vision-systems-design/', label: 'Advertise' },
       { href: dragonForms.getFormUrl('doNotSell'), label: 'California Do Not Sell', target: '_blank' },
       { href: 'https://www.endeavorbusinessmedia.com/privacy-policy', label: 'Privacy Policy', target: '_blank' },
       { href: 'https://www.endeavorbusinessmedia.com/endeavor-terms', label: 'Terms & Conditions', target: '_blank' },
@@ -64,7 +64,7 @@ module.exports = {
       label: 'User Tools',
       items: [
         { href: '/subscribe', label: 'Subscribe' },
-        { href: '/page/advertise', label: 'Advertise' },
+        { href: 'https://advancedtechnology.endeavorb2b.com/vision-systems-design/', label: 'Advertise' },
         { href: '/page/about-us', label: 'About Us' },
         { href: '/contact-us', label: 'Contact Us' },
         { href: 'https://www.endeavorbusinessmedia.com/privacy-policy', label: 'Privacy Policy', target: '_blank' },
