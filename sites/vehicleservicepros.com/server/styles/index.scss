@@ -15,11 +15,11 @@ $theme-newsletter-block-bg-color: #000;
 $theme-newsletter-block-button-bg-color: $primary;
 
 $theme-site-header-breakpoints: (
-  hide-primary: 800px,
-  hide-secondary: 800px,
-  small-logo: 990px,
-  small-text-primary: 990px,
-  small-text-secondary: 990px
+  hide-primary: 930px,
+  hide-secondary: 930px,
+  small-logo: 1140px,
+  small-text-primary: 1140px,
+  small-text-secondary: 1140px
 );
 
 @import "../../node_modules/@endeavor-business-media/package-shared/scss/cygnus-skin";
