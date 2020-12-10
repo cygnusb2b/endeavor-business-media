@@ -12,15 +12,15 @@ module.exports = {
   company: 'Endeavor Business Media, LLC',
   logos: {
     navbar: {
-      src: 'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/vsp.png?h=60',
+      src: 'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/VSP_header_logos_V2.png?h=60',
       srcset: [
-        'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/vsp.png?h=120 2x',
+        'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/VSP_header_logos_V2.png?h=120 2x',
       ],
     },
     footer: {
-      src: 'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/vsp.png?h=60',
+      src: 'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/VSP_header_logos_V2.png?h=60',
       srcset: [
-        'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/vsp.png?h=120 2x',
+        'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/VSP_header_logos_V2.png?h=120 2x',
       ],
     },
   },

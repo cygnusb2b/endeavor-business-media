@@ -11,12 +11,12 @@ const videos = require('../templates/website-section/videos');
 const blogs = require('../templates/website-section/blogs');
 
 const channelAliases = [
-  'in-the-bay',
+  'training-and-resources',
+  'distribution',
   'shop-operations',
-  'vehicles',
-  'distributors',
+  'collision-repair',
   'industry-news',
-  'diagnosticNetworkFeed',
+  'service-repair',
 ];
 
 module.exports = (app) => {

@@ -3,7 +3,9 @@ $ const { facets, title } = input;
 <if(facets.length)>
   <div class="directory-facets">
     <if(title)>
-      <h3 class="directory-facets__title">${title}</h3>
+      <div class="node-list__header">
+        <a href="/directory">${title}</a>
+      </div>
     </if>
     <facet-list
       facets=facets
