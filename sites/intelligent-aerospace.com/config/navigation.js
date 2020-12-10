@@ -20,6 +20,7 @@ module.exports = {
       { href: '/webcasts', label: 'Webcasts' },
       { href: 'https://www.militaryaerospace.com/directory', label: 'Buyer\'s Guide', target: '_blank' },
       { href: 'https://militaryawards.secure-platform.com/a', label: 'Awards', target: '_blank' },
+      { href: 'https://www.militaryaerospace.com/', label: 'Military & Aerospace Electronics', target: '_blank' },
     ],
   },
   tertiary: {
@@ -31,7 +32,7 @@ module.exports = {
     items: [
       { href: '/page/about-us', label: 'About Us' },
       { href: '/contact-us', label: 'Contact Us' },
-      { href: '/page/advertise', label: 'Advertise' },
+      { href: 'https://advancedtechnology.endeavorb2b.com/intelligent-aerospace/', label: 'Advertise' },
       { href: dragonForms.getFormUrl('doNotSell'), label: 'California Do Not Sell', target: '_blank' },
       { href: 'https://www.endeavorbusinessmedia.com/privacy-policy', label: 'Privacy Policy', target: '_blank' },
       { href: 'https://www.endeavorbusinessmedia.com/endeavor-terms', label: 'Terms & Conditions', target: '_blank' },
@@ -60,13 +61,14 @@ module.exports = {
         { href: '/paris-air-show', label: 'Paris Air Show' },
         { href: 'https://www.militaryaerospace.com/directory', label: 'Buyer\'s Guide', target: '_blank' },
         { href: 'https://militaryawards.secure-platform.com/a', label: 'Awards', target: '_blank' },
+        { href: 'https://www.militaryaerospace.com/', label: 'Military & Aerospace Electronics', target: '_blank' },
       ],
     },
     {
       label: 'User Tools',
       items: [
         { href: '/subscribe', label: 'Subscribe' },
-        { href: '/page/advertise', label: 'Advertise' },
+        { href: 'https://advancedtechnology.endeavorb2b.com/intelligent-aerospace/', label: 'Advertise' },
         { href: '/page/about-us', label: 'About Us' },
         { href: '/contact-us', label: 'Contact Us' },
         { href: 'https://www.endeavorbusinessmedia.com/privacy-policy', label: 'Privacy Policy', target: '_blank' },

@@ -30,6 +30,7 @@ config
     { name: 'lb2', templateName: 'LB2', path: 'default/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'default/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'default/rail2' },
+    { name: 'iav', templateName: 'IAV', path: 'default/iav' },
     { name: 'load-more', templateName: 'LM', path: 'default/load-more' },
     { name: 'ms', templateName: 'MS', path: 'default/ms' },
     { name: 'reskin', path: 'default/reskin' },

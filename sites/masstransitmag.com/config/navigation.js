@@ -18,7 +18,7 @@ module.exports = {
     items: [
       { href: '/subscribe', label: 'Subscribe' },
       { href: '/magazine', label: 'Magazine' },
-      { href: 'https://cv.endeavorb2b.com/mass-transit/', label: 'Advertise', target: '_blank' },
+      { href: 'https://cityservices.endeavorb2b.com/mass-transit/', label: 'Advertise', target: '_blank' },
       { href: '/contact-us', label: 'Contact Us' },
       { href: '/directory', label: 'Supplier\'s Directory' },
     ],
@@ -32,7 +32,7 @@ module.exports = {
     items: [
       { href: '/page/about-us', label: 'About Us' },
       { href: '/contact-us', label: 'Contact Us' },
-      { href: 'https://cv.endeavorb2b.com/mass-transit/', label: 'Advertise', target: '_blank' },
+      { href: 'https://cityservices.endeavorb2b.com/mass-transit/', label: 'Advertise', target: '_blank' },
       { href: dragonForms.getFormUrl('doNotSell'), label: 'California Do Not Sell', target: '_blank' },
       { href: 'https://www.endeavorbusinessmedia.com/privacy-policy', label: 'Privacy Policy', target: '_blank' },
       { href: 'https://www.endeavorbusinessmedia.com/endeavor-terms', label: 'Terms & Conditions', target: '_blank' },
@@ -70,7 +70,7 @@ module.exports = {
       label: 'User Tools',
       items: [
         { href: '/subscribe', label: 'Subscribe' },
-        { href: 'https://cv.endeavorb2b.com/mass-transit/', label: 'Advertise', target: '_blank' },
+        { href: 'https://cityservices.endeavorb2b.com/mass-transit/', label: 'Advertise', target: '_blank' },
         { href: '/contact-us', label: 'Contact Us' },
         { href: 'https://www.endeavorbusinessmedia.com/privacy-policy', label: 'Privacy Policy', target: '_blank' },
         { href: 'https://www.endeavorbusinessmedia.com/endeavor-terms', label: 'Terms & Conditions', target: '_blank' },

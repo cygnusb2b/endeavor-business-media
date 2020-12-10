@@ -27,8 +27,10 @@ $theme-site-header-breakpoints: (
 
 .with-diagnostic-feed {
   .directory-facets {
-    &__list {
-      max-height: 200px;
+    > .directory-facets {
+      &__list {
+        max-height: 200px;
+      }
     }
   }
   &__title {

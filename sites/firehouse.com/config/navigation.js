@@ -78,7 +78,7 @@ module.exports = {
         { href: '/events', label: 'Events' },
         { href: '/historical-incidents', label: 'Historical Incidents' },
         { href: '/special-content', label: 'Special Content' },
-        { href: '/videos', label: 'Videos' },
+        { href: '/video', label: 'Videos' },
         { href: 'https://cygnuscorporate.wufoo.com/forms/msifezv1jvw2kd/', label: 'Product Submission Form', target: '_blank' },
         { href: 'https://cygnuscorporate.wufoo.com/forms/m1kqij91xw16l1/', label: 'Company Submission Form', target: '_blank' },
       ],

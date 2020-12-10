@@ -13,6 +13,7 @@ $ const adSlots = isFunction(input.adSlots) ? input.adSlots : ({ aliases }) => (
   "gpt-ad-lb1":   GAM.getAdUnit({ name: "lb1", aliases }),
   "gpt-ad-rail1": GAM.getAdUnit({ name: "rail1", aliases }),
   "gpt-ad-rail2": GAM.getAdUnit({ name: "rail2", aliases }),
+  "gpt-ad-iav": GAM.getAdUnit({ name: "iav", aliases }),
 });
 
 $ const leadersEnabled = Boolean(site.get("leaders.alias"));
@@ -92,6 +93,9 @@ $ const withFooterAd = defaultValue(input.withFooterAd, true);
                   <else>
                     <shared-content-page-contents content=content before-body=get(input, "pageContents.beforeBody") />
                   </else>
+                  <if(displayAds)>
+                    <shared-gam-display-ad id="gpt-ad-iav" />
+                  </if>
                 </div>
 
                 <aside class="col-lg-4 page-rail">

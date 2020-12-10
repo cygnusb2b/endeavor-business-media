@@ -11,6 +11,9 @@ module.exports = {
   dragonForms,
   company: 'Endeavor Business Media, LLC',
   logos: {
+    prestitial: {
+      src: 'https://img.mlo-online.com/files/base/ebm/mlo/image/static/logo/prestitial_logo.png',
+    },
     navbar: {
       src: 'https://img.mlo-online.com/files/base/ebm/mlo/image/static/logo/site_logo.png?h=45',
       srcset: [
@@ -35,7 +38,7 @@ module.exports = {
   },
   algolia: {
     applicationId: '80YJALCHBD',
-    searchApiKey: '54e907df9d8e8e66dbaf63ac1938c740',
+    searchApiKey: 'ZWE3YmVlNWYyYmIzN2E5YWNlNTNiNDE2N2FlOGQyZDYyOTQ0OGU5MTQ3MWIyYmZlMjFhMTczNDVhMzMxNmRkN2ZpbHRlcnM9Tk9UJTIwdHlwZSUzQWNvbnRhY3QlMjBBTkQlMjBOT1QlMjB0eXBlJTNBcHJvbW90aW9u',
   },
   gtm: {
     containerId: 'GTM-NBTQ9MW',
