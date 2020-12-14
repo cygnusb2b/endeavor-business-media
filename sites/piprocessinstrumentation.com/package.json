@@ -1,8 +1,8 @@
 {
-  "name": "@endeavor-business-media/flowcontrolnetwork.com",
+  "name": "@endeavor-business-media/piprocessinstrumentation.com",
   "version": "1.21.0",
   "author": "Brandon Krigbaum <brandonbk@gmail.com>",
-  "repository": "https://github.com/base-cms-websites/endeavor-business-media/tree/master/sites/flowcontrolnetwork.com",
+  "repository": "https://github.com/base-cms-websites/endeavor-business-media/tree/master/sites/piprocessinstrumentation.com",
   "license": "MIT",
   "private": true,
   "scripts": {

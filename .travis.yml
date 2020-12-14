@@ -82,8 +82,8 @@ jobs:
       script: npx @base-cms/website-deployment-tool deploy firehouse.com picon
 
     - <<: *production-job
-      name: flowcontrolnetwork.com
-      script: npx @base-cms/website-deployment-tool deploy flowcontrolnetwork.com picon
+      name: piprocessinstrumentation.com
+      script: npx @base-cms/website-deployment-tool deploy piprocessinstrumentation.com picon
 
     - <<: *production-job
       name: foresternetwork.com

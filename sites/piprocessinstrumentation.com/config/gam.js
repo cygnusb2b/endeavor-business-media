@@ -1,6 +1,6 @@
 const configureGAM = require('@endeavor-business-media/package-shared/config/gam');
 
-const config = configureGAM({ basePath: 'FCN' });
+const config = configureGAM({ basePath: 'PI' });
 
 config
   .setTemplate('LB1', {
