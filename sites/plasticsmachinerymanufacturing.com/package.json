@@ -1,8 +1,8 @@
 {
-  "name": "@endeavor-business-media/plasticsmachinerymagazine.com",
+  "name": "@endeavor-business-media/plasticsmachinerymanufacturing.com",
   "version": "1.21.0",
   "author": "Brandon Krigbaum <brandonbk@gmail.com>",
-  "repository": "https://github.com/base-cms-websites/endeavor-business-media/tree/master/sites/plasticsmachinerymagazine.com",
+  "repository": "https://github.com/base-cms-websites/endeavor-business-media/tree/master/sites/plasticsmachinerymanufacturing.com",
   "license": "MIT",
   "private": true,
   "scripts": {

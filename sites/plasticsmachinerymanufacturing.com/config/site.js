@@ -12,15 +12,15 @@ module.exports = {
   company: 'Endeavor Business Media, LLC',
   logos: {
     navbar: {
-      src: 'https://img.plasticsmachinerymagazine.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=60',
+      src: 'https://img.plasticsmachinerymanufacturing.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=60',
       srcset: [
-        'https://img.plasticsmachinerymagazine.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=120 2x',
+        'https://img.plasticsmachinerymanufacturing.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=120 2x',
       ],
     },
     footer: {
-      src: 'https://img.plasticsmachinerymagazine.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=60',
+      src: 'https://img.plasticsmachinerymanufacturing.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=60',
       srcset: [
-        'https://img.plasticsmachinerymagazine.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=120 2x',
+        'https://img.plasticsmachinerymanufacturing.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=120 2x',
       ],
     },
   },
@@ -49,7 +49,7 @@ module.exports = {
   contactUs: {
     branding: {
       bgColor: '#164f77',
-      logo: 'https://img.plasticsmachinerymagazine.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=60',
+      logo: 'https://img.plasticsmachinerymanufacturing.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=60',
     },
     to: 'contact@plasticsmachinerymagazine.com',
   },
@@ -57,9 +57,9 @@ module.exports = {
     enabled: true,
     directSend: true,
     sendTo: 'sales@plasticsmachinerymagazine.com',
-    sendFrom: 'SecurityInfoWatch.com <noreply@baseplatform.io>',
+    sendFrom: 'PlasticsMachineryManufacturing.com <noreply@baseplatform.io>',
     sendBcc: 'eactivity@endeavorb2b.com',
-    logo: 'https://img.plasticsmachinerymagazine.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=60',
+    logo: 'https://img.plasticsmachinerymanufacturing.com/files/base/ebm/pmm/image/static/logo/site_logo.png?h=60',
     bgColor: '#164f77',
   },
 };
