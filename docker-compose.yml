@@ -608,10 +608,10 @@ services:
       - "9743:80"
       - "19743:19743"
 
-  flowcontrolnetwork.com:
+  piprocessinstrumentation.com:
     <<: *node
     <<: *site-cmd
-    working_dir: /root/sites/flowcontrolnetwork.com
+    working_dir: /root/sites/piprocessinstrumentation.com
     environment:
       <<: *env
       <<: *env-picon-staging

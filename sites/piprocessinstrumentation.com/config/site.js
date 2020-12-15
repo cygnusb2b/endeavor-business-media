@@ -14,15 +14,15 @@ module.exports = {
   company: 'Endeavor Business Media, LLC',
   logos: {
     navbar: {
-      src: 'https://img.flowcontrolnetwork.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=60',
+      src: 'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=60',
       srcset: [
-        'https://img.flowcontrolnetwork.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=120 2x',
+        'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=120 2x',
       ],
     },
     footer: {
-      src: 'https://img.flowcontrolnetwork.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=60',
+      src: 'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=60',
       srcset: [
-        'https://img.flowcontrolnetwork.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=120 2x',
+        'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=120 2x',
       ],
     },
   },
@@ -51,17 +51,17 @@ module.exports = {
   contactUs: {
     branding: {
       bgColor: '#164f77',
-      logo: 'https://img.flowcontrolnetwork.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=60',
+      logo: 'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/site_logo.png?h=60',
     },
-    to: 'contact@flowcontrolnetwork.com',
+    to: 'contact@piprocessinstrumentation.com',
   },
   inquiry: {
     enabled: true,
     directSend: true,
     sendTo: 'juliac@endeavorb2b.com',
-    sendFrom: 'FlowControlNetwork.com <noreply@baseplatform.io>',
+    sendFrom: 'PIProcessInstrumentation.com <noreply@baseplatform.io>',
     sendBcc: 'emailactivity@endeavorb2b.com',
-    logo: 'https://img.flowcontrolnetwork.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=60',
+    logo: 'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/site_logo.png?h=60',
     bgColor: '#164f77',
   },
 };
