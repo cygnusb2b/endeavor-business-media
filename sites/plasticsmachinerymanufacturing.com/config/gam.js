@@ -1,6 +1,6 @@
 const configureGAM = require('@endeavor-business-media/package-shared/config/gam');
 
-const config = configureGAM({ basePath: 'PlasticsMachineryManufacturing' });
+const config = configureGAM({ basePath: 'PlasticsMachinery' });
 
 config
   .setTemplate('LB1', {
