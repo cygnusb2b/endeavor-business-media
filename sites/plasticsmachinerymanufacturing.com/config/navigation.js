@@ -3,19 +3,20 @@ const dragonForms = require('./dragon-forms');
 module.exports = {
   primary: {
     items: [
-      { href: '/additive-manufacturing', label: 'Additive Manufacturing' },
-      { href: '/blow-molding', label: 'Blow Molding' },
-      { href: '/thermoforming', label: 'Thermoforming' },
-      { href: '/compounding', label: 'Compounding' },
       { href: '/injection-molding', label: 'Injection Molding' },
       { href: '/extrusion', label: 'Extrusion' },
-      { href: '/recycling', label: 'Recycling' },
+      { href: '/blow-molding', label: 'Blow Molding' },
       { href: '/molds-tooling', label: 'Molds & Tooling' },
+      { href: '/additive-manufacturing', label: 'Additive Manufacturing' },
+      { href: '/thermoforming', label: 'Thermoforming' },
+      { href: '/recycling', label: 'Recycling' },
+      { href: '/manufacturing', label: 'Manufacturing' },
       { href: '/feature', label: 'Features' },
     ],
   },
   secondary: {
     items: [
+      { href: '/subscribe', label: 'Subscribe' },
       { href: '/magazine', label: 'Digital Edition' },
       { href: '/page/advertise', label: 'Advertise' },
       { href: '/contact-us', label: 'Contact Us' },
@@ -42,15 +43,17 @@ module.exports = {
     {
       label: 'Topics',
       items: [
-        { href: '/additive-manufacturing', label: 'Additive Manufacturing' },
-        { href: '/blow-molding', label: 'Blow Molding' },
-        { href: '/thermoforming', label: 'Thermoforming' },
-        { href: '/compounding', label: 'Compounding' },
         { href: '/injection-molding', label: 'Injection Molding' },
         { href: '/extrusion', label: 'Extrusion' },
-        { href: '/recycling', label: 'Recycling' },
+        { href: '/blow-molding', label: 'Blow Molding' },
         { href: '/molds-tooling', label: 'Molds & Tooling' },
+        { href: '/manufacturing', label: 'Manufacturing' },
+        { href: '/recycling', label: 'Recycling' },
+        { href: '/additive-manufacturing', label: 'Additive Manufacturing' },
         { href: '/feature', label: 'Features' },
+        { href: '/thermoforming', label: 'Thermoforming' },
+        { href: '/compounding', label: 'Compounding' },
+        { href: '/rotomolding', label: 'Rotomolding' },
       ],
     },
     {

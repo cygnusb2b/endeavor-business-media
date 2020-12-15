@@ -288,10 +288,10 @@ services:
       - "9723:80"
       - "19723:19723"
 
-  plasticsmachinerymagazine.com:
+  plasticsmachinerymanufacturing.com:
     <<: *node
     <<: *site-cmd
-    working_dir: /root/sites/plasticsmachinerymagazine.com
+    working_dir: /root/sites/plasticsmachinerymanufacturing.com
     environment:
       <<: *env
       <<: *env-picon-staging
