@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@base-cms/marko-web-gam": "^1.42.0",
+    "@base-cms/marko-web-gam": "^1.48.0",
     "@base-cms/object-path": "^1.37.0"
   }
 }
