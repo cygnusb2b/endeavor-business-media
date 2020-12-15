@@ -85,12 +85,12 @@ $ const adSlots = ({ aliases }) => ({
       </div>
 
       <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block content-types=["Video"]>
+        <shared-published-content-list-block content-types=["Video"]>
+          <@query-params limit=4 />
           <@header>
             <marko-web-link href="/videos">Videos</marko-web-link>
           </@header>
-          <@query-params limit=4 />
-        </shared-website-section-list-block>
+        </shared-published-content-list-block>
       </div>
     </div>
 
