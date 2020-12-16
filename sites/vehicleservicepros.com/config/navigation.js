@@ -14,13 +14,12 @@ module.exports = {
   },
   secondary: {
     items: [
-      { href: 'http://www.cdsreportnow.com/GET/INFO?PTEN', label: 'PTEN E-Inquiry', target: '_blank' },
-      { href: 'http://www.cdsreportnow.com/GET/INFO?PRD', label: 'PD E-Inquiry', target: '_blank' },
-      { href: '/magazine', label: 'In Print' },
-      { href: '/page/advertise', label: 'Advertise' },
-      { href: '/contact-us', label: 'Contact Us' },
-      { href: '/subscribe', label: 'Subscribe' },
-      { href: 'https://vehicleservicepros.jobboard.io', label: 'Job Board', target: '_blank' },
+      { href: '/magazine/53cd1d791784f8066eb2ca77', label: 'PTEN' },
+      { href: '/magazine/5fd243a354604646568b4699', label: 'Motor Age' },
+      { href: '/magazine/5fd24441f33eacc64f8b46ea', label: 'ABRN' },
+      { href: '/magazine/53cd1d791784f8066eb2ca78', label: 'Professional Distributor' },
+      { href: '/distribution', label: 'AMBW' },
+      { href: 'https://passthease.motoragetraining.com/content/Motor-Age-Training.aspx', label: 'Motor Age Training', target: '_blank' },
     ],
   },
   tertiary: {
@@ -43,7 +42,7 @@ module.exports = {
       label: 'Topics',
       items: [
         { label: 'Service Repair', href: '/service-repair' },
-        { label: 'Diagnostics and Drivability', href: '/industry-news/service-repair' },
+        { label: 'Diagnostics and Drivability', href: '/service-repair/diagnostics-and-drivability' },
         { label: 'Underhood', href: '/service-repair/underhood' },
         { label: 'Undercar', href: '/service-repair/undercar' },
         { label: 'Battery and Electrical', href: '/service-repair/battery-and-electrical' },
