@@ -3,6 +3,6 @@ module.exports = {
   alias: 'leaders/2020',
   calloutValue: 'Leading Companies',
   header: {
-    imgSrc: 'https://img.officer.com/files/base/cygnus/ofcr/image/static/leaders in law enforcement with badge.png?h=90',
+    imgSrc: 'https://img.officer.com/files/base/cygnus/ofcr/image/static/officer-leaders.png?h=90',
   },
 };
