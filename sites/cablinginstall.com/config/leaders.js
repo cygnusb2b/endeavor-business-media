@@ -3,6 +3,6 @@ module.exports = {
   alias: 'leaders/2020',
   calloutValue: 'Leading Companies',
   header: {
-    imgSrc: 'https://img.cablinginstall.com/files/base/ebm/diq/image/static/CIM_Leaders.png?h=90',
+    imgSrc: 'https://img.cablinginstall.com/files/base/ebm/cim/image/static/CIM_Leaders.png?h=90',
   },
 };
