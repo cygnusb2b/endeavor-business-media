@@ -65,7 +65,7 @@ module.exports = {
         { href: '/careers', label: 'Careers' },
         { href: '/events', label: 'Events' },
         { href: '/federal', label: 'Federal' },
-        { href: '/videos', label: 'Videos' },
+        { href: '/media-center/video', label: 'Videos' },
       ],
     },
     {

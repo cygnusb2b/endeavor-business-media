@@ -330,6 +330,15 @@ config
     { name: 'load-more', templateName: 'LM', path: 'vehicles-fleet/vehicles-equipment/load-more' },
     { name: 'reskin', path: 'vehicles-fleet/vehicles-equipment/reskin' },
     { name: 'wa', path: 'vehicles-fleet/vehicles-equipment/wa' },
+  ])
+  .setAliasAdUnits('media-center/video', [
+    { name: 'lb1', templateName: 'LB1', path: 'media-center/video/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'media-center/video/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'media-center/video/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'media-center/video/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'media-center/video/load-more' },
+    { name: 'reskin', path: 'media-center/video/reskin' },
+    { name: 'wa', path: 'media-center/video/wa' },
   ]);
 
 module.exports = config;
