@@ -14,15 +14,15 @@ module.exports = {
   company: 'Endeavor Business Media, LLC',
   logos: {
     navbar: {
-      src: 'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=60',
+      src: 'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/site_logo.jpg?h=60',
       srcset: [
-        'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=120 2x',
+        'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/site_logo.jpg?h=120 2x',
       ],
     },
     footer: {
-      src: 'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=60',
+      src: 'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/site_logo.jpg?h=60',
       srcset: [
-        'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/fcn_logo_og.png?h=120 2x',
+        'https://img.piprocessinstrumentation.com/files/base/ebm/fcn/image/static/site_logo.jpg?h=120 2x',
       ],
     },
   },
