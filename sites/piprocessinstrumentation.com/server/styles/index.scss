@@ -37,3 +37,9 @@ $theme-site-header-breakpoints: (
 
 @import "../../node_modules/@endeavor-business-media/package-shared/scss/core";
 @import "../../node_modules/@endeavor-business-media/package-common/scss/algolia";
+
+.site-navbar {
+  &__logo {
+    filter: none;
+  }
+}
