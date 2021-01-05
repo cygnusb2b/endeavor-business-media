@@ -8,6 +8,12 @@ $leaders-primary-color: #000;
 $leaders-primary-color-light: lighten($leaders-primary-color, 10%);
 $leaders-accent-color: $primary;
 
+$theme-item-header-link-color: #00b398;
+
+// Bootstrap override
+$link-color: $theme-item-header-link-color;
+$link-hover-color: darken($link-color, 10%);
+
 $theme-newsletter-block-bg-color: $primary;
 $theme-newsletter-block-button-bg-color: #000;
 
