@@ -67,6 +67,14 @@ config
     { name: 'rail2', templateName: 'RAIL2', path: 'test-measurement/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'test-measurement/load-more' },
     { name: 'reskin', path: 'test-measurement/reskin' },
+  ])
+  .setAliasAdUnits('biooptics', [
+    { name: 'lb1', templateName: 'LB1', path: 'biooptics/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'biooptics/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'biooptics/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'biooptics/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'biooptics/load-more' },
+    { name: 'reskin', path: 'biooptics/reskin' },
   ]);
 
 module.exports = config;
