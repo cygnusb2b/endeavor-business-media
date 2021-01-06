@@ -81,6 +81,9 @@
   "<shared-website-section-page-scheduled-content-directory-layout>": {
     "template": "./directory/scheduled-content.marko"
   },
+  "<shared-website-section-page-scheduled-card-directory-layout>": {
+    "template": "./directory/scheduled-card.marko"
+  },
   "<shared-website-section-page-tech-group-directory-layout>": {
     "template": "./directory/tech-group.marko"
   },

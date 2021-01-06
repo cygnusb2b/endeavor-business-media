@@ -34,6 +34,20 @@
     },
     "@link-header": "boolean"
   },
+  "<shared-website-section-card-deck-block>": {
+    "template": "./website-section-card-deck.marko",
+    "<native-x>": {},
+    "<list>": {
+      "<node>": {}
+    },
+    "<query-params>": {},
+    "<header>": {},
+    "@alias": {
+      "type": "string",
+      "required": true
+    },
+    "@link-header": "boolean"
+  },
   "<shared-published-content-list-block>": {
     "template": "./published-content-list.marko",
     "<list>": {
