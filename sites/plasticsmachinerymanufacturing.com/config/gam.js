@@ -114,6 +114,14 @@ config
     { name: 'rail2', templateName: 'RAIL2', path: 'rotomolding/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'rotomolding/load-more' },
     { name: 'reskin', path: 'rotomolding/reskin' },
+  ])
+  .setAliasAdUnits('manufacturing', [
+    { name: 'lb1', templateName: 'LB1', path: 'manufacturing/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'manufacturing/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'manufacturing/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'manufacturing/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'manufacturing/load-more' },
+    { name: 'reskin', path: 'manufacturing/reskin' },
   ]);
 
 module.exports = config;
