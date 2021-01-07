@@ -11,7 +11,7 @@ $ const adSlots = isFunction(input.adSlots) ? input.adSlots : ({ aliases }) => (
 });
 
 $ const loadMore = {
-  queryParams: { limit: 14, skip: 9 },
+  queryParams: { limit: 14, skip: 45 },
   ...getAsObject(input, "loadMore"),
 };
 
@@ -41,7 +41,76 @@ $ const loadMore = {
       </div>
 
       <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="service-repair/the-garage">
+          <@query-params limit=4 />
+          <@header>The Garage</@header>
+        </shared-website-section-list-block>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="service-repair/diagnostics-and-drivability">
+          <@query-params limit=4 />
+          <@header>Diagnostics & Drivability</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="service-repair/undercar">
+          <@query-params limit=4 />
+          <@header>Undercar</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="service-repair/battery-and-electrical">
+          <@query-params limit=4 />
+          <@header>Battery & Electrical</@header>
+        </shared-website-section-list-block>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="service-repair/the-garage/ask-the-expert-and-tech-tips">
+          <@query-params limit=4 />
+          <@header>Ask the Expert & Tech Tips</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="service-repair/video-network">
+          <@query-params limit=4 />
+          <@header>Multimedia</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
         <directory-facets title="Product Guide" active-id=id facets=categories />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="service-repair/underhood">
+          <@query-params limit=4 />
+          <@header>Underhood</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="service-repair/the-garage/tool-reviews">
+          <@query-params limit=4 />
+          <@header>Tool Reviews</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="service-repair/the-garage/blogs">
+          <@query-params limit=4 />
+          <@header>Blogs</@header>
+        </shared-website-section-list-block>
       </div>
     </div>
 
