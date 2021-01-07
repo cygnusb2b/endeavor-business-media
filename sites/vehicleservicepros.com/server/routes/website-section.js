@@ -5,19 +5,15 @@ const leaders = require('@endeavor-business-media/package-shared/templates/websi
 const queryFragment = require('@endeavor-business-media/package-shared/graphql/fragments/website-section-page');
 const directory = require('../templates/website-section/directory');
 const section = require('../templates/website-section');
-const channel = require('../templates/website-section/channel');
 const diagnosticNetworkFeed = require('../templates/website-section/diagnostic-network-feed');
 const videos = require('../templates/website-section/videos');
 const blogs = require('../templates/website-section/blogs');
-
-const channelAliases = [
-  'training-and-resources',
-  'distribution',
-  'shop-operations',
-  'collision-repair',
-  'industry-news',
-  'service-repair',
-];
+const trainingResourcesChannel = require('../templates/website-section/channel/training-and-resources');
+const distributionChannel = require('../templates/website-section/channel/distribution');
+const shopOperationsChannel = require('../templates/website-section/channel/shop-operations');
+const collisionRepairChannel = require('../templates/website-section/channel/collision-repair');
+const industryNewsChannel = require('../templates/website-section/channel/industry-news');
+const serviceRepairChannel = require('../templates/website-section/channel/service-repair');
 
 module.exports = (app) => {
   app.get('/:alias(leaders)', withWebsiteSection({
@@ -52,8 +48,28 @@ module.exports = (app) => {
     template: directory,
     queryFragment,
   }));
-  app.get(`/:alias(${channelAliases.join('|')})`, withWebsiteSection({
-    template: channel,
+  app.get('/:alias(training-and-resources)', withWebsiteSection({
+    template: trainingResourcesChannel,
+    queryFragment,
+  }));
+  app.get('/:alias(distribution)', withWebsiteSection({
+    template: distributionChannel,
+    queryFragment,
+  }));
+  app.get('/:alias(shop-operations)', withWebsiteSection({
+    template: shopOperationsChannel,
+    queryFragment,
+  }));
+  app.get('/:alias(collision-repair)', withWebsiteSection({
+    template: collisionRepairChannel,
+    queryFragment,
+  }));
+  app.get('/:alias(industry-news)', withWebsiteSection({
+    template: industryNewsChannel,
+    queryFragment,
+  }));
+  app.get('/:alias(service-repair)', withWebsiteSection({
+    template: serviceRepairChannel,
     queryFragment,
   }));
   app.get('/:alias([a-z0-9-/]+)', withWebsiteSection({
