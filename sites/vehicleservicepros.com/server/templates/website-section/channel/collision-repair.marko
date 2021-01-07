@@ -27,6 +27,22 @@ $ const loadMore = {
   <@page>
     <shared-gam-display-ad id="gpt-ad-lb1" modifiers=["top-of-page"] />
 
+    <marko-web-resolve-page|{ data: section }| node=pageNode>
+      $ const aliases = hierarchyAliases(section);
+      <marko-web-page-wrapper class="mb-block">
+        <@section>
+          <div class="row">
+            <div class="col">
+              <default-theme-website-section-breadcrumbs section=section display-self=false />
+              <marko-web-website-section-name tag="h1" class="page-wrapper__title" obj=section />
+              <marko-web-website-section-description tag="p" class="page-wrapper__deck" obj=section />
+              <hr>
+            </div>
+          </div>
+        </@section>
+      </marko-web-page-wrapper>
+    </marko-web-resolve-page>
+
     <shared-content-hero-block id=id />
 
     <div class="row">
