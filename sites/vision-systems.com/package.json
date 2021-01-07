@@ -16,11 +16,11 @@
   },
   "dependencies": {
     "@base-cms/marko-core": "^1.49.0",
-    "@base-cms/marko-web": "^1.49.0",
+    "@base-cms/marko-web": "^1.51.1",
     "@base-cms/marko-web-theme-default": "^1.41.1",
     "@base-cms/object-path": "^1.37.0",
     "@base-cms/utils": "^1.37.0",
-    "@base-cms/web-cli": "^1.49.0",
+    "@base-cms/web-cli": "^1.51.1",
     "@endeavor-business-media/package-directory": "^1.21.2",
     "@endeavor-business-media/package-inquiry": "^1.21.2",
     "@endeavor-business-media/package-leaders": "^1.21.2",

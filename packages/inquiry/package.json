@@ -12,7 +12,7 @@
   "dependencies": {
     "@base-cms/env": "^1.37.0",
     "@base-cms/marko-core": "^1.49.0",
-    "@base-cms/marko-web": "^1.49.0",
+    "@base-cms/marko-web": "^1.51.1",
     "@base-cms/object-path": "^1.37.0",
     "@base-cms/utils": "^1.37.0",
     "@base-cms/web-common": "^1.49.0",
