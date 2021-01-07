@@ -49,13 +49,13 @@ $ const directory = {
         <shared-gam-display-ad id="gpt-ad-rail1" />
       </div>
       <div class="col-lg-8 mb-block">
-        <shared-website-section-card-deck-block alias=alias>
+        <shared-website-section-list-block alias=alias>
           <@header>Featured Companies</@header>
           <@query-params limit=3 option-name="Pinned" include-content-types=["Company"] />
           <@list>
-            <@node with-teaser=true />
+            <@node image-position="left" with-teaser=true />
           </@list>
-        </shared-website-section-card-deck-block>
+        </shared-website-section-list-block>
 
         <shared-website-section-card-deck-block alias=alias>
           <@header>Latest Products</@header>
@@ -79,7 +79,7 @@ $ const directory = {
       }, getAsObject(loadMore, "componentInput"));
 
       <shared-scheduled-content-load-more-block
-        name=defaultValue(loadMore.name, "card-deck-list")
+        name=defaultValue(loadMore.name, "card-deck")
         section-id=id
         max-pages=loadMore.maxPages
         fragment-name=loadMore.fragmentName
