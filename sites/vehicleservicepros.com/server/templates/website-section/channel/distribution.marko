@@ -45,9 +45,9 @@ $ const loadMore = {
 
     <div class="row">
       <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias=alias>
-          <@query-params limit=4 skip=5 />
-          <@header>Latest</@header>
+        <shared-website-section-list-block alias="distribution/tool-distribution">
+          <@query-params limit=4 />
+          <@header>Tool Distribution</@header>
         </shared-website-section-list-block>
       </div>
 
@@ -56,7 +56,50 @@ $ const loadMore = {
       </div>
 
       <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="distribution/parts-distribution">
+          <@query-params limit=4 />
+          <@header>Parts Distribution</@header>
+        </shared-website-section-list-block>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias=alias>
+          <@query-params limit=4 skip=5 />
+          <@header>Latest</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="distribution/parts-distribution/aftermarket-technology">
+          <@query-params limit=4 />
+          <@header>Aftermarket Technology</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
         <directory-facets title="Product Guide" active-id=id facets=categories />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="distribution/parts-distribution/operations">
+          <@query-params limit=4 />
+          <@header>Operations</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-gam-display-ad id="gpt-ad-rail2" />
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="distribution/parts-distribution/events">
+          <@query-params limit=4 />
+          <@header>Events</@header>
+        </shared-website-section-list-block>
       </div>
     </div>
 
