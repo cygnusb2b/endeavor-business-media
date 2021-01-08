@@ -24,7 +24,6 @@ x-env-defaults: &env
   SENDGRID_DEV_TO: developer@endeavorb2b.com
   YARN_CACHE_FOLDER: /.yarn-cache
 
-<<<<<<< HEAD
 x-env-aerilon: &env-aerilon
   GRAPHQL_URI: ${GRAPHQL_URI-https://aerilon.graphql.base-cms.io}
   OEMBED_URI: ${OEMBED_URI-https://aerilon.oembed.base-cms.io}
@@ -36,19 +35,6 @@ x-env-picon: &env-picon
   OEMBED_URI: ${OEMBED_URI-https://picon.oembed.base-cms.io}
   RSS_URI: ${RSS_URI-https://picon.rss.base-cms.io}
   SITEMAPS_URI: ${SITEMAPS_URI-https://picon.sitemaps.base-cms.io}
-=======
-x-env-aerilon: &env-aerilon-staging
-  GRAPHQL_URI: ${GRAPHQL_URI-https://aerilon.graphql-staging.base-cms.io}
-  OEMBED_URI: ${OEMBED_URI-https://aerilon.oembed.base-cms-staging.io}
-  RSS_URI: ${RSS_URI-https://aerilon.rss.base-cms-staging.io}
-  SITEMAPS_URI: ${SITEMAPS_URI-https://aerilon.sitemaps.base-cms-staging.io}
-
-x-env-picon: &env-picon-staging
-  GRAPHQL_URI: ${GRAPHQL_URI-https://picon.graphql-staging.base-cms.io}
-  OEMBED_URI: ${OEMBED_URI-https://picon.oembed.base-cms-staging.io}
-  RSS_URI: ${RSS_URI-https://picon.rss.base-cms-staging.io}
-  SITEMAPS_URI: ${SITEMAPS_URI-https://picon.sitemaps.base-cms-staging.io}
->>>>>>> Revert accidental file commit
 
 x-env-development: &env-development
   GRAPHQL_URI: ${GRAPHQL_URI-http://host.docker.internal:10002}
