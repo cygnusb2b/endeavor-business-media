@@ -3,7 +3,7 @@ const gam = require('./gam');
 const nativeX = require('./native-x');
 const dragonForms = require('./dragon-forms');
 
-const siteLogo = 'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/vsp.png?h=60';
+const siteLogo = 'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/vsp.png';
 
 module.exports = {
   navigation,
@@ -12,14 +12,17 @@ module.exports = {
   dragonForms,
   company: 'Endeavor Business Media, LLC',
   logos: {
-    navbar: {
+    prestitial: {
       src: siteLogo,
+    },
+    navbar: {
+      src: `${siteLogo}?h=60`,
       srcset: [
         'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/vsp.png?h=120 2x',
       ],
     },
     footer: {
-      src: siteLogo,
+      src: `${siteLogo}?h=60`,
       srcset: [
         'https://img.vehicleservicepros.com/files/base/cygnus/vspc/image/static/logo/vsp.png?h=120 2x',
       ],
