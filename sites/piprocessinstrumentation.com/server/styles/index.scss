@@ -27,6 +27,9 @@ $theme-site-navbar-logo-height-sm: 25px;
 $theme-newsletter-block-bg-color: $primary;
 $theme-newsletter-block-button-bg-color: #000;
 
+$theme-site-navbar-logo-drop-shadow: "";
+$theme-site-footer-logo-box-shadow: "";
+
 $theme-site-header-breakpoints: (
   hide-primary: 1005px,
   hide-secondary: 906px,
@@ -37,9 +40,3 @@ $theme-site-header-breakpoints: (
 
 @import "../../node_modules/@endeavor-business-media/package-shared/scss/core";
 @import "../../node_modules/@endeavor-business-media/package-common/scss/algolia";
-
-.site-navbar {
-  &__logo {
-    filter: none;
-  }
-}
