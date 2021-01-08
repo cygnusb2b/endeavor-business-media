@@ -45,9 +45,9 @@ $ const loadMore = {
 
     <div class="row">
       <div class="col-lg-4 mb-block">
-        <shared-website-section-list-block alias=alias>
-          <@query-params limit=4 skip=5 />
-          <@header>Latest</@header>
+        <shared-website-section-list-block alias="training-and-resources/ondemand-training">
+          <@query-params limit=4 />
+          <@header>Motor Age Training</@header>
         </shared-website-section-list-block>
       </div>
 
@@ -56,7 +56,33 @@ $ const loadMore = {
       </div>
 
       <div class="col-lg-4 mb-block">
-        <directory-facets title="Product Guide" active-id=id facets=categories />
+        <shared-website-section-list-block alias="training-and-resources/webinars">
+          <@query-params limit=4 />
+          <@header>Webinars</@header>
+        </shared-website-section-list-block>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="training-and-resources/ase-guides">
+          <@query-params limit=4 />
+          <@header>ASE Guides</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="training-and-resources/whitepapers">
+          <@query-params limit=4 />
+          <@header>White Papers</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias=["training-and-resources/ask-the-expert-and-tech-tips", "training-and-resources/guest-blogs"]>
+          <@query-params limit=4 />
+          <@header>Ask the Expert, Tech Tips, and Guest Blogs</@header>
+        </shared-website-section-list-block>
       </div>
     </div>
 
