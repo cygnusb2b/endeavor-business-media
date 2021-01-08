@@ -24,13 +24,13 @@ x-env-defaults: &env
   SENDGRID_DEV_TO: developer@endeavorb2b.com
   YARN_CACHE_FOLDER: /.yarn-cache
 
-x-env-aerilon: &env-aerilon-staging
+x-env-aerilon: &env-aerilon
   GRAPHQL_URI: ${GRAPHQL_URI-https://aerilon.graphql.base-cms.io}
   OEMBED_URI: ${OEMBED_URI-https://aerilon.oembed.base-cms.io}
   RSS_URI: ${RSS_URI-https://aerilon.rss.base-cms.io}
   SITEMAPS_URI: ${SITEMAPS_URI-https://aerilon.sitemaps.base-cms.io}
 
-x-env-picon: &env-picon-staging
+x-env-picon: &env-picon
   GRAPHQL_URI: ${GRAPHQL_URI-https://picon.graphql.base-cms.io}
   OEMBED_URI: ${OEMBED_URI-https://picon.oembed.base-cms.io}
   RSS_URI: ${RSS_URI-https://picon.rss.base-cms.io}
@@ -70,7 +70,7 @@ services:
     working_dir: /root/sites/laserfocusworld.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9710
       LIVERELOAD_PORT: 19710
@@ -86,7 +86,7 @@ services:
     working_dir: /root/sites/utilityproducts.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9711
       LIVERELOAD_PORT: 19711
@@ -102,7 +102,7 @@ services:
     working_dir: /root/sites/vision-systems.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9712
       LIVERELOAD_PORT: 19712
@@ -118,7 +118,7 @@ services:
     working_dir: /root/sites/militaryaerospace.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9713
       LIVERELOAD_PORT: 19713
@@ -134,7 +134,7 @@ services:
     working_dir: /root/sites/cablinginstall.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9714
       LIVERELOAD_PORT: 19714
@@ -150,7 +150,7 @@ services:
     working_dir: /root/sites/aviationpros.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9715
       LIVERELOAD_PORT: 19715
@@ -166,7 +166,7 @@ services:
     working_dir: /root/sites/dentaleconomics.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9716
       LIVERELOAD_PORT: 19716
@@ -182,7 +182,7 @@ services:
     working_dir: /root/sites/dentistryiq.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9717
       LIVERELOAD_PORT: 19717
@@ -198,7 +198,7 @@ services:
     working_dir: /root/sites/perioimplantadvisory.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9718
       LIVERELOAD_PORT: 19718
@@ -214,7 +214,7 @@ services:
     working_dir: /root/sites/rdhmag.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9719
       LIVERELOAD_PORT: 19719
@@ -230,7 +230,7 @@ services:
     working_dir: /root/sites/cpapracticeadvisor.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9720
       LIVERELOAD_PORT: 19720
@@ -246,7 +246,7 @@ services:
     working_dir: /root/sites/hcinnovationgroup.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9721
       LIVERELOAD_PORT: 19721
@@ -262,7 +262,7 @@ services:
     working_dir: /root/sites/hpnonline.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9722
       LIVERELOAD_PORT: 19722
@@ -278,7 +278,7 @@ services:
     working_dir: /root/sites/mlo-online.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9723
       LIVERELOAD_PORT: 19723
@@ -294,7 +294,7 @@ services:
     working_dir: /root/sites/plasticsmachinerymanufacturing.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9724
       LIVERELOAD_PORT: 19724
@@ -310,7 +310,7 @@ services:
     working_dir: /root/sites/processingmagazine.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9725
       LIVERELOAD_PORT: 19725
@@ -326,7 +326,7 @@ services:
     working_dir: /root/sites/offshore-mag.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9726
       LIVERELOAD_PORT: 19726
@@ -342,7 +342,7 @@ services:
   #   working_dir: /root/sites/ogj.com
   #   environment:
   #     <<: *env
-  #     <<: *env-aerilon-staging
+  #     <<: *env-aerilon
   #     PORT: 80
   #     EXPOSED_PORT: 9727
   #     LIVERELOAD_PORT: 19727
@@ -358,7 +358,7 @@ services:
     working_dir: /root/sites/firehouse.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9728
       LIVERELOAD_PORT: 19728
@@ -374,7 +374,7 @@ services:
     working_dir: /root/sites/officer.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9729
       LIVERELOAD_PORT: 19729
@@ -390,7 +390,7 @@ services:
     working_dir: /root/sites/securityinfowatch.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9730
       LIVERELOAD_PORT: 19730
@@ -406,7 +406,7 @@ services:
     working_dir: /root/sites/locksmithledger.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9731
       LIVERELOAD_PORT: 19731
@@ -422,7 +422,7 @@ services:
     working_dir: /root/sites/bioopticsworld.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9732
       LIVERELOAD_PORT: 19732
@@ -438,7 +438,7 @@ services:
     working_dir: /root/sites/broadbandtechreport.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9733
       LIVERELOAD_PORT: 19733
@@ -454,7 +454,7 @@ services:
     working_dir: /root/sites/evaluationengineering.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9734
       LIVERELOAD_PORT: 19734
@@ -470,7 +470,7 @@ services:
     working_dir: /root/sites/industrial-lasers.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9735
       LIVERELOAD_PORT: 19735
@@ -486,7 +486,7 @@ services:
     working_dir: /root/sites/intelligent-aerospace.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9736
       LIVERELOAD_PORT: 19736
@@ -502,7 +502,7 @@ services:
     working_dir: /root/sites/ledsmagazine.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9737
       LIVERELOAD_PORT: 19737
@@ -518,7 +518,7 @@ services:
     working_dir: /root/sites/lightwaveonline.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9738
       LIVERELOAD_PORT: 19738
@@ -534,7 +534,7 @@ services:
     working_dir: /root/sites/strategies-u.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9739
       LIVERELOAD_PORT: 19739
@@ -550,7 +550,7 @@ services:
     working_dir: /root/sites/masstransitmag.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9740
       LIVERELOAD_PORT: 19740
@@ -566,7 +566,7 @@ services:
     working_dir: /root/sites/vehicleservicepros.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9741
       LIVERELOAD_PORT: 19741
@@ -582,7 +582,7 @@ services:
     working_dir: /root/sites/vendingmarketwatch.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9742
       LIVERELOAD_PORT: 19742
@@ -598,7 +598,7 @@ services:
     working_dir: /root/sites/distributedenergy.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9743
       LIVERELOAD_PORT: 19743
@@ -614,7 +614,7 @@ services:
     working_dir: /root/sites/piprocessinstrumentation.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9745
       LIVERELOAD_PORT: 19745
@@ -630,7 +630,7 @@ services:
     working_dir: /root/sites/gxcontractor.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9746
       LIVERELOAD_PORT: 19746
@@ -646,7 +646,7 @@ services:
     working_dir: /root/sites/mswmanagement.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9747
       LIVERELOAD_PORT: 19747
@@ -662,7 +662,7 @@ services:
     working_dir: /root/sites/stormh2o.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9748
       LIVERELOAD_PORT: 19748
@@ -678,7 +678,7 @@ services:
     working_dir: /root/sites/watertechonline.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9749
       LIVERELOAD_PORT: 19749
@@ -694,7 +694,7 @@ services:
     working_dir: /root/sites/waterworld.com
     environment:
       <<: *env
-      <<: *env-aerilon-staging
+      <<: *env-aerilon
       PORT: 80
       EXPOSED_PORT: 9750
       LIVERELOAD_PORT: 19750
@@ -710,7 +710,7 @@ services:
     working_dir: /root/sites/foresternetwork.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9751
       LIVERELOAD_PORT: 19751
@@ -726,7 +726,7 @@ services:
     working_dir: /root/sites/taxpracticeadvisor.com
     environment:
       <<: *env
-      <<: *env-picon-staging
+      <<: *env-picon
       PORT: 80
       EXPOSED_PORT: 9752
       LIVERELOAD_PORT: 19752
