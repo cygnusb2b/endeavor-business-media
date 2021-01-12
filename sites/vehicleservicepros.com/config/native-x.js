@@ -11,6 +11,18 @@ config
   ])
   .setAliasPlacements('industry-news', [
     { name: 'default', id: '5b57587e5bbf91000134a2c2' },
+  ])
+  .setAliasPlacements('collision-repair', [
+    { name: 'default', id: '' },
+  ])
+  .setAliasPlacements('service-repair', [
+    { name: 'default', id: '' },
+  ])
+  .setAliasPlacements('distribution', [
+    { name: 'default', id: '' },
+  ])
+  .setAliasPlacements('training-and-resources', [
+    { name: 'default', id: '' },
   ]);
 
 module.exports = config;
