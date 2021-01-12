@@ -27,9 +27,9 @@ module.exports = {
     },
   },
   socialMediaLinks: [
-    { provider: 'linkedin', href: 'https://www.linkedin.com/groups/4068011', target: '_blank' },
-    { provider: 'twitter', href: 'https://twitter.com/flowcontrol_mag', target: '_blank' },
-    { provider: 'facebook', href: 'https://www.facebook.com/FlowControlMagazine', target: '_blank' },
+    { provider: 'linkedin', href: 'https://www.linkedin.com/showcase/11107902', target: '_blank' },
+    { provider: 'twitter', href: 'hhttps://twitter.com/pi_processinst', target: '_blank' },
+    { provider: 'facebook', href: 'https://www.facebook.com/PIprocessinstrumentation/', target: '_blank' },
   ],
   identityX: {
     appId: '5e6948dd87774f47b7a7dcf1',
