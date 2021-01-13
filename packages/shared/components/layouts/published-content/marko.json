@@ -10,5 +10,11 @@
     "<query-params>": {},
     "@title": "string",
     "@description": "string"
+  },
+  "<shared-published-content-page-card-deck-no-ads-layout>": {
+    "template": "./card-deck-no-ads.marko",
+    "<query-params>": {},
+    "@title": "string",
+    "@description": "string"
   }
 }
