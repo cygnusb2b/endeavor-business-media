@@ -61,14 +61,23 @@ config
     { name: 'reskin', path: 'coffee-service/reskin' },
     { name: 'wa', path: 'coffee-service/wa' },
   ])
-  .setAliasAdUnits('telemetry-data-collection-equipment-systems', [
-    { name: 'lb1', templateName: 'LB1', path: 'telemetry-data-collection-equipment-systems/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: 'telemetry-data-collection-equipment-systems/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: 'telemetry-data-collection-equipment-systems/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: 'telemetry-data-collection-equipment-systems/rail2' },
-    { name: 'load-more', templateName: 'LM', path: 'telemetry-data-collection-equipment-systems/load-more' },
-    { name: 'reskin', path: 'telemetry-data-collection-equipment-systems/reskin' },
-    { name: 'wa', path: 'telemetry-data-collection-equipment-systems/wa' },
+  .setAliasAdUnits('technology', [
+    { name: 'lb1', templateName: 'LB1', path: 'technology/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'technology/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'technology/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'technology/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'technology/load-more' },
+    { name: 'reskin', path: 'technology/reskin' },
+    { name: 'wa', path: 'technology/wa' },
+  ])
+  .setAliasAdUnits('technology/telemetry-data-collection-equipment-systems', [
+    { name: 'lb1', templateName: 'LB1', path: 'technology/telemetry-data-collection-equipment-systems/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'technology/telemetry-data-collection-equipment-systems/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'technology/telemetry-data-collection-equipment-systems/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'technology/telemetry-data-collection-equipment-systems/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'technology/telemetry-data-collection-equipment-systems/load-more' },
+    { name: 'reskin', path: 'technology/telemetry-data-collection-equipment-systems/reskin' },
+    { name: 'wa', path: 'technology/telemetry-data-collection-equipment-systems/wa' },
   ])
   .setAliasAdUnits('equipment', [
     { name: 'lb1', templateName: 'LB1', path: 'equipment/lb1' },
