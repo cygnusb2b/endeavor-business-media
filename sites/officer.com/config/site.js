@@ -1,9 +1,10 @@
 const navigation = require('./navigation');
 const gam = require('./gam');
-
 const nativeX = require('./native-x');
 const dragonForms = require('./dragon-forms');
 const leaders = require('./leaders');
+
+const siteLogo = 'https://img.officer.com/files/base/cygnus/ofcr/image/static/logo/site_logo_2021.png';
 
 module.exports = {
   navigation,
@@ -14,15 +15,15 @@ module.exports = {
   company: 'Endeavor Business Media, LLC',
   logos: {
     navbar: {
-      src: 'https://img.officer.com/files/base/cygnus/ofcr/image/static/logo/site_logo.png?h=45',
+      src: `${siteLogo}?h=45`,
       srcset: [
-        'https://img.officer.com/files/base/cygnus/ofcr/image/static/logo/site_logo.png?h=90 2x',
+        `${siteLogo}?h=90 2x`,
       ],
     },
     footer: {
-      src: 'https://img.officer.com/files/base/cygnus/ofcr/image/static/logo/site_logo.png?h=60',
+      src: `${siteLogo}?h=60`,
       srcset: [
-        'https://img.officer.com/files/base/cygnus/ofcr/image/static/logo/site_logo.png?h=120 2x',
+        `${siteLogo}?h=120 2x`,
       ],
     },
   },
@@ -59,7 +60,7 @@ module.exports = {
   contactUs: {
     branding: {
       bgColor: '#222222',
-      logo: 'https://img.officer.com/files/base/cygnus/ofcr/image/static/logo/site_logo.png?h=60',
+      logo: `${siteLogo}?h=60`,
     },
     to: 'support@officer.com',
   },
@@ -69,7 +70,7 @@ module.exports = {
     sendTo: 'notifications@officer.com',
     sendFrom: 'Officer.com <noreply@baseplatform.io>',
     sendBcc: 'eactivity@endeavorb2b.com',
-    logo: 'https://img.officer.com/files/base/cygnus/ofcr/image/static/logo/site_logo.png?h=60',
+    logo: `${siteLogo}?h=60`,
     bgColor: '#222222',
     isGdprEnabled: true,
     gdprMessage: "Yes, Endeavor Business Media may use my contact information consistent with Endeavor's Privacy Policy to communicate with me by email or telephone about other offerings by Endeavor, its brands, affiliates and/or third-party partners that may be of interest to businesses and individual participants in my industry.",
