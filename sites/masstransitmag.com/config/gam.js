@@ -106,6 +106,14 @@ config
     { name: 'rail2', templateName: 'RAIL2', path: 'technology/fare-collection/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'technology/fare-collection/load-more' },
     { name: 'reskin', path: 'technology/fare-collection/reskin' },
+  ])
+  .setAliasAdUnits('technology/dispatching-systems-equipment', [
+    { name: 'lb1', templateName: 'LB1', path: 'technology/dispatching-systems-equipment/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'technology/dispatching-systems-equipment/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'technology/dispatching-systems-equipment/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'technology/dispatching-systems-equipment/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'technology/dispatching-systems-equipment/load-more' },
+    { name: 'reskin', path: 'technology/dispatching-systems-equipment/reskin' },
   ]);
 
 module.exports = config;
