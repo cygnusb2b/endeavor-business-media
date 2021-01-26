@@ -17,12 +17,12 @@ module.exports = {
   },
   secondary: {
     items: [
-      { href: 'https://forums.firehouse.com', label: 'Forums', target: '_blank' },
       { href: '/subscribe', label: 'Subscribe' },
       { href: '/directory', label: 'Buyer\'s Guide' },
       { href: '/magazine', label: 'In Print' },
       { href: '/page/advertise', label: 'Advertise' },
       { href: '/covid-19', label: 'COVID-19' },
+      { href: 'https://www.firehouseexpo.com/', label: 'Firehouse Expo', target: '_blank' },
     ],
   },
   tertiary: {
@@ -59,9 +59,9 @@ module.exports = {
     {
       label: 'Resources',
       items: [
+        { href: 'https://forums.firehouse.com', label: 'Forums', target: '_blank' },
         { href: '/covid-19', label: 'COVID-19' },
         { href: '/careers-education/jobs', label: 'Jobs' },
-        { href: 'https://forums.firehouse.com', label: 'Forums', target: '_blank' },
         { href: '/magazine', label: 'In Print' },
         { href: '/shiftcalendar', label: 'Shift Calendar' },
         { href: '/lodds', label: 'LODDs' },
