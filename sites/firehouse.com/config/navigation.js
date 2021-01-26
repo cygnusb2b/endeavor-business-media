@@ -9,9 +9,10 @@ module.exports = {
       { href: '/safety-health', label: 'Safety Health' },
       { href: '/operations-training', label: 'Ops & Training' },
       { href: '/careers-education', label: 'Careers & Edu' },
-      { href: '/prevention-investigation', label: 'Prevention & Investigation' },
+      { href: '/community-risk', label: 'Community Risk' },
       { href: '/tech-comm', label: 'Tech & Comm' },
       { href: '/stations', label: 'Stations' },
+      { href: '/ems', label: 'EMS' },
     ],
   },
   secondary: {
@@ -49,9 +50,10 @@ module.exports = {
         { href: '/safety-health', label: 'Safety Health' },
         { href: '/operations-training', label: 'Operations & Training' },
         { href: '/careers-education', label: 'Careers & Education' },
-        { href: '/prevention-investigation', label: 'Prevention & Investigation' },
+        { href: '/community-risk', label: 'Community Risk' },
         { href: '/tech-comm', label: 'Tech & Comm' },
         { href: '/stations', label: 'Stations' },
+        { href: '/ems', label: 'EMS' },
       ],
     },
     {

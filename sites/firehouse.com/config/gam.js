@@ -107,13 +107,13 @@ config
     { name: 'load-more', templateName: 'LM', path: 'careers-education/load-more' },
     { name: 'reskin', path: 'careers-education/reskin' },
   ])
-  .setAliasAdUnits('prevention-investigation', [
-    { name: 'lb1', templateName: 'LB1', path: 'prevention-investigation/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: 'prevention-investigation/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: 'prevention-investigation/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: 'prevention-investigation/rail2' },
-    { name: 'load-more', templateName: 'LM', path: 'prevention-investigation/load-more' },
-    { name: 'reskin', path: 'prevention-investigation/reskin' },
+  .setAliasAdUnits('community-risk', [
+    { name: 'lb1', templateName: 'LB1', path: 'community-risk/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'community-risk/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'community-risk/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'community-risk/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'community-risk/load-more' },
+    { name: 'reskin', path: 'community-risk/reskin' },
   ])
   .setAliasAdUnits('tech-comm', [
     { name: 'lb1', templateName: 'LB1', path: 'tech-comm/lb1' },
@@ -146,6 +146,14 @@ config
     { name: 'rail2', templateName: 'RAIL2', path: 'video/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'video/load-more' },
     { name: 'reskin', path: 'video/reskin' },
+  ])
+  .setAliasAdUnits('ems', [
+    { name: 'lb1', templateName: 'LB1', path: 'ems/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'ems/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'ems/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'ems/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'ems/load-more' },
+    { name: 'reskin', path: 'ems/reskin' },
   ]);
 
 module.exports = config;
