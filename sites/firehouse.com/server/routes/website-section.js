@@ -21,7 +21,7 @@ const channelAliases = [
   'safety-health',
   'operations-training',
   'careers-education',
-  'prevention-investigation',
+  'community-risk',
   'stations',
   'covid-19',
 ];
