@@ -8,16 +8,16 @@ $leaders-primary-color: $primary;
 $leaders-primary-color-light: lighten($leaders-primary-color, 10%);
 $leaders-accent-color: $primary;
 
-$theme-site-navbar-secondary-bg-color: #222;
+$theme-site-navbar-secondary-bg-color: $light;
 $theme-site-navbar-primary-bg-color: $primary;
 
-$theme-site-navbar-secondary-link-color: $light;
-$theme-site-navbar-secondary-link-hover-color: $light;
-$theme-site-navbar-secondary-link-active-color: $light;
+$theme-site-navbar-secondary-link-color: $dark;
+$theme-site-navbar-secondary-link-hover-color: $dark;
+$theme-site-navbar-secondary-link-active-color: $dark;
 
-$theme-site-navbar-tertiary-link-active-color: $light;
-$theme-site-navbar-tertiary-link-color: $light;
-$theme-site-navbar-tertiary-link-hover-color: $light;
+$theme-site-navbar-tertiary-link-active-color: $dark;
+$theme-site-navbar-tertiary-link-color: $dark;
+$theme-site-navbar-tertiary-link-hover-color: $dark;
 
 $theme-newsletter-block-bg-color: $primary;
 $theme-newsletter-block-button-bg-color: #000;
