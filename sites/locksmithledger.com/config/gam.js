@@ -13,6 +13,7 @@ config
     { name: 'rail2', templateName: 'RAIL2', path: 'default/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'default/load-more' },
     { name: 'ms', templateName: 'MS', path: 'default/ms' },
+    { name: 'iav', templateName: 'IAV', path: 'default/iav' },
     { name: 'reskin', path: 'default/reskin' },
     { name: 'wa', path: 'default/wa' },
   ])

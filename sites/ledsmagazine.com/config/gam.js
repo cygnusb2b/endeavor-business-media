@@ -9,6 +9,7 @@ config
     { name: 'rail1', templateName: 'RAIL1', path: 'default/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'default/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'default/load-more' },
+    { name: 'iav', templateName: 'IAV', path: 'default/iav' },
     { name: 'reskin', path: 'default/reskin' },
     { name: 'wa', path: 'default/wa' },
   ])

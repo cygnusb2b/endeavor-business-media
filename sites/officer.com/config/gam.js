@@ -30,7 +30,8 @@ config
   .setTemplate('MS', { size: [300, 50] })
   .setTemplate('RAIL1', { size: [300, 250] })
   .setTemplate('RAIL2', { size: [300, 600] })
-  .setTemplate('LM', { size: [[300, 250], [300, 600]] });
+  .setTemplate('LM', { size: [[300, 250], [300, 600]] })
+  .setTemplate('IAV', { size: [1, 1] });
 
 config
   .setAliasAdUnits('default', [

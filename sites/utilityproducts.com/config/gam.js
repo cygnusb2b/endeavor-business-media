@@ -21,7 +21,8 @@ config
   })
   .setTemplate('RAIL1', { size: [300, 250] })
   .setTemplate('RAIL2', { size: [300, 600] })
-  .setTemplate('LM', { size: [[300, 250], [300, 600]] });
+  .setTemplate('LM', { size: [[300, 250], [300, 600]] })
+  .setTemplate('IAV', { size: [1, 1] });
 
 config
   .setAliasAdUnits('default', [
@@ -30,6 +31,7 @@ config
     { name: 'rail1', templateName: 'RAIL1', path: 'default/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'default/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'default/load-more' },
+    { name: 'iav', templateName: 'IAV', path: 'default/iav' },
     { name: 'reskin', path: 'default/reskin' },
     { name: 'wa', path: 'default/wa' },
   ])
