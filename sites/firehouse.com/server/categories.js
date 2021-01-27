@@ -255,7 +255,7 @@ module.exports = [
   {
     id: 58081,
     name: 'Community Risk Reduction',
-    href: '/prevention-investigation/community-risk-reduction',
+    href: '/community-risk/community-risk-reduction',
   },
   {
     id: null,
@@ -270,7 +270,7 @@ module.exports = [
   {
     id: 58083,
     name: 'Fire Protection Systems',
-    href: '/prevention-investigation/fire-protection-systems',
+    href: '/community-risk/fire-protection-systems',
   },
   {
     id: 58085,
@@ -302,7 +302,7 @@ module.exports = [
   {
     id: 58082,
     name: 'Investigation Equipment',
-    href: '/prevention-investigation/investigation-equipment',
+    href: '/community-risk/investigation-equipment',
   },
   {
     id: 58134,

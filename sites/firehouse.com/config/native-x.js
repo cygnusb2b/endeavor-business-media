@@ -24,7 +24,7 @@ config
   .setAliasPlacements('careers-education', [
     { name: 'default', id: '5b57592707cd7000019c5fc4' },
   ])
-  .setAliasPlacements('prevention-investigation', [
+  .setAliasPlacements('community-risk', [
     { name: 'default', id: '5b57593207cd7000019c5fc5' },
   ])
   .setAliasPlacements('tech-comm', [
