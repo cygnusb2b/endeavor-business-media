@@ -105,15 +105,6 @@ config
     { name: 'reskin', path: 'pumps-motors-drives/reskin' },
     { name: 'wa', path: 'pumps-motors-drives/wa' },
   ])
-  .setAliasAdUnits('pumps-motors-drives', [
-    { name: 'lb1', templateName: 'LB1', path: 'pumps-motors-drives/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: 'pumps-motors-drives/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: 'pumps-motors-drives/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: 'pumps-motors-drives/rail2' },
-    { name: 'load-more', templateName: 'LM', path: 'pumps-motors-drives/load-more' },
-    { name: 'reskin', path: 'pumps-motors-drives/reskin' },
-    { name: 'wa', path: 'pumps-motors-drives/wa' },
-  ])
   .setAliasAdUnits('industry-applications', [
     { name: 'lb1', templateName: 'LB1', path: 'industry-applications/lb1' },
     { name: 'lb2', templateName: 'LB2', path: 'industry-applications/lb2' },
