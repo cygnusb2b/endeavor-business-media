@@ -46,12 +46,12 @@ $theme-site-header-breakpoints: (
   font-family: "Fira Sans", Roboto, Arial, sans-serif;
 }
 
-#fg-widget-d02d836ff0dbba7d0fd7b54e2.uw-normal .uw-w-header > span {
+#fg-widget-3954fc0c7864703b0184b95db.uw-normal .uw-w-header > span {
   font-size: inherit;
 }
 
 #fg-widget-3954fc0c7864703b0184b95db:not(.uw-transparent) .uw-w-header, #fg-widget-3954fc0c7864703b0184b95db:not(.uw-transparent) .uw-w-branding {
-  background-color: $primary;
+  background-color: $primary !important;
 }
 /* stylelint-enable */
 
