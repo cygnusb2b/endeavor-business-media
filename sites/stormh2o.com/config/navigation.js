@@ -13,7 +13,8 @@ module.exports = {
   secondary: {
     items: [
       { href: '/subscribe', label: 'Subscribe' },
-      { href: '/magazine', label: 'Magazine ' },
+      { href: '/magazine', label: 'Magazine' },
+      { href: '/videos', label: 'Videos' },
       { href: '/page/advertise', label: 'Advertise' },
       { href: '/white-papers', label: 'Free Reports' },
     ],
