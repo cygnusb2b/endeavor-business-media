@@ -59,6 +59,7 @@ module.exports = {
         { href: '/directory', label: 'Supplier\'s Directory' },
         { href: '/events-calendar', label: 'Events Calendar' },
         { href: '/webinars', label: 'Webinars' },
+        { href: '/videos', label: 'Videos' },
         { href: '/case-studies', label: 'Case Studies' },
         { href: '/40-under-40', label: '40 under 40' },
         { href: '/transit-bids-rfp', label: 'Transit Bids RFP' },
