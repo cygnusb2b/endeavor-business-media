@@ -29,7 +29,8 @@ config
   })
   .setTemplate('RAIL1', { size: [300, 250] })
   .setTemplate('RAIL2', { size: [300, 600] })
-  .setTemplate('LM', { size: [[300, 250], [300, 600]] });
+  .setTemplate('LM', { size: [[300, 250], [300, 600]] })
+  .setTemplate('IAV', { size: [1, 1] });
 
 config
   .setAliasAdUnits('default', [
@@ -38,6 +39,7 @@ config
     { name: 'rail1', templateName: 'RAIL1', path: 'default/rail1' },
     { name: 'rail2', templateName: 'RAIL2', path: 'default/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'default/load-more' },
+    { name: 'iav', templateName: 'IAV', path: 'default/iav' },
     { name: 'reskin', path: 'default/reskin' },
     { name: 'wa', path: 'default/wa' },
   ])
@@ -93,15 +95,6 @@ config
     { name: 'load-more', templateName: 'LM', path: 'process-control-automation/load-more' },
     { name: 'reskin', path: 'process-control-automation/reskin' },
     { name: 'wa', path: 'process-control-automation/wa' },
-  ])
-  .setAliasAdUnits('pumps-motors-drives', [
-    { name: 'lb1', templateName: 'LB1', path: 'pumps-motors-drives/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: 'pumps-motors-drives/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: 'pumps-motors-drives/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: 'pumps-motors-drives/rail2' },
-    { name: 'load-more', templateName: 'LM', path: 'pumps-motors-drives/load-more' },
-    { name: 'reskin', path: 'pumps-motors-drives/reskin' },
-    { name: 'wa', path: 'pumps-motors-drives/wa' },
   ])
   .setAliasAdUnits('pumps-motors-drives', [
     { name: 'lb1', templateName: 'LB1', path: 'pumps-motors-drives/lb1' },

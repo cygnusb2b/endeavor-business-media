@@ -29,7 +29,8 @@ config
   .setTemplate('MS', { size: [300, 50] })
   .setTemplate('RAIL1', { size: [300, 250] })
   .setTemplate('RAIL2', { size: [300, 600] })
-  .setTemplate('LM', { size: [[300, 250], [300, 600]] });
+  .setTemplate('LM', { size: [[300, 250], [300, 600]] })
+  .setTemplate('IAV', { size: [1, 1] });
 
 config
   .setAliasAdUnits('default', [
@@ -40,6 +41,7 @@ config
     { name: 'load-more', templateName: 'LM', path: 'default/load-more' },
     { name: 'fl', templateName: 'FL', path: 'default/fl' },
     { name: 'ms', templateName: 'MS', path: 'default/ms' },
+    { name: 'iav', templateName: 'IAV', path: 'default/iav' },
     { name: 'reskin', path: 'default/reskin' },
     { name: 'wa', path: 'default/wa' },
   ])
