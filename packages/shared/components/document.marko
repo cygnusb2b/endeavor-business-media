@@ -1,3 +1,4 @@
+$ const { type } = input;
 $ const {
   site,
   req,
@@ -5,10 +6,11 @@ $ const {
   GAM,
 } = out.global;
 
+$ const contentType = input.container.page.type;
 $ const prestitial = GAM ? GAM.getAdUnit({ name: "wa" }) : {};
 $ const hasPrestitial = Boolean(prestitial.path);
-$ const wrapperStyle = hasPrestitial ? "opacity: 0;" : null;
-
+$ const displayPrestitial = hasPrestitial && contentType !== "whitepaper";
+$ const wrapperStyle = displayPrestitial ? "opacity: 0;" : null;
 $ const radix = site.getAsObject("radix");
 $ const isRadixEnabled = Boolean(radix.enabled && radix.appId);
 
@@ -25,7 +27,7 @@ $ const isRadixEnabled = Boolean(radix.enabled && radix.appId);
     <if(nativeX)>
       <marko-web-native-x-init uri=nativeX.getUri() enabled=nativeX.isEnabled() />
     </if>
-    <if(hasPrestitial)>
+    <if(displayPrestitial)>
       <gam-prestitial init=true adunit=prestitial />
     </if>
     <${input.head} />
@@ -40,7 +42,7 @@ $ const isRadixEnabled = Boolean(radix.enabled && radix.appId);
   <@body-wrapper enabled=true attrs={ id: "body-wrapper", style: wrapperStyle } />
   <@above-wrapper>
     <leaders-dropdown-portal />
-    <if(hasPrestitial)>
+    <if(displayPrestitial)>
       <gam-prestitial display=true adunit=prestitial />
     </if>
   </@above-wrapper>
