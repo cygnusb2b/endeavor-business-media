@@ -25,7 +25,8 @@ $theme-newsletter-block-button-bg-color: #000;
 $theme-site-header-breakpoints: (
   hide-primary: 832px,
   hide-secondary: 906px,
-  small-logo: 1015px,
+  hide-tertiary: 400px,
+  small-logo: 1235px,
   small-text-primary: 932px,
   small-text-secondary: 1105px
 );
@@ -38,5 +39,20 @@ $theme-site-header-breakpoints: (
     max-width: 300px;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+// Add x-small logo and menu settings for phones
+@media (max-width: 500px) {
+  .site-navbar {
+    &__logo {
+      height: 15px;
+    }
+    &__items {
+      &--tertiary {
+        padding-left: .5em;
+        margin-left: .5em;
+      }
+    }
   }
 }
