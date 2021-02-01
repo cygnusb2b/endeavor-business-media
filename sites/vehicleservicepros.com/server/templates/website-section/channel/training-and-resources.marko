@@ -86,5 +86,28 @@ $ const loadMore = {
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="training-and-resources/ask-the-expert-and-tech-tips">
+          <@query-params limit=4 />
+          <@header>Ask the Expert and Tech Tips</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="industry-news/service-repair/events">
+          <@query-params limit=4 />
+          <@header>Events</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="training-and-resources/ondemand-training">
+          <@query-params limit=4 />
+          <@header>OnDemand Training</@header>
+        </shared-website-section-list-block>
+      </div>
+    </div>
+
   </@page>
 </shared-website-section-page-default-layout>
