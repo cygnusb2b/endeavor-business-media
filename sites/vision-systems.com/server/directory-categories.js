@@ -238,6 +238,11 @@ module.exports = [
     href: '/directory/manufacturers/image-storage-devices',
   },
   {
+    id: 35824,
+    name: 'IoT Embedded Vision',
+    href: '/directory/manufacturers/iot-embedded-vision',
+  },
+  {
     id: 35035,
     name: 'Lenses',
     href: '/directory/manufacturers/lenses',
