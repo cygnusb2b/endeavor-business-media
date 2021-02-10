@@ -18,7 +18,7 @@ module.exports = {
       { href: '/special-reports', label: 'Special Reports' },
       { href: '/page/subscribe', label: 'Subscribe' },
       { href: 'https://designengineering.endeavorb2b.com/evaluation-engineering/', label: 'Advertise', target: '_blank' },
-      { href: '/page/about-us', label: 'About Us' },
+      { href: '/leaders/company/21158731/evaluation-engineerings', label: 'About Us' },
     ],
   },
   tertiary: {
@@ -28,8 +28,8 @@ module.exports = {
   },
   footer: {
     items: [
-      { href: '/page/about-us', label: 'About Us' },
-      { href: '/contact-us', label: 'Contact Us' },
+      { href: '/leaders/company/21158731/evaluation-engineerings', label: 'About Us' },
+      { href: '/page/about-us', label: 'Contact Us' },
       { href: 'https://designengineering.endeavorb2b.com/evaluation-engineering/', label: 'Advertise', target: '_blank' },
       { href: dragonForms.getFormUrl('doNotSell'), label: 'California Do Not Sell', target: '_blank' },
       { href: 'https://www.endeavorbusinessmedia.com/privacy-policy', label: 'Privacy Policy', target: '_blank' },
@@ -55,6 +55,7 @@ module.exports = {
         { href: '/new-products', label: 'New Products' },
         { href: '/special-reports', label: 'Special Reports' },
         { href: '/magazine', label: 'Digital Archives' },
+        { href: '/magazine/600a393814c8b4fd318b46f0', label: 'TechXchange' },
         { href: '/white-papers', label: 'White Papers' },
       ],
     },
@@ -63,8 +64,8 @@ module.exports = {
       items: [
         { href: '/page/subscribe', label: 'Subscribe' },
         { href: 'https://designengineering.endeavorb2b.com/evaluation-engineering/', label: 'Advertise', target: '_blank' },
-        { href: '/page/about-us', label: 'About Us' },
-        { href: '/contact-us', label: 'Contact Us' },
+        { href: '/leaders/company/21158731/evaluation-engineerings', label: 'About Us' },
+        { href: '/page/about-us', label: 'Contact Us' },
         { href: 'https://www.endeavorbusinessmedia.com/privacy-policy', label: 'Privacy Policy', target: '_blank' },
         { href: 'https://www.endeavorbusinessmedia.com/endeavor-terms', label: 'Terms & Conditions', target: '_blank' },
       ],
