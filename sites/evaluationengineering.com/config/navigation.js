@@ -55,7 +55,6 @@ module.exports = {
         { href: '/new-products', label: 'New Products' },
         { href: '/special-reports', label: 'Special Reports' },
         { href: '/magazine', label: 'Digital Archives' },
-        { href: 'https://www.mwrf.com/magazine/600a38f1b98b456a318b46b1', label: 'TechXchange' },
         { href: '/magazine/600a393814c8b4fd318b46f0', label: 'TechXchange' },
         { href: '/white-papers', label: 'White Papers' },
       ],
