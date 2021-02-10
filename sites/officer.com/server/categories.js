@@ -246,11 +246,6 @@ module.exports = [
         href: '/command-hq/technology/computers-software/apps-mobile-tablet-computer',
       },
       {
-        id: 56290,
-        name: 'Automatic Vehicle Location (AVL) Systems',
-        href: '/command-hq/technology/computers-software/automatic-vehicle-location-avl-systems',
-      },
-      {
         id: 56291,
         name: 'Biometrics Software',
         href: '/command-hq/technology/computers-software/biometrics-software',
@@ -291,11 +286,6 @@ module.exports = [
         href: '/command-hq/technology/computers-software/emergency-response-software',
       },
       {
-        id: 56300,
-        name: 'Equipment Mounts & Consoles',
-        href: '/command-hq/technology/computers-software/equipment-mounts-consoles',
-      },
-      {
         id: 56301,
         name: 'Evidence & Forensic Software',
         href: '/command-hq/technology/computers-software/evidence-forensic-software',
@@ -304,11 +294,6 @@ module.exports = [
         id: 56302,
         name: 'Firearms Software',
         href: '/command-hq/technology/computers-software/firearms-software',
-      },
-      {
-        id: 56303,
-        name: 'Fleet Management Software',
-        href: '/command-hq/technology/computers-software/fleet-management-software',
       },
       {
         id: 56304,
@@ -369,11 +354,6 @@ module.exports = [
         id: 56315,
         name: 'Tablets & Handhelds',
         href: '/command-hq/technology/computers-software/tablets-handhelds',
-      },
-      {
-        id: 56316,
-        name: 'Traffic & Parking Software',
-        href: '/command-hq/technology/computers-software/traffic-parking-software',
       },
       {
         id: 56317,
@@ -869,11 +849,6 @@ module.exports = [
         name: 'Kennels, Crates & Cages',
         href: '/on-the-street/k-9-equipment-services/kennels-crates-cages',
       },
-      {
-        id: 57671,
-        name: 'Transport Equipment & Systems',
-        href: '/on-the-street/k-9-equipment-services/transport-equipment-systems',
-      },
     ],
   },
   {
@@ -1249,9 +1224,9 @@ module.exports = [
     ],
   },
   {
-    id: 56251,
-    name: 'Vehicles & Equipment',
-    href: '/on-the-street/vehicles-equipment',
+    id: 64862,
+    name: 'Vehicles & Fleet',
+    href: '/vehicles-fleet',
     values: [
       {
         id: 56252,
@@ -1264,9 +1239,29 @@ module.exports = [
         href: '/vehicles-fleet/vehicles-equipment/auto-theft-prevention',
       },
       {
+        id: 56290,
+        name: 'Automatic Vehicle Location (AVL) Systems',
+        href: '/vehicles-fleet/computers-software/automatic-vehicle-location-avl-systems',
+      },
+      {
         id: 56254,
         name: 'Bicycles & Accessories',
         href: '/vehicles-fleet/vehicles-equipment/bicycles-accessories',
+      },
+      {
+        id: 56300,
+        name: 'Equipment Mounts & Consoles',
+        href: '/vehicles-fleet/computers-software/equipment-mounts-consoles',
+      },
+      {
+        id: 56303,
+        name: 'Fleet Management Software',
+        href: '/vehicles-fleet/computers-software/fleet-management-software',
+      },
+      {
+        id: 56316,
+        name: 'Traffic & Parking Software',
+        href: '/vehicles-fleet/computers-software/traffic-parking-software',
       },
       {
         id: 56255,
@@ -1277,6 +1272,11 @@ module.exports = [
         id: 57703,
         name: 'In Vehicle Storage Systems',
         href: '/vehicles-fleet/vehicles-equipment/in-vehicle-storage-systems',
+      },
+      {
+        id: 57671,
+        name: 'Transport Equipment & Systems',
+        href: '/vehicles-fleet/k-9-equipment-services/transport-equipment-systems',
       },
       {
         id: 56256,
@@ -1332,6 +1332,11 @@ module.exports = [
         id: 56265,
         name: 'Vehicles',
         href: '/vehicles-fleet/vehicles-equipment/vehicles',
+      },
+      {
+        id: 56251,
+        name: 'Vehicles & Equipment',
+        href: '/vehicles-fleet/vehicles-equipment',
       },
       {
         id: 56266,
