@@ -9,14 +9,31 @@ $ const dragonForms = require('../../../config/dragon-forms');
       <div class="col">
         <h4>Newsletters</h4>
         <p>Stay up-to-date on industry news and events, new product launches and more. Select from our list of targeted email offerings to stay informed on the topics that matter to you and your business.</p>
-        <p>
-          <marko-web-link
-            class="font-weight-bold"
-            href=dragonForms.getFormUrl('newsletterSignup')
-            target="_blank">
-            Subscribe / Manage Preferences
-          </marko-web-link>
-        </p>
+        <div class="row">
+          <div class="col">
+            <h5>Subscribe to:</h5>
+            <p>
+              <marko-web-link
+                class="font-weight-bold"
+                href=dragonForms.getFormUrl('newsletterSubscribe')
+                target="_blank">
+                Broadband Technology Report
+              </marko-web-link>
+            </p>
+          </div>
+          <div class="col">
+            <h5>Manage:</h5>
+            <p class="btn btn-sm btn-outline-primary">
+              <marko-web-link
+                class="font-weight-bold"
+                href=dragonForms.getFormUrl('newsletterManage')
+                target="_blank">
+                Newsletter Preferences
+              </marko-web-link>
+            </p>
+          </div>
+
+        </div>
         <hr>
       </div>
     </div>
