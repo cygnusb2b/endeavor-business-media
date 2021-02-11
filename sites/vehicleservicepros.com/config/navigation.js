@@ -70,8 +70,8 @@ module.exports = {
       items: [
         { label: 'In Print', href: '/magazine' },
         { label: 'Advertise', href: 'https://vehiclerepair.endeavorb2b.com/', target: '_blank' },
-        { label: 'PTEN E-Inquiry', href: 'https://www.cdsreportnow.com/CDSWCD/POST', target: '_blank' },
-        { label: 'PD E-Inquiry', href: 'https://www.cdsreportnow.com/CDSWCD/POST', target: '_blank' },
+        { label: 'PTEN E-Inquiry', href: 'http://protoolequipment.hotims.com', target: '_blank' },
+        { label: 'PD E-Inquiry', href: 'http://prodistributor.hotims.com', target: '_blank' },
         { label: 'Contact Us', href: '/contact-us' },
         { label: 'Subscribe', href: '/subscribe' },
         { label: 'Job Board', href: 'https://vehicleservicepros.jobboard.io/', target: '_blank' },
