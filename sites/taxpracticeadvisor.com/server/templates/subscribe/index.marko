@@ -1,4 +1,5 @@
 $ const { config } = out.global;
+$ const dragonForms = require('../../../config/dragon-forms');
 
 <shared-subscribe-page-layout
   description=`${config.siteName()} delivers power content to tax providers with this website and also our weekly newsletter. To subscribe or manage your current subscription, please click below and put the power of ${config.siteName()} at your fingertips.`
@@ -6,16 +7,41 @@ $ const { config } = out.global;
   <@newsletter-section>
     <div class="row">
       <div class="col">
-        <h4>Newsletter</h4>
-        <p>Stay up-to-date on news relating to tax preparers, new product launches, and more.</p>
+        <h4>Newsletters</h4>
+        <p>Stay up-to-date on industry news and events, new product launches and more. Select from our list of targeted email offerings to stay informed on the topics that matter to you and your business.</p>
         <p>
           <marko-web-link
             class="font-weight-bold"
-            href="http://cygnuscorporate.wufoo.com/forms/m1mu6gxu02je8ro/"
+            href=dragonForms.getFormUrl('newsletterSignup')
             target="_blank">
             Subscribe / Manage Preferences
           </marko-web-link>
         </p>
+        <div class="row">
+          <div class="col">
+            <h5>Subscribe to:</h5>
+            <p>
+              <marko-web-link
+                class="font-weight-bold"
+                href=dragonForms.getFormUrl('newsletterSubscribe')
+                target="_blank">
+                Broadband Technology Report
+              </marko-web-link>
+            </p>
+          </div>
+          <div class="col">
+            <h5>Manage:</h5>
+            <p class="btn btn-sm btn-outline-primary">
+              <marko-web-link
+                class="font-weight-bold"
+                href=dragonForms.getFormUrl('newsletterManage')
+                target="_blank">
+                Newsletter Preferences
+              </marko-web-link>
+            </p>
+          </div>
+
+        </div>
         <hr>
       </div>
     </div>
