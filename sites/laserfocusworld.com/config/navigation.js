@@ -22,8 +22,8 @@ module.exports = {
       { href: '/webcasts', label: 'Webcasts' },
       { href: '/directory', label: 'Buyer\'s Guide' },
       { href: 'https://laserfocusworldinnovators.secure-platform.com/a', label: 'Awards', target: '_blank' },
-      { href: 'https://www.marketplaceseminar.com/index.html', label: 'Market Seminar', target: '_blank' },
-      { href: 'https://store.laserfocusworld.com/', label: 'Market Research', target: '_blank' },
+      { href: 'https://www.marketplaceseminar.com/index.html', label: 'Seminar', target: '_blank' },
+      { href: 'https://store.laserfocusworld.com/', label: 'Research', target: '_blank' },
     ],
   },
   tertiary: {
