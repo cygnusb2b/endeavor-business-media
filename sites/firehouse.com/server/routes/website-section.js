@@ -24,6 +24,8 @@ const channelAliases = [
   'community-risk',
   'stations',
   'covid-19',
+  'ems',
+  'tech-comm',
 ];
 
 module.exports = (app) => {

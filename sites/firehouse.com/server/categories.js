@@ -254,8 +254,8 @@ module.exports = [
   },
   {
     id: 58081,
-    name: 'Community Risk Reduction',
-    href: '/community-risk/community-risk-reduction',
+    name: 'Community Risk',
+    href: '/community-risk',
   },
   {
     id: null,
@@ -266,6 +266,11 @@ module.exports = [
     id: 58073,
     name: 'Emblems & Badges',
     href: '/careers-education/emblems-badges',
+  },
+  {
+    id: 58137,
+    name: 'EMS',
+    href: '/ems',
   },
   {
     id: 58083,
@@ -313,11 +318,6 @@ module.exports = [
         id: 58136,
         name: 'Extinguishers',
         href: '/operations-training/extinguishers',
-      },
-      {
-        id: 58137,
-        name: 'EMS',
-        href: '/operations-training/ems',
       },
       {
         id: 58138,
