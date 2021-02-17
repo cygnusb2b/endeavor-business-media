@@ -4,6 +4,8 @@ const config = new DragonFormsConfig({ url: 'https://endeavor.dragonforms.com' }
 
 config
   .addForm('doNotSell', { omedasite: 'EBM_DoNotSell' })
+  .addForm('newsletterSubscribe', { omedasite: 'BTRnewpref' })
+  .addForm('newsletterManage', { omedasite: 'BTRPrefPage' })
   .addForm('newsletterSignup', { omedasite: 'BTRnewpref', query: { pk: 'ARTWEB' } });
 
 module.exports = config;
