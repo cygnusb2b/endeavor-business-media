@@ -214,7 +214,7 @@ config
     { name: 'load-more', templateName: 'LM', path: 'product-guide/tools/repair-information-sources/load-more' },
     { name: 'reskin', path: 'product-guide/tools/repair-information-sources/reskin' },
   ])
-  .setAliasAdUnits('directory/tools/safety-equipment-personal-gear', [
+  .setAliasAdUnits('directory/tools/safety-equipment-and-personal-gear', [
     { name: 'lb1', templateName: 'LB1', path: 'product-guide/tools/safety-equipment-and-personal-gear/lb1' },
     { name: 'lb2', templateName: 'LB2', path: 'product-guide/tools/safety-equipment-and-personal-gear/lb2' },
     { name: 'rail1', templateName: 'RAIL1', path: 'product-guide/tools/safety-equipment-and-personal-gear/rail1' },
