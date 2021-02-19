@@ -27,7 +27,7 @@ module.exports = {
     },
   },
   socialMediaLinks: [
-    { provider: 'linkedin', href: 'https://www.linkedin.com/groups/2896249/', target: '_blank' },
+    { provider: 'linkedin', href: 'https://www.linkedin.com/showcase/laser-focus-world', target: '_blank' },
     { provider: 'twitter', href: 'https://twitter.com/LaserFocusWorld', target: '_blank' },
     { provider: 'facebook', href: 'https://www.facebook.com/pages/Laser-Focus-World/126899915297', target: '_blank' },
   ],

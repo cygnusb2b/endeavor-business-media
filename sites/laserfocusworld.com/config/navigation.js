@@ -22,7 +22,8 @@ module.exports = {
       { href: '/webcasts', label: 'Webcasts' },
       { href: '/directory', label: 'Buyer\'s Guide' },
       { href: 'https://laserfocusworldinnovators.secure-platform.com/a', label: 'Awards', target: '_blank' },
-      { href: 'https://www.marketplaceseminar.com/index.html', label: 'L&P Market Seminar', target: '_blank' },
+      { href: 'https://www.marketplaceseminar.com/index.html', label: 'Seminar', target: '_blank' },
+      { href: 'https://store.laserfocusworld.com/', label: 'Research', target: '_blank' },
     ],
   },
   tertiary: {
@@ -66,7 +67,7 @@ module.exports = {
         { href: '/directory', label: 'Buyer\'s Guide' },
         { href: 'https://laserfocusworldinnovators.secure-platform.com/a', label: 'Awards', target: '_blank' },
         { href: 'https://www.marketplaceseminar.com/index.html', label: 'L&P Market Seminar', target: '_blank' },
-        { href: 'https://www.strategies-u.com/reports', label: 'Photonics Market Reports', target: '_blank' },
+        { href: 'https://store.laserfocusworld.com/', label: 'Photonics Market Reports', target: '_blank' },
         { href: 'https://www.industrial-lasers.com/', label: 'Industrial Lasers', target: '_blank' },
       ],
     },

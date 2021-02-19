@@ -25,7 +25,7 @@ module.exports = {
     },
   },
   socialMediaLinks: [
-    { provider: 'linkedin', href: 'https://www.linkedin.com/company/4000113', target: '_blank' },
+    { provider: 'linkedin', href: 'https://www.linkedin.com/showcase/industrial-laser-solutions', target: '_blank' },
     { provider: 'twitter', href: 'https://twitter.com/ILS_for_Mfg', target: '_blank' },
     { provider: 'facebook', href: 'https://www.facebook.com/industriallasersolutions', target: '_blank' },
   ],
