@@ -3,7 +3,7 @@ const dragonForms = require('./dragon-forms');
 module.exports = {
   primary: {
     items: [
-      { href: '/covid-19', label: 'COVID-19' },
+      { href: '/personal-wellness', label: 'Personal Wellness' },
       { href: '/dentistry', label: 'Dentistry' },
       { href: '/dental-hygiene', label: 'Dental Hygiene' },
       { href: '/front-office', label: 'Front Office' },
@@ -40,7 +40,7 @@ module.exports = {
     {
       label: 'Topics',
       items: [
-        { href: '/covid-19', label: 'COVID-19' },
+        { href: '/personal-wellness', label: 'Personal Wellness' },
         { href: '/dentistry', label: 'Dentistry' },
         { href: '/dental-hygiene', label: 'Dental Hygiene' },
         { href: '/front-office', label: 'Front Office' },
