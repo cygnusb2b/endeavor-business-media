@@ -16,6 +16,7 @@ module.exports = {
       { href: '/subscribe', label: 'Subscribe' },
       { href: '/magazine', label: 'Magazine' },
       { href: '/webinars', label: 'Webinars' },
+      { href: '/white-papers', label: 'White Papers' },
       { href: '/videos', label: 'Videos' },
       { href: '/events', label: 'Events' },
       { href: '/news-reports', label: 'News & Reports' },
@@ -56,6 +57,7 @@ module.exports = {
       items: [
         { href: '/magazine', label: 'Magazine' },
         { href: '/webinars', label: 'Webinars' },
+        { href: '/white-papers', label: 'White Papers' },
         { href: '/videos', label: 'Videos' },
         { href: '/events', label: 'Events' },
         { href: '/news-reports', label: 'News & Reports' },
