@@ -31,11 +31,11 @@ $theme-site-navbar-logo-drop-shadow: "";
 $theme-site-footer-logo-box-shadow: "";
 
 $theme-site-header-breakpoints: (
-  hide-primary: 1005px,
-  hide-secondary: 906px,
-  small-logo: 1015px,
-  small-text-primary: 1152px,
-  small-text-secondary: 1105px
+  hide-primary: 1050px,
+  hide-secondary: 975px,
+  small-logo: 1175px,
+  small-text-primary: 1175px,
+  small-text-secondary: 1175px
 );
 
 @import "../../node_modules/@endeavor-business-media/package-shared/scss/core";
