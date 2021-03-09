@@ -12,18 +12,20 @@ $theme-site-navbar-secondary-bg-color: #045866;
 $theme-site-navbar-primary-bg-color: $primary;
 $theme-site-navbar-menu-hover-background-color: lighten($theme-site-navbar-primary-bg-color, 65%);
 
-$theme-site-navbar-logo-height: 55px;
+$theme-site-navbar-logo-height: 45px;
 $theme-site-navbar-logo-height-sm: 30px;
+
+$theme-site-navbar-secondary-font-size: 13px;
 
 $theme-newsletter-block-bg-color: $primary;
 $theme-newsletter-block-button-bg-color: #000;
 
 $theme-site-header-breakpoints: (
   hide-primary: 870px,
-  hide-secondary: 1090px,
+  hide-secondary: 1025px,
   small-logo: 1260px,
   small-text-primary: 976px,
-  small-text-secondary: 1260px
+  small-text-secondary: 1140px
 );
 
 @import "../../node_modules/@endeavor-business-media/package-shared/scss/core";
