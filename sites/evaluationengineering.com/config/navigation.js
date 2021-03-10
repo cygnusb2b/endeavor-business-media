@@ -56,6 +56,7 @@ module.exports = {
         { href: '/special-reports', label: 'Special Reports' },
         { href: '/magazine', label: 'Digital Archives' },
         { href: '/magazine/600a393814c8b4fd318b46f0', label: 'TechXchange' },
+        { href: '/magazine/5f4420764649413e558b456a', label: 'Top Stories' },
         { href: '/white-papers', label: 'White Papers' },
       ],
     },
