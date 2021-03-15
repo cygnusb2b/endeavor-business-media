@@ -32,6 +32,9 @@ config
   ])
   .setAliasPlacements('stations', [
     { name: 'default', id: '5b57594c5bbf91000134a2d2' },
+  ])
+  .setAliasPlacements('ems', [
+    { name: 'default', id: '604fc10b643e4300019148cd' },
   ]);
 
 module.exports = config;
