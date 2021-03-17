@@ -16,7 +16,7 @@ module.exports = {
       { href: '/magazine', label: 'Magazine' },
       { href: '/videos', label: 'Videos' },
       { href: '/page/advertise', label: 'Advertise' },
-      { href: '/white-papers', label: 'Free Reports' },
+      { href: '/white-papers', label: 'White Papers' },
     ],
   },
   tertiary: {
@@ -48,9 +48,10 @@ module.exports = {
     {
       label: 'Resources',
       items: [
+        { href: '/webinars', label: 'Webcasts' },
         { href: '/events', label: 'Events' },
         { href: '/magazine', label: 'Magazine' },
-        { href: '/white-papers', label: 'Free Reports' },
+        { href: '/white-papers', label: 'White Papers' },
       ],
     },
     {
