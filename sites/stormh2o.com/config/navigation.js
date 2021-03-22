@@ -17,6 +17,7 @@ module.exports = {
       { href: '/videos', label: 'Videos' },
       { href: '/page/advertise', label: 'Advertise' },
       { href: '/white-papers', label: 'White Papers' },
+      { href: '/webinars', label: 'Webcasts' },
     ],
   },
   tertiary: {
