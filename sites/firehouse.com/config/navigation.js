@@ -59,6 +59,7 @@ module.exports = {
     {
       label: 'Resources',
       items: [
+        { href: '/white-papers', label: 'Whitepapers' },
         { href: 'https://forums.firehouse.com', label: 'Forums', target: '_blank' },
         { href: '/covid-19', label: 'COVID-19' },
         { href: '/careers-education/jobs', label: 'Jobs' },
@@ -69,7 +70,7 @@ module.exports = {
         { href: '/40th-anniversary', label: '40th Anniversary' },
         { href: '/valor-awards', label: 'Valor Awards' },
         { href: '/run-surveys', label: 'Run Surveys' },
-        { href: '/industry-insights', label: 'Industry Insights' },
+        { href: '/industry-experts-blog', label: 'Industry Experts Blog' },
         { href: '/quick-chat-videos', label: 'Quick Chat Videos' },
         { href: '/manufacturers-corner', label: 'Manufacturer\'s Corner' },
         { href: '/podcast', label: 'Podcasts' },
