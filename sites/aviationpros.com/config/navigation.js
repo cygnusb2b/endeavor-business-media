@@ -63,7 +63,7 @@ module.exports = {
       label: 'Resources',
       items: [
         { href: '/directory', label: 'Buyers Guide' },
-        { href: 'http://amtrenewal.litmos.com/online-courses/', label: 'AMT Online Training', target: '_blank' },
+        { href: '/podcasts', label: 'Podcasts' },
         { href: 'https://jobs.aviationpros.com', label: 'Careers', target: '_blank' },
         { href: '/classified-rfp', label: 'Classifieds & RFPs' },
         { href: '/magazine', label: 'Magazines' },
