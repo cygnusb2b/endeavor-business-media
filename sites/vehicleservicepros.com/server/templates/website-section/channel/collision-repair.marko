@@ -1,0 +1,108 @@
+import { getAsObject, getAsArray } from "@base-cms/object-path";
+import { isFunction } from "@base-cms/utils";
+import queryFragment from "@endeavor-business-media/package-shared/graphql/fragments/content-list";
+import categories from "../../../categories";
+
+$ const { id, alias, name, pageNode } = data;
+$ const { GAM } = out.global;
+$ const adSlots = isFunction(input.adSlots) ? input.adSlots : ({ aliases }) => ({
+  "gpt-ad-lb1": GAM.getAdUnit({ name: "lb1", aliases }),
+  "gpt-ad-rail2": GAM.getAdUnit({ name: "rail2", aliases }),
+  "gpt-ad-rail3": GAM.getAdUnit({ name: "rail2", aliases }),
+});
+
+$ const loadMore = {
+  queryParams: { limit: 14, skip: 29 },
+  ...getAsObject(input, "loadMore"),
+};
+
+<shared-website-section-page-default-layout
+  id=id
+  alias=alias
+  name=name
+  page-node=pageNode
+  ad-slots=adSlots
+  load-more=loadMore
+>
+  <@page>
+    <shared-gam-display-ad id="gpt-ad-lb1" modifiers=["top-of-page"] />
+
+    <marko-web-resolve-page|{ data: section }| node=pageNode>
+      <marko-web-page-wrapper class="mb-block">
+        <@section>
+          <div class="row">
+            <div class="col">
+              <default-theme-website-section-breadcrumbs section=section display-self=false />
+              <marko-web-website-section-name tag="h1" class="page-wrapper__title" obj=section />
+              <marko-web-website-section-description tag="p" class="page-wrapper__deck" obj=section />
+              <hr>
+            </div>
+          </div>
+        </@section>
+      </marko-web-page-wrapper>
+    </marko-web-resolve-page>
+
+    <shared-content-hero-block id=id />
+
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias=alias>
+          <@query-params limit=4 skip=5 />
+          <@header>Latest</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-gam-display-ad id="gpt-ad-rail2" />
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="collision-repair/adascalibrationprogramming">
+          <@query-params limit=4 />
+          <@header>ADAS</@header>
+        </shared-website-section-list-block>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="collision-repair/paint-and-refinish">
+          <@query-params limit=4 />
+          <@header>Paint & Refinish</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="collision-repair/on-the-shop-floor">
+          <@query-params limit=4 />
+          <@header>On The Shop Floor</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="collision-repair/body-shop-and-repair">
+          <@query-params limit=4 />
+          <@header>Body Shop & Repair</@header>
+        </shared-website-section-list-block>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 mb-block">
+        <shared-website-section-list-block alias="collision-repair/video-network">
+          <@query-params limit=4 />
+          <@header>Multimedia</@header>
+        </shared-website-section-list-block>
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <shared-gam-display-ad id="gpt-ad-rail3" />
+      </div>
+
+      <div class="col-lg-4 mb-block">
+        <directory-facets title="Product Guide" active-id=id facets=categories />
+      </div>
+    </div>
+
+  </@page>
+</shared-website-section-page-default-layout>

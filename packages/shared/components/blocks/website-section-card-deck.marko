@@ -1,0 +1,47 @@
+import { getAsObject, get } from "@base-cms/object-path";
+import defaultValue from "@base-cms/marko-core/utils/default-value";
+import queryFragment from "../../graphql/fragments/content-list";
+import sectionFragment from "../../graphql/fragments/blocks/website-section-list";
+
+$ const { alias } = input;
+$ const linkHeader = defaultValue(input.linkHeader, true);
+$ const nativeX = {
+  enabled: true,
+  index: 3,
+  name: "default",
+  aliases: [alias],
+  ...getAsObject(input, "nativeX"),
+};
+
+$ const queryParams = {
+  limit: 4,
+  queryFragment,
+  sectionFragment,
+  ...getAsObject(input, "queryParams"),
+  sectionAlias: alias,
+};
+
+<marko-web-query|{ nodes, section }| name="website-scheduled-content" params=queryParams>
+  <marko-web-node-list inner-justified=defaultValue(input.innerJustified, true)>
+    <@header>
+      <if(input.header)>
+        <${input.header} section=section />
+      </if>
+      <else>
+        <marko-web-website-section-name obj=section link=linkHeader />
+      </else>
+    </@header>
+    <@nodes nodes=nodes>
+      <shared-content-card-deck-flow
+        nodes=nodes
+        cols=defaultValue(input.cols, 3)
+        display-ads=defaultValue(input.displayAds, false)
+      >
+        <if(nativeX.enabled)>
+          <@native-x ...nativeX />
+        </if>
+        <@node with-teaser=defaultValue(input.withTeaser, false) />
+      </shared-content-card-deck-flow>
+    </@nodes>
+  </marko-web-node-list>
+</marko-web-query>
