@@ -27,7 +27,7 @@ module.exports = {
     },
   },
   socialMediaLinks: [
-    { provider: 'linkedin', href: 'http://www.linkedin.com/groups/PennWell-Aerospace-Defense-Media-Group-2448878', target: '_blank' },
+    { provider: 'linkedin', href: 'http://www.linkedin.com/showcase/military-&-aerospace-electronics/', target: '_blank' },
     { provider: 'twitter', href: 'https://twitter.com/MilAero', target: '_blank' },
     { provider: 'facebook', href: 'https://www.facebook.com/pages/Military-Aerospace-Electronics/174732214480', target: '_blank' },
   ],
