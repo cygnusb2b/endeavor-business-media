@@ -68,6 +68,7 @@ module.exports = {
         { href: 'https://laserfocusworldinnovators.secure-platform.com/a', label: 'Awards', target: '_blank' },
         { href: 'https://www.marketplaceseminar.com/index.html', label: 'L&P Market Seminar', target: '_blank' },
         { href: 'https://store.laserfocusworld.com/', label: 'Photonics Market Reports', target: '_blank' },
+        { href: 'page/University', label: 'PhotonicsNEXT University' },
         { href: 'https://www.industrial-lasers.com/', label: 'Industrial Lasers', target: '_blank' },
       ],
     },
