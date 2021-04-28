@@ -47,12 +47,12 @@ config
     { name: 'reskin', path: 'distribution/reskin' },
   ])
   .setAliasAdUnits('training-and-resources', [
-    { name: 'lb1', templateName: 'LB1', path: 'training-and-resources/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: 'training-and-resources/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: 'training-and-resources/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: 'training-and-resources/rail2' },
-    { name: 'load-more', templateName: 'LM', path: 'training-and-resources/load-more' },
-    { name: 'reskin', path: 'training-and-resources/reskin' },
+    { name: 'lb1', templateName: 'LB1', path: 'training-resources/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'training-resources/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'training-resources/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'training-resources/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'training-resources/load-more' },
+    { name: 'reskin', path: 'training-resources/reskin' },
   ])
   .setAliasAdUnits('industry-news', [
     { name: 'lb1', templateName: 'LB1', path: 'industry-news/lb1' },
@@ -143,12 +143,12 @@ config
     { name: 'reskin', path: 'product-guide/tools/diagnostic-test-equipment/reskin' },
   ])
   .setAliasAdUnits('directory/tools/electrical-system-tools-and-equipment', [
-    { name: 'lb1', templateName: 'LB1', path: 'product-guide/tools/electrical-system-tools-and-equipment/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: 'product-guide/tools/electrical-system-tools-and-equipment/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: 'product-guide/tools/electrical-system-tools-and-equipment/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: 'product-guide/tools/electrical-system-tools-and-equipment/rail2' },
-    { name: 'load-more', templateName: 'LM', path: 'product-guide/tools/electrical-system-tools-and-equipment/load-more' },
-    { name: 'reskin', path: 'product-guide/tools/electrical-system-tools-and-equipment/reskin' },
+    { name: 'lb1', templateName: 'LB1', path: 'product-guide/tools/electrical-system-tools-equipment/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'product-guide/tools/electrical-system-tools-equipment/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'product-guide/tools/electrical-system-tools-equipment/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'product-guide/tools/electrical-system-tools-equipment/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'product-guide/tools/electrical-system-tools-equipment/load-more' },
+    { name: 'reskin', path: 'product-guide/tools/electrical-system-tools-equipment/reskin' },
   ])
   .setAliasAdUnits('directory/tools/emissions-system-tools', [
     { name: 'lb1', templateName: 'LB1', path: 'product-guide/tools/emissions-system-tools/lb1' },
@@ -215,12 +215,12 @@ config
     { name: 'reskin', path: 'product-guide/tools/repair-information-sources/reskin' },
   ])
   .setAliasAdUnits('directory/tools/safety-equipment-and-personal-gear', [
-    { name: 'lb1', templateName: 'LB1', path: 'product-guide/tools/safety-equipment-and-personal-gear/lb1' },
-    { name: 'lb2', templateName: 'LB2', path: 'product-guide/tools/safety-equipment-and-personal-gear/lb2' },
-    { name: 'rail1', templateName: 'RAIL1', path: 'product-guide/tools/safety-equipment-and-personal-gear/rail1' },
-    { name: 'rail2', templateName: 'RAIL2', path: 'product-guide/tools/safety-equipment-and-personal-gear/rail2' },
-    { name: 'load-more', templateName: 'LM', path: 'product-guide/tools/safety-equipment-and-personal-gear/load-more' },
-    { name: 'reskin', path: 'product-guide/tools/safety-equipment-and-personal-gear/reskin' },
+    { name: 'lb1', templateName: 'LB1', path: 'product-guide/tools/safety-equipment-personal-gear/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'product-guide/tools/safety-equipment-personal-gear/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'product-guide/tools/safety-equipment-personal-gear/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'product-guide/tools/safety-equipment-personal-gear/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'product-guide/tools/safety-equipment-personal-gear/load-more' },
+    { name: 'reskin', path: 'product-guide/tools/safety-equipment-personal-gear/reskin' },
   ])
   .setAliasAdUnits('directory/tools/scan-tools-and-scan-tool-accessories', [
     { name: 'lb1', templateName: 'LB1', path: 'product-guide/tools/scan-tools-and-scan-tool-accessories/lb1' },
