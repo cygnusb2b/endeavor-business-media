@@ -6,8 +6,8 @@ config
   .addForm('doNotSell', { omedasite: 'EBM_DoNotSell' })
   .addForm('newsletterSignup', { omedasite: 'LFWNewPref' })
   .addForm('newsletterSubscribe', { omedasite: 'LFWnewpref', query: { pk: 'ARTWEB' } })
-  .addForm('newsletterLFWSubscribe', { omedasite: 'LFWnewpref', query: { pk: 'ARTWEB' } })
+  .addForm('newsletterLFWSubscribe', { omedasite: 'LFWnewpref' })
   .addForm('newsletterBOWSubscribe', { omedasite: 'BOWnewpref', query: { pk: 'ARTWEB' } })
-  .addForm('newsletterManage', { omedasite: 'LFWPrefPage', query: { pk: 'ARTWEB' } });
+  .addForm('newsletterManage', { omedasite: 'LFWPrefPage' });
 
 module.exports = config;
