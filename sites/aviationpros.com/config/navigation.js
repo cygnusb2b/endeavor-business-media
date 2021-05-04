@@ -70,6 +70,7 @@ module.exports = {
         { href: '/events', label: 'Events' },
         { href: '/opinions', label: 'Opinions' },
         { href: '/webinars', label: 'Webinars' },
+        { href: '/white-papers', label: 'White Paper/Case Study' },
         { href: 'http://www.gseexpo.com/', label: 'GSE Expo', target: '_blank' },
       ],
     },
