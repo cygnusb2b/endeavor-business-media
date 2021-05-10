@@ -116,6 +116,22 @@ config
     { name: 'rail2', templateName: 'RAIL2', path: 'technology/dispatching-systems-equipment/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'technology/dispatching-systems-equipment/load-more' },
     { name: 'reskin', path: 'technology/dispatching-systems-equipment/reskin' },
+  ])
+  .setAliasAdUnits('rail/rail-vehicle-builders-components-accessories', [
+    { name: 'lb1', templateName: 'LB1', path: '/rail/rail-vehicle-builders/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: '/rail/rail-vehicle-builders/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: '/rail/rail-vehicle-builders/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: '/rail/rail-vehicle-builders/rail2' },
+    { name: 'load-more', templateName: 'LM', path: '/rail/rail-vehicle-builders/load-more' },
+    { name: 'reskin', path: '/rail/rail-vehicle-builders/reskin' },
+  ])
+  .setAliasAdUnits('rail/railroad-signals-ptc-control-systems-and-products', [
+    { name: 'lb1', templateName: 'LB1', path: '/rail/railroad-signals-ptc-control/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: '/rail/railroad-signals-ptc-control/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: '/rail/railroad-signals-ptc-control/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: '/rail/railroad-signals-ptc-control/rail2' },
+    { name: 'load-more', templateName: 'LM', path: '/rail/railroad-signals-ptc-control/load-more' },
+    { name: 'reskin', path: '/rail/railroad-signals-ptc-control/reskin' },
   ]);
 
 module.exports = config;
