@@ -461,7 +461,7 @@ module.exports = [
       },
       {
         id: 35855,
-        name: 'COB LEDs - white',
+        name: 'COB LEDs',
         href: '/directory/led-packages/cob-leds-white',
       },
       {
@@ -485,6 +485,11 @@ module.exports = [
         href: '/directory/led-packages/horticultural-leds',
       },
       {
+        id: 34558,
+        name: 'Mid- and High Power LEDs - colored',
+        href: '/directory/led-packages/mid-and-high-power-leds-colored',
+      },
+      {
         id: 35859,
         name: 'Mid- and high-power LEDs - tunable white',
         href: '/directory/led-packages/cob-leds-white',
@@ -493,11 +498,6 @@ module.exports = [
         id: 35856,
         name: 'Mid- and low-power LEDs - white',
         href: '/directory/led-packages/mid-and-low-power-leds-white',
-      },
-      {
-        id: 34558,
-        name: 'Mid- and High Power LEDs - colored',
-        href: '/directory/led-packages/mid-and-high-power-leds-colored',
       },
       {
         id: 34562,
