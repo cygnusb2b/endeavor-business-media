@@ -460,6 +460,11 @@ module.exports = [
         href: '/directory/led-packages/ac-leds',
       },
       {
+        id: 35855,
+        name: 'COB LEDs - white',
+        href: '/directory/led-packages/cob-leds-white',
+      },
+      {
         id: 34556,
         name: 'CSP LEDs',
         href: '/directory/led-packages/csp-leds',
@@ -470,24 +475,29 @@ module.exports = [
         href: '/directory/led-packages/fiber-coupled-leds',
       },
       {
+        id: 35857,
+        name: 'High-power LEDs - white',
+        href: '/directory/led-packages/high-power-leds-white',
+      },
+      {
+        id: 35858,
+        name: 'Horticultural LEDs',
+        href: '/directory/led-packages/horticultural-leds',
+      },
+      {
+        id: 35859,
+        name: 'Mid- and high-power LEDs - tunable white',
+        href: '/directory/led-packages/cob-leds-white',
+      },
+      {
+        id: 35856,
+        name: 'Mid- and low-power LEDs - white',
+        href: '/directory/led-packages/mid-and-low-power-leds-white',
+      },
+      {
         id: 34558,
-        name: 'Power LEDs - colored',
-        href: '/directory/led-packages/power-leds-colored',
-      },
-      {
-        id: 34559,
-        name: 'Power LEDs - cool white',
-        href: '/directory/led-packages/power-leds-cool-white',
-      },
-      {
-        id: 34560,
-        name: 'Power LEDs - neutral white',
-        href: '/directory/led-packages/power-leds-neutral-white',
-      },
-      {
-        id: 34561,
-        name: 'Power LEDs - warm white',
-        href: '/directory/led-packages/power-leds-warm-white',
+        name: 'Mid- and High Power LEDs - colored',
+        href: '/directory/led-packages/mid-and-high-power-leds-colored',
       },
       {
         id: 34562,
@@ -501,8 +511,8 @@ module.exports = [
       },
       {
         id: 34564,
-        name: 'Surface-mount LEDs (<0.5W)',
-        href: '/directory/led-packages/surface-mount-leds-',
+        name: 'Surface-mount LEDs',
+        href: '/directory/led-packages/surface-mount-leds',
       },
       {
         id: 34565,
@@ -513,11 +523,6 @@ module.exports = [
         id: 34566,
         name: 'UV & IR LEDs',
         href: '/directory/led-packages/uv-ir-leds',
-      },
-      {
-        id: 34567,
-        name: 'White LEDs (<0.5W)',
-        href: '/directory/led-packages/white-leds-',
       },
     ],
   },
