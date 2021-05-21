@@ -340,6 +340,15 @@ config
     { name: 'load-more', templateName: 'LM', path: 'media-center/video/load-more' },
     { name: 'reskin', path: 'media-center/video/reskin' },
     { name: 'wa', path: 'media-center/video/wa' },
+  ])
+  .setAliasAdUnits('careers', [
+    { name: 'lb1', templateName: 'LB1', path: 'careers/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'careers/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'careers/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'careers/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'careers/load-more' },
+    { name: 'reskin', path: 'careers/reskin' },
+    { name: 'wa', path: 'careers/wa' },
   ]);
 
 module.exports = config;

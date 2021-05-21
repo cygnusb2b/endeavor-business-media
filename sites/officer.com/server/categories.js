@@ -1157,6 +1157,11 @@ module.exports = [
         href: '/training-careers/books-publications',
       },
       {
+        id: 56408,
+        name: 'Careers',
+        href: '/careers',
+      },
+      {
         id: 56210,
         name: 'Conferences & Seminars',
         href: '/training-careers/conferences-seminars',
