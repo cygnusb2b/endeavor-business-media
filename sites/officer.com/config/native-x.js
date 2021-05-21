@@ -20,6 +20,9 @@ config
   ])
   .setAliasPlacements('command-hq', [
     { name: 'default', id: '5b5758cf07cd7000019c5fbf' },
+  ])
+  .setAliasPlacements('home', [
+    { name: 'sponsored', id: '60a547de46b8da0001e1280c' },
   ]);
 
 module.exports = config;
