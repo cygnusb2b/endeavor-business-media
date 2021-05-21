@@ -25,7 +25,7 @@ module.exports = {
     },
   },
   socialMediaLinks: [
-    { provider: 'linkedin', href: 'https://www.linkedin.com/groups/90501/', target: '_blank' },
+    { provider: 'linkedin', href: 'https://www.linkedin.com/company/16242103', target: '_blank' },
     { provider: 'twitter', href: 'https://twitter.com/HCInnovationGrp', target: '_blank' },
     { provider: 'facebook', href: 'https://www.facebook.com/HealthcareInnovationGroup', target: '_blank' },
   ],
