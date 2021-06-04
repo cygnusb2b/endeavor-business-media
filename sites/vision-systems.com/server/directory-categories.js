@@ -347,11 +347,6 @@ module.exports = [
     ],
   },
   {
-    id: 35056,
-    name: 'Optical Subsystems',
-    href: '/directory/manufacturers/optical-subsystems',
-  },
-  {
     id: 35059,
     name: 'Optics',
     href: '/directory/manufacturers/optics',
