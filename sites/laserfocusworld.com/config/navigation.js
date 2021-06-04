@@ -65,6 +65,7 @@ module.exports = {
         { href: '/webcasts', label: 'Webcasts' },
         { href: '/directory', label: 'Buyer\'s Guide' },
         { href: 'https://laserfocusworldinnovators.secure-platform.com/a', label: 'Awards', target: '_blank' },
+        { href: 'https://endeavor.swoogo.com/photonicsnext_summer_summit/Home?ref=lfwhamburgermenu', label: 'PhotonicsNEXT Summit', target: '_blank' },
         { href: 'https://store.laserfocusworld.com/', label: 'Photonics Market Reports', target: '_blank' },
         { href: 'page/University', label: 'PhotonicsNEXT University' },
         { href: 'https://www.industrial-lasers.com/', label: 'Industrial Lasers', target: '_blank' },
@@ -73,7 +74,7 @@ module.exports = {
     {
       label: 'Events',
       items: [
-        { href: 'https://www.marketplaceseminar.com/index.html', label: 'L&P Market Seminar', target: '_blank' },
+        { href: 'https://endeavor.swoogo.com/photonicsnext_summer_summit/Home?ref=lfwtopmenu', label: 'L&P Market Seminar', target: '_blank' },
         { href: 'https://endeavor.swoogo.com/The_PhotonicsNEXT_Summit?partnerref=PhotonicsNEXT-em10-01122021&utm_source=LFW+Webcasts&utm_medium=email&utm_campaign=CPS210111040&o_eid=2080E6033334A0W&rdx.ident%5Bpull%5D=omeda%7C2080E6033334A0W', label: 'Photonics Next', target: '_blank' },
       ],
     },
