@@ -9,7 +9,6 @@ module.exports = {
       { href: '/front-office', label: 'Front Office' },
       { href: '/dental-assisting', label: 'Dental Assisting' },
       { href: '/practice-management', label: 'Practice Management' },
-      { href: '/dental-jobs', label: 'Dental Works' },
     ],
   },
   secondary: {
@@ -46,7 +45,6 @@ module.exports = {
         { href: '/front-office', label: 'Front Office' },
         { href: '/dental-assisting', label: 'Dental Assisting' },
         { href: '/practice-management', label: 'Practice Management' },
-        { href: '/dental-jobs', label: 'Dental Works' },
       ],
     },
     {
