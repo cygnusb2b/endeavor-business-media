@@ -115,6 +115,14 @@ config
     { name: 'rail2', templateName: 'RAIL2', path: 'a-year-in-the-life-of-payroll/rail2' },
     { name: 'load-more', templateName: 'LM', path: 'a-year-in-the-life-of-payroll/load-more' },
     { name: 'reskin', path: 'a-year-in-the-life-of-payroll/reskin' },
+  ])
+  .setAliasAdUnits('podcasts', [
+    { name: 'lb1', templateName: 'LB1', path: 'podcasts/lb1' },
+    { name: 'lb2', templateName: 'LB2', path: 'podcasts/lb2' },
+    { name: 'rail1', templateName: 'RAIL1', path: 'podcasts/rail1' },
+    { name: 'rail2', templateName: 'RAIL2', path: 'podcasts/rail2' },
+    { name: 'load-more', templateName: 'LM', path: 'podcasts/load-more' },
+    { name: 'reskin', path: 'podcasts/reskin' },
   ]);
 
 module.exports = config;
