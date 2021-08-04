@@ -56,7 +56,7 @@ module.exports = {
         {
           href: 'https://stormwateruniv.com',
           label: 'Stormwater University',
-          target: "_blank",
+          target: '_blank',
         },
       ],
     },
