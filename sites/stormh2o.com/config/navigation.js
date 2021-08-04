@@ -54,7 +54,7 @@ module.exports = {
         { href: '/magazine', label: 'Magazine' },
         { href: '/white-papers', label: 'White Papers' },
         {
-          href: "https://stormwateruniv.com",
+          href: 'https://stormwateruniv.com',
           label: 'Stormwater University',
           target: "_blank",
         },
