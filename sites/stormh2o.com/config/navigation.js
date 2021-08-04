@@ -50,14 +50,14 @@ module.exports = {
       label: 'Resources',
       items: [
         { href: '/webinars', label: 'Webcasts' },
-        { href: '/events', label: 'Events' },
-        { href: '/magazine', label: 'Magazine' },
-        { href: '/white-papers', label: 'White Papers' },
         {
           href: 'https://stormwateruniv.com',
           label: 'Stormwater University',
           target: '_blank',
         },
+        { href: '/events', label: 'Events' },
+        { href: '/magazine', label: 'Magazine' },
+        { href: '/white-papers', label: 'White Papers' },
       ],
     },
     {
